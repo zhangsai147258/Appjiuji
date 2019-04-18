@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="Zoom" unicode="&#58924;" d="M1028.204546-53.399926l-73.668866-74.013758-276.672119 277.775772a411.835174 411.835174 0 0 0-257.08227-90.1202 417.870779 417.870779 0 1 0 330.026864 164.85823zM420.781291 800.207021a323.094541 323.094541 0 1 1 321.852931-323.060051 322.853117 322.853117 0 0 1-321.852931 323.060051z"  horiz-adv-x="1030" />
+
+    
+    <glyph glyph-name="ios-arrow-back" unicode="&#59141;" d="M435.8 384L690 638c18.8 18.8 18.8 49.2 0 67.8-18.8 18.8-49.2 18.6-68 0L334 418c-18.2-18.2-18.6-47.4-1.4-66.2L621.8 62c9.4-9.4 21.8-14 34-14s24.6 4.6 34 14c18.8 18.8 18.8 49.2 0 67.8L435.8 384z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="ios-arrow-forward" unicode="&#59144;" d="M588.2 384L334 638c-18.8 18.8-18.8 49.2 0 67.8s49.2 18.6 68 0L690 418c18.2-18.2 18.6-47.4 1.4-66.2L402.2 62c-9.4-9.4-21.8-14-34-14s-24.6 4.6-34 14c-18.8 18.8-18.8 49.2 0 67.8l254 254.2z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

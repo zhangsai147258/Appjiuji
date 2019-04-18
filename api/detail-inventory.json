@@ -1,0 +1,83 @@
+{
+    "code": 0,
+    "msg": "请求成功",
+    "userMsg": "请求成功",
+    "data": {
+        "price": "8050.00",
+        "favorite": false,
+        "shopStock": {
+            "status": 1,
+            "statusText": "充足",
+            "nearShop": {
+                "id": "",
+                "code": "",
+                "name": "",
+                "phone": "",
+                "openTime": "",
+                "address": "",
+                "url": "",
+                "position": "",
+                "distance": "",
+                "status": 0,
+                "statusText": "",
+                "service": [],
+                "typePicUrl": "",
+                "activities": []
+            },
+            "shopList": []
+        },
+        "cityStock": {
+            "status": 1,
+            "statusText": "充足",
+            "reserveTip": "",
+            "isDeposit": false,
+            "depositStartTime": "",
+            "depositEndTime": "",
+            "depositToEndDis": 0,
+            "depositToStartDis": 0,
+            "remind": false,
+            "inAppointTime": false,
+            "lootAll": false,
+            "depositSaleTime": "",
+            "depositTags": [],
+            "depositInfo": {},
+            "stockPosition": "现在下单，预计 02月23日(周六)09:22 前送达",
+            "appointCount": 0,
+            "provinceName": "河南省",
+            "cityName": "郑州市",
+            "countyName": "中原区",
+            "repairUrl": "",
+            "appointmentTag": {},
+            "express": {
+                "icon": "",
+                "info": "快递运输（免费邮寄）",
+                "link": "https://m.9ji.com/news/599.html"
+            }
+        },
+        "addressStock": [],
+        "specialPrice": {
+            "ppid": 67868,
+            "areaPrice": "8050.00",
+            "isSetSpecial": false,
+            "specialPrice": "-1.00",
+            "description": "查看钻级价",
+            "img": "https://img2.ch999img.com/newstatic/915/76baea8f11ab89.png",
+            "listImg": "https://img2.ch999img.com/newstatic//918/76baf0358094d6.png"
+        },
+        "limitbuy": {
+            "setLimit": false,
+            "limitbuyId": 0,
+            "total": 0,
+            "buyNum": 0,
+            "toEndTime": 0,
+            "toStartTime": 0,
+            "originalPrice": 0,
+            "needReserve": false,
+            "remind": false
+        },
+        "maintainStation": {},
+        "leftNav": {},
+        "rushSale": {},
+        "currentShop": {}
+    }
+}

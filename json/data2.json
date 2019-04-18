@@ -1,0 +1,330 @@
+{
+    "code": 0,
+    "msg": "SuccessMsg",
+    "userMsg": "请求成功",
+    "data": {
+        "hotProducts": [
+            {
+                "id": 47743,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20170421144118359.jpg",
+                "name": "Apple iPhone 7 Plus (A1661)",
+                "gleavelName": "8成新",
+                "gleavel": "A",
+                "salePrice": "2350.00",
+                "newPrice": "3660.00",
+                "params": [
+                    "2016.12.4出厂",
+                    "容量32G",
+                    "电池寿命100%"
+                ],
+                "gcolor": "黑色"
+            },
+            {
+                "id": 47955,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20180802145109436.jpg",
+                "name": "Apple iPhone X (A1865)",
+                "gleavelName": "8成新",
+                "gleavel": "A",
+                "salePrice": "5099.00",
+                "newPrice": "8599.00",
+                "params": [
+                    "2018.1.21出厂",
+                    "容量256G",
+                    "电池寿命100%"
+                ],
+                "gcolor": "银色"
+            },
+            {
+                "id": 47393,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20170607100218630.jpg",
+                "name": "Apple MacBook Air 13寸 2017版",
+                "gleavelName": "8成新",
+                "gleavel": "A",
+                "salePrice": "4099.00",
+                "newPrice": "5950.00",
+                "params": [
+                    "",
+                    "固态硬盘128GB",
+                    "原装适配器"
+                ],
+                "gcolor": "银色"
+            },
+            {
+                "id": 46992,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20160908130815191.jpg",
+                "name": "Apple iPad mini4 (A1538)",
+                "gleavelName": "8成新",
+                "gleavel": "A",
+                "salePrice": "1199.00",
+                "newPrice": "2799.00",
+                "params": [
+                    "2016.1.17出厂",
+                    "容量16G",
+                    "电池寿命87%"
+                ],
+                "gcolor": "银色"
+            },
+            {
+                "id": 47743,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20170421144118359.jpg",
+                "name": "Apple iPhone 7 Plus (A1661)",
+                "gleavelName": "8成新",
+                "gleavel": "A",
+                "salePrice": "2350.00",
+                "newPrice": "3660.00",
+                "params": [
+                    "2016.12.4出厂",
+                    "容量32G",
+                    "电池寿命100%"
+                ],
+                "gcolor": "黑色"
+            },
+            {
+                "id": 47393,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20170607100218630.jpg",
+                "name": "Apple MacBook Air 13寸 2017版",
+                "gleavelName": "8成新",
+                "gleavel": "A",
+                "salePrice": "4099.00",
+                "newPrice": "5950.00",
+                "params": [
+                    "",
+                    "固态硬盘128GB",
+                    "原装适配器"
+                ],
+                "gcolor": "银色"
+            },
+            {
+                "id": 47498,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20180913062828409.jpg",
+                "name": "Apple iPhone XR (A2108)",
+                "gleavelName": "9成新",
+                "gleavel": "S",
+                "salePrice": "5399.00",
+                "newPrice": "5750.00",
+                "params": [
+                    "2018.10.28出厂",
+                    "容量128G",
+                    "电池寿命100%"
+                ],
+                "gcolor": "黑色"
+            },
+            {
+                "id": 47491,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20190116164007470.jpg",
+                "name": "Apple iPhone X (A1865)",
+                "gleavelName": "8成新",
+                "gleavel": "A",
+                "salePrice": "4300.00",
+                "newPrice": "5960.00",
+                "params": [
+                    "2017.11.19出厂",
+                    "容量64G",
+                    "电池寿命89%"
+                ],
+                "gcolor": "银色"
+            },
+            {
+                "id": 47486,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20180802145103988.jpg",
+                "name": "Apple iPhone X (A1865)",
+                "gleavelName": "9成新",
+                "gleavel": "S",
+                "salePrice": "4699.00",
+                "newPrice": "5999.00",
+                "params": [
+                    "2017.10.15出厂",
+                    "容量64G",
+                    "电池寿命90%"
+                ],
+                "gcolor": "深空灰"
+            },
+            {
+                "id": 47764,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20180913062828409.jpg",
+                "name": "Apple iPhone XR (2108)",
+                "gleavelName": "95成新",
+                "gleavel": "SS",
+                "salePrice": "5499.00",
+                "newPrice": "5750.00",
+                "params": [
+                    "2018.10.7出厂",
+                    "容量128G",
+                    "电池寿命100%"
+                ],
+                "gcolor": "黑色"
+            },
+            {
+                "id": 47763,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20180913062828409.jpg",
+                "name": "Apple iPhone XR (A2108)",
+                "gleavelName": "95成新",
+                "gleavel": "SS",
+                "salePrice": "5499.00",
+                "newPrice": "5750.00",
+                "params": [
+                    "2018.10.28出厂",
+                    "容量128G",
+                    "电池寿命100%"
+                ],
+                "gcolor": "黑色"
+            },
+            {
+                "id": 47753,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20180913060732958.jpg",
+                "name": "Apple iPhone XS (A2100)",
+                "gleavelName": "9成新",
+                "gleavel": "S",
+                "salePrice": "9099.00",
+                "newPrice": "11499.00",
+                "params": [
+                    "2018.9.9出厂",
+                    "容量512G",
+                    "电池寿命100%"
+                ],
+                "gcolor": "深空灰"
+            }
+        ],
+        "wishingWell": {
+            "peoples": 10492,
+            "headImgs": [
+                "//img2.ch999img.com//pic/face/201605072060.jpg",
+                "//img2.ch999img.com/images/usericon.png",
+                "//img2.ch999img.com/images/usericon.png",
+                "http://thirdwx.qlogo.cn/mmopen/1Pn8OB05nU9RibFuJnYbS7CNEN0gTZe38ickzawsKpu4yANXU8ia4qufNOsibFkCnBdKcmRZL9Ne10seOacCoRf2nCG2HPIs6Qj4/132"
+            ],
+            "list": [
+                {
+                    "id": 21138,
+                    "userName": "1808***9481",
+                    "avatar": "//img2.ch999img.com//pic/face/201605072060.jpg",
+                    "content": "Apple iPhone XR(机型)、蓝色(颜色)、64G(内存)、95成新(成色)",
+                    "time": "2019-01-27 20:43",
+                    "isTrue": 0
+                },
+                {
+                    "id": 21137,
+                    "userName": "1591***3185",
+                    "avatar": "//img2.ch999img.com/images/usericon.png",
+                    "content": "Apple iPhone 8 Plus(机型)、红色(颜色)、64G(内存)、95成新(成色)",
+                    "time": "2019-01-27 20:01",
+                    "isTrue": 0
+                },
+                {
+                    "id": 21136,
+                    "userName": "1352***4962",
+                    "avatar": "//img2.ch999img.com/images/usericon.png",
+                    "content": "Apple iPhone XR(机型)、珊瑚色(颜色)、128G(内存)、9成新(成色)",
+                    "time": "2019-01-27 19:37",
+                    "isTrue": 0
+                },
+                {
+                    "id": 21135,
+                    "userName": "1996***8906",
+                    "avatar": "http://thirdwx.qlogo.cn/mmopen/1Pn8OB05nU9RibFuJnYbS7CNEN0gTZe38ickzawsKpu4yANXU8ia4qufNOsibFkCnBdKcmRZL9Ne10seOacCoRf2nCG2HPIs6Qj4/132",
+                    "content": "美图手机 T8s(机型)、不限(颜色)、不限(内存)、不限(成色)",
+                    "time": "2019-01-27 13:56",
+                    "isTrue": 0
+                },
+                {
+                    "id": 21134,
+                    "userName": "1500***6599",
+                    "avatar": "http://thirdwx.qlogo.cn/mmopen/wmCgnZa5A73WhjQlsfWOWvZaTvpNbejiau2z1Xk5JlZwnOf7DV33bCJcevEd46Vq3xwySLU07jUdib7fG17b9q3XA0AcqM8KicZ/132",
+                    "content": "三星 Galaxy Note9(机型)、黑色(颜色)、6G+128G(内存)、99成新(成色)",
+                    "time": "2019-01-27 13:29",
+                    "isTrue": 0
+                },
+                {
+                    "id": 21133,
+                    "userName": "1848***6520",
+                    "avatar": "//img2.ch999img.com/images/usericon.png",
+                    "content": "Apple iPhone XS Max(机型)、不限(颜色)、512G(内存)、不限(成色)",
+                    "time": "2019-01-27 13:04",
+                    "isTrue": 0
+                },
+                {
+                    "id": 21132,
+                    "userName": "1816***5974",
+                    "avatar": "//img2.ch999img.com/images/usericon.png",
+                    "content": "Apple iPhone 8 Plus(机型)、深空灰(颜色)、256G(内存)、99成新(成色)",
+                    "time": "2019-01-27 13:03",
+                    "isTrue": 0
+                },
+                {
+                    "id": 21131,
+                    "userName": "1330***2916",
+                    "avatar": "//img2.ch999img.com/images/usericon.png",
+                    "content": "华为 Mate20 Pro(机型)、亮黑色(颜色)、8G+128G(内存)、99成新(成色)",
+                    "time": "2019-01-27 12:49",
+                    "isTrue": 0
+                },
+                {
+                    "id": 21130,
+                    "userName": "1810***4602",
+                    "avatar": "//img2.ch999img.com/images/usericon.png",
+                    "content": "Apple iPhone 8 Plus(机型)、不限(颜色)、不限(内存)、不限(成色)",
+                    "time": "2019-01-27 12:38",
+                    "isTrue": 0
+                },
+                {
+                    "id": 21129,
+                    "userName": "1352***7007",
+                    "avatar": "http://thirdwx.qlogo.cn/mmopen/Q3auHgzwzM5icID5NIoicJDeflWph6pMUT3rsuBMf4Wwa4G453mknibQlJxp0uhFnGVDWduKKwOsS8FLOUT1l7FibsGRBpGnfdAwict9C3oaMZJU/132",
+                    "content": "华为 P20 Pro(机型)、极光色(颜色)、6G+64G(内存)、99成新(成色)",
+                    "time": "2019-01-27 12:13",
+                    "isTrue": 0
+                }
+            ]
+        },
+        "comments": [
+            {
+                "id": 8983,
+                "userName": "189766",
+                "avatar": "//img2.ch999img.com//pic/face/131420062024360468.jpg",
+                "content": "手机成色不错 九机网客服服务 快递也不错，价钱 售后让人放心，比去闲鱼买二手安全。手机不支持快充 负一屏不能关闭是遗憾 待机一般",
+                "time": "2019-01-27",
+                "rate": 5
+            },
+            {
+                "id": 8988,
+                "userName": "1838***5790",
+                "avatar": "//img2.ch999img.com/images/usericon.png",
+                "content": "东西很快，和描述的一致。很满意的一次购物",
+                "time": "2019-01-27",
+                "rate": 5
+            },
+            {
+                "id": 8971,
+                "userName": "1357***5860",
+                "avatar": "http://thirdwx.qlogo.cn/mmopen/wmCgnZa5A73WhjQlsfWOWthscolDXRQQ8K5qeVvFExDoG0717JwZ0kHSCeZZyJ4icyu0hvdRSxehr3XeelCSmhib2neD4gIgsN/132",
+                "content": "值得购买，超值。",
+                "time": "2019-01-26",
+                "rate": 5
+            },
+            {
+                "id": 8980,
+                "userName": "1559***3772",
+                "avatar": "http://thirdwx.qlogo.cn/mmopen/1Pn8OB05nUicnIvvKGiatrGvlAmruwXBzAEEpQ00CKOz1tOias85D8q2ibDf7BNp2JGLhxySTH2tTGgMRYyIksD9tJsYTcD7vHvic/132",
+                "content": "超爱",
+                "time": "2019-01-26",
+                "rate": 5
+            },
+            {
+                "id": 8981,
+                "userName": "1398***1111",
+                "avatar": "http://thirdwx.qlogo.cn/mmopen/ajNVdqHZLLBY9Po6ibIARTtFQwVZSNnCicPT1wPKWgL647pReZoSe4Nyxcickriavm7rJxPNnv0QadFXYKicmWGvkfA/132",
+                "content": "超爱",
+                "time": "2019-01-26",
+                "rate": 5
+            },
+            {
+                "id": 8982,
+                "userName": "blueice770",
+                "avatar": "http://thirdwx.qlogo.cn/mmopen/1Pn8OB05nU9ksaGVRP72YabVbG6mNhsJeC46fKPZWfHaNia0s1uMAFOGx3H9NEfr1jKciceic4CXqTJ3Q9oeNHb7RLh4HSibRnX4/132",
+                "content": "成色很好，至少九成。唯一不足就是88电量，但体验下来勉强可以坚持一条，可以了。以后再换电池。",
+                "time": "2019-01-26",
+                "rate": 4
+            }
+        ]
+    }
+}

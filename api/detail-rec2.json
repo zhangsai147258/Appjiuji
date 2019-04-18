@@ -1,0 +1,413 @@
+{
+    "code": 0,
+    "msg": "SUCCESS",
+    "userMsg": "请求成功",
+    "data": {
+        "ppid": 68397,
+        "productName": "iPhone XS Max 全网通版",
+        "skuName": "",
+        "imagePath": "https://img2.ch999img.com/pic/product/160x160/20181112161914466.jpg",
+        "pictures": [
+            "https://img2.ch999img.com/pic/product/440x440/20181112161914466.jpg",
+            "https://img2.ch999img.com/pic/product/440x440/20181112163122571.jpg",
+            "https://img2.ch999img.com/pic/product/440x440/20181112163124695.jpg",
+            "https://img2.ch999img.com/pic/product/440x440/20181112163126725.jpg",
+            "https://img2.ch999img.com/pic/product/440x440/20181112163120397.jpg"
+        ],
+        "price": "8950.00",
+        "gift": {
+            "type": 0,
+            "title": "",
+            "description": "",
+            "options": []
+        },
+        "sku": [
+            {
+                "title": "颜色",
+                "list": [
+                    {
+                        "value": "金色",
+                        "ppid": 68397,
+                        "diy": "",
+                        "selected": true,
+                        "enable": true,
+                        "rank": 1,
+                        "imagePath": "https://img2.ch999img.com/pic/product/70x70/20181112161914466.jpg"
+                    },
+                    {
+                        "value": "银色",
+                        "ppid": 68428,
+                        "diy": "",
+                        "selected": false,
+                        "enable": true,
+                        "rank": 3,
+                        "imagePath": "https://img2.ch999img.com/pic/product/70x70/20181112161926765.jpg"
+                    },
+                    {
+                        "value": "深空灰色",
+                        "ppid": 68429,
+                        "diy": "",
+                        "selected": false,
+                        "enable": true,
+                        "rank": 2,
+                        "imagePath": "https://img2.ch999img.com/pic/product/70x70/20181112161920754.jpg"
+                    }
+                ],
+                "order": 2,
+                "rankTips": "*销量排行",
+                "showRankTips": true
+            },
+            {
+                "title": "容量",
+                "list": [
+                    {
+                        "value": "64GB",
+                        "ppid": 68397,
+                        "diy": "",
+                        "selected": true,
+                        "enable": true,
+                        "rank": 2,
+                        "imagePath": "https://img2.ch999img.com/pic/product/70x70/20181112161929604.jpg"
+                    },
+                    {
+                        "value": "256GB",
+                        "ppid": 68430,
+                        "diy": "",
+                        "selected": false,
+                        "enable": true,
+                        "rank": 1,
+                        "imagePath": "https://img2.ch999img.com/pic/product/70x70/20181112161914466.jpg"
+                    },
+                    {
+                        "value": "512GB",
+                        "ppid": 68433,
+                        "diy": "",
+                        "selected": false,
+                        "enable": true,
+                        "rank": 3,
+                        "imagePath": "https://img2.ch999img.com/pic/product/70x70/20181112161932998.jpg"
+                    }
+                ],
+                "order": 6,
+                "rankTips": "*销量排行",
+                "showRankTips": true
+            }
+        ],
+        "relation": [
+            {
+                "value": "iPhone XS",
+                "ppid": 67868,
+                "diy": "",
+                "selected": false,
+                "enable": true,
+                "rank": 0,
+                "imagePath": ""
+            },
+            {
+                "value": "iPhone XS Max",
+                "ppid": 68397,
+                "diy": "",
+                "selected": true,
+                "enable": true,
+                "rank": 0,
+                "imagePath": ""
+            },
+            {
+                "value": "iPhone XR",
+                "ppid": 68437,
+                "diy": "",
+                "selected": false,
+                "enable": true,
+                "rank": 0,
+                "imagePath": ""
+            },
+            {
+                "value": "iPhone X",
+                "ppid": 57640,
+                "diy": "",
+                "selected": false,
+                "enable": true,
+                "rank": 0,
+                "imagePath": ""
+            }
+        ],
+        "supplementOption": [],
+        "jiujiService": [
+            {
+                "productId": 35475,
+                "name": "以换代修保",
+                "icon": "",
+                "sku": [
+                    {
+                        "ppid": 67776,
+                        "name": "以换代修保 2年 ",
+                        "price": 649.0,
+                        "isBought": false,
+                        "cid": 50,
+                        "config": "性能故障 以换代修",
+                        "remark": ""
+                    }
+                ]
+            },
+            {
+                "productId": 26612,
+                "name": "电池保",
+                "icon": "https://img2.ch999img.com/newstatic/766/37d4d0a0cdfe72.png",
+                "sku": [
+                    {
+                        "ppid": 47359,
+                        "name": "电池保 2年 ",
+                        "price": 159.0,
+                        "isBought": false,
+                        "cid": 50,
+                        "config": "电池问题免费换1次电池",
+                        "remark": ""
+                    }
+                ]
+            },
+            {
+                "productId": 26618,
+                "name": "碎屏保",
+                "icon": "https://img2.ch999img.com/newstatic/771/37d4d40bebb64c.png",
+                "sku": [
+                    {
+                        "ppid": 47365,
+                        "name": "碎屏保 1年 ",
+                        "price": 469.0,
+                        "isBought": false,
+                        "cid": 50,
+                        "config": "意外碎屏免费换屏1次",
+                        "remark": "限时特惠"
+                    },
+                    {
+                        "ppid": 61029,
+                        "name": "碎屏保 2年 ",
+                        "price": 719.0,
+                        "isBought": false,
+                        "cid": 50,
+                        "config": "意外碎屏免费换屏1次",
+                        "remark": "新年特惠"
+                    }
+                ]
+            },
+            {
+                "productId": 32266,
+                "name": "屏背保服务",
+                "icon": "https://img2.ch999img.com/newstatic/770/37d4d10f78b054.png",
+                "sku": [
+                    {
+                        "ppid": 60884,
+                        "name": "屏背保服务 1年 ",
+                        "price": 599.0,
+                        "isBought": false,
+                        "cid": 50,
+                        "config": "前后屏幕碎屏免费修1次",
+                        "remark": ""
+                    },
+                    {
+                        "ppid": 66133,
+                        "name": "屏背保服务 2年 ",
+                        "price": 799.0,
+                        "isBought": false,
+                        "cid": 50,
+                        "config": "前后屏幕碎屏免费修1次",
+                        "remark": ""
+                    }
+                ]
+            },
+            {
+                "productId": 13211,
+                "name": "延长保",
+                "icon": "https://img2.ch999img.com/newstatic/770/37d4d5e4d01efc.png",
+                "sku": [
+                    {
+                        "ppid": 20603,
+                        "name": "延长保 1年 ",
+                        "price": 189.0,
+                        "isBought": false,
+                        "cid": 50,
+                        "config": "延长国家三包保修期",
+                        "remark": ""
+                    },
+                    {
+                        "ppid": 50009,
+                        "name": "延长保 2年 ",
+                        "price": 289.0,
+                        "isBought": false,
+                        "cid": 50,
+                        "config": "延长国家三包保修期",
+                        "remark": ""
+                    }
+                ]
+            },
+            {
+                "productId": 13212,
+                "name": "意外保",
+                "icon": "https://img2.ch999img.com/newstatic/771/37d4d7704d69ce.png",
+                "sku": [
+                    {
+                        "ppid": 20602,
+                        "name": "意外保 2年 ",
+                        "price": 939.0,
+                        "isBought": false,
+                        "cid": 50,
+                        "config": "主板外的意外故障免费维修1次",
+                        "remark": ""
+                    },
+                    {
+                        "ppid": 20599,
+                        "name": "意外保 1年 ",
+                        "price": 669.0,
+                        "isBought": false,
+                        "cid": 50,
+                        "config": "主板外的意外故障免费维修1次",
+                        "remark": "新年特惠"
+                    }
+                ]
+            }
+        ],
+        "packagesList": [
+            {
+                "id": 4582,
+                "name": "推荐套餐一",
+                "imagePath": "https://img2.ch999img.com/pic/product/160x160/20181112161914466.jpg",
+                "price": 9428.0,
+                "reducedPrice": 154.0,
+                "description": "",
+                "goodsList": [
+                    {
+                        "ppid": 68244,
+                        "name": "乐物 iPhone XS Max 全屏3D钢化膜",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20180914155756109.jpg",
+                        "price": 139.0,
+                        "reducedPrice": 50.0
+                    },
+                    {
+                        "ppid": 68190,
+                        "name": "苹果 iPhone XS Max 硅胶 定制 保护壳",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20180913181507218.jpg",
+                        "price": 139.0,
+                        "reducedPrice": 60.0
+                    },
+                    {
+                        "ppid": 58445,
+                        "name": "苹果 USB-C 至 Lightning 原装快充连接线",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20171018151631655.jpg",
+                        "price": 125.0,
+                        "reducedPrice": 20.0
+                    },
+                    {
+                        "ppid": 67791,
+                        "name": "TOTU PD+QC 双口充电器",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/2018091413230266.jpg",
+                        "price": 75.0,
+                        "reducedPrice": 24.0
+                    }
+                ]
+            },
+            {
+                "id": 4583,
+                "name": "推荐套餐二",
+                "imagePath": "https://img2.ch999img.com/pic/product/160x160/20181112161914466.jpg",
+                "price": 9582.0,
+                "reducedPrice": 150.0,
+                "description": "",
+                "goodsList": [
+                    {
+                        "ppid": 68244,
+                        "name": "乐物 iPhone XS Max 全屏3D钢化膜",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20180914155756109.jpg",
+                        "price": 139.0,
+                        "reducedPrice": 50.0
+                    },
+                    {
+                        "ppid": 68189,
+                        "name": "苹果 iPhone XS Max 硅胶 定制 保护壳",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20180913181435239.jpg",
+                        "price": 139.0,
+                        "reducedPrice": 60.0
+                    },
+                    {
+                        "ppid": 58445,
+                        "name": "苹果 USB-C 至 Lightning 原装快充连接线",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20171018151631655.jpg",
+                        "price": 125.0,
+                        "reducedPrice": 20.0
+                    },
+                    {
+                        "ppid": 72862,
+                        "name": "苹果 原装 18W USB-C 电源适配器",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/201812131900536.jpg",
+                        "price": 229.0,
+                        "reducedPrice": 20.0
+                    }
+                ]
+            },
+            {
+                "id": 4584,
+                "name": "原装快充套装",
+                "imagePath": "https://img2.ch999img.com/pic/product/160x160/20181112161914466.jpg",
+                "price": 9404.0,
+                "reducedPrice": 40.0,
+                "description": "",
+                "goodsList": [
+                    {
+                        "ppid": 65880,
+                        "name": "苹果 原装 30W  USB-C 电源适配器",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20181220104246689.jpg",
+                        "price": 329.0,
+                        "reducedPrice": 20.0
+                    },
+                    {
+                        "ppid": 58445,
+                        "name": "苹果 USB-C 至 Lightning 原装快充连接线",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20171018151631655.jpg",
+                        "price": 125.0,
+                        "reducedPrice": 20.0
+                    }
+                ]
+            },
+            {
+                "id": 4585,
+                "name": "品牌快充套装",
+                "imagePath": "https://img2.ch999img.com/pic/product/160x160/20181112161914466.jpg",
+                "price": 9150.0,
+                "reducedPrice": 44.0,
+                "description": "",
+                "goodsList": [
+                    {
+                        "ppid": 67791,
+                        "name": "TOTU PD+QC 双口充电器",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/2018091413230266.jpg",
+                        "price": 75.0,
+                        "reducedPrice": 24.0
+                    },
+                    {
+                        "ppid": 58445,
+                        "name": "苹果 USB-C 至 Lightning 原装快充连接线",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20171018151631655.jpg",
+                        "price": 125.0,
+                        "reducedPrice": 20.0
+                    }
+                ]
+            },
+            {
+                "id": 4587,
+                "name": "智能音响套餐",
+                "imagePath": "https://img2.ch999img.com/pic/product/160x160/20181112161914466.jpg",
+                "price": 11629.0,
+                "reducedPrice": 20.0,
+                "description": "",
+                "goodsList": [
+                    {
+                        "ppid": 62504,
+                        "name": "苹果  HomePod 智能音响",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20180224183217702.jpg",
+                        "price": 2679.0,
+                        "reducedPrice": 20.0
+                    }
+                ]
+            }
+        ]
+    }
+}

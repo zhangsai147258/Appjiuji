@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header-bottom.css">
+    <link rel="stylesheet" href="css/gcss/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/Animate.css">
+</head>
+
+<body>
+    <!-- 地址 -->
+    <div class="gt" id="gt">
+        <div class="search">
+            <!-- 地址开始 -->
+            <section class="adminBox" id="adminBox">
+                <div class="cityChoice">
+                    <!-- <h3>点击输入框选择内容</h3> -->
+                    <i class="iconfont  icon-dizhi fl"></i>
+                    <input type="text" class="cityInput" v-model.trim='cityInputVal' v-on:click='cityPatFun'
+                        placeholder="选择城市" />
+                </div>
+                <com-citychoice ref="city" v-on:tochildevent='cityjs'></com-citychoice>
+            </section>
+
+            <!-- 地址结束 -->
+            <div class="line"></div>
+            <a href="search.html" class="sea">
+
+                <i class="iconfont  icon-sousuo"></i>
+                <span>iPhone XS Max</span>
+            </a>
+        </div>
+    </div>
+    <!-- 主体 -->
+    <div id="main">
+        <main class="content-wrapper">
+            <div class="header-message">下拉刷新</div>
+            <div class="content">
+                <!-- 头部 -->
+                <header class="header bg"></header>
+                <!-- 限时抢购 -->
+                <div class="bg">
+                    <!-- 限时抢购 -->
+                    <div class="flash-sale-wrapper wrapper"></div>
+                    <!-- 九级头条 -->
+                    <div class="floor-tops wrapper"></div>
+                </div>
+                <!-- 商品推荐-- 新人礼包 -->
+                <div class="shop-rec-box"></div>
+                <!-- 为你优选 -->
+                <div class="bg optimization-box floor1"></div>
+                <!-- 手机精品  -->
+                <div class="bg phone-perfect-wrapper floor2"></div>
+                <!-- 办公专家 -->
+                <div class="bg floor3"></div>
+                <!-- 智能生活-->
+                <div class="bg floor4"></div>
+                <!-- 发现好货 -->
+                <div class="bg floor5  find-goods-wrapper"></div>
+                <!-- 底部 -->
+                <footer></footer>
+            </div>
+            <div class="footer-message">加载更多</div>
+        </main>
+    </div>
+    <!-- 底部菜单 -->
+    <div class="gmenu">
+        <a href="index.html">
+            <img src="images/gimg/index@2x.png" alt="">
+            <p>首页</p>
+        </a>
+        <a href="classify.html">
+            <img src="images/gimg/fenlei@2x.png" alt="">
+            <p>分类</p>
+        </a>
+        <a href="user.html">
+            <img src="images/gimg/magssage@2x.png" alt="">
+            <p>消息</p>
+        </a>
+        <a href="shopCar.html">
+            <img src="images/gimg/gouwuche@2x.png" alt="">
+
+            <p>购物车</p>
+        </a>
+        <a href="user.html">
+            <img src="images/gimg/mine@2x.png" alt="">
+            <p>我的</p>
+        </a>
+
+    </div>
+</body>
+<script src="js/base.js"></script>
+<script src="js/zepto.min.js"></script>
+<script src="js/ejs.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/fastclick.js"></script>
+<script src="js/iscroll.old.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/index.js"></script>
+<!-- nav banner  menu数据 -->
+<script type="text/template" id="first-screen-data">
+<%  %>
+    <!-- 导航-->
+    <div class="swiper-container header-nav" id="header-nav">
+        <div class="swiper-wrapper header-nav-item">
+            <% msg.label.forEach(function(val){ %>
+            <div class="swiper-slide">
+                <a href="<%=val.link%>" data-id="<%=val.id%>"><%=val.title%></a>
+            </div>
+            <% }) %>
+        </div>
+    </div>
+    <!-- banner图 -->
+    <div class="swiper-container  wrapper" id="header-imgbox">
+        <div class="swiper-wrapper">
+        <% msg.container.floor[0].content.forEach(function(val){ %>
+            <div class="swiper-slide">
+                <a href="classify.html">
+                    <img src="<%=val.imagePath%>" alt="">
+                </a>
+            </div>
+        <% }) %>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- 菜单 -->
+    <div class="menu wrapper">
+        <% msg.container.floor[1].content.forEach(function(val){ %>
+            <a href="<%=val.link%>">
+                <img src="<%=val.imagePath%>" alt="">
+            </a>
+        <% }) %>
+    </div>
+<%  %>
+</script>
+<!-- 限时抢购  -->
+<script type="text/template" id="flash-sale-data">
+<%  %>
+    <!-- 限时抢购 -->
+    <div class="flash-time-wrapper">
+        <a href="limlted.html">
+            <p class="end-tit">距结束</p>
+            <div class="time">
+                <span class="time-hour">18</span>:
+                <span class="time-minute">00</span>:
+                <span class="time-second">20</span>
+            </div>
+        </a>    
+    </div>
+    <!-- 列表页 -->
+    <div class="swiper-container flash-sale">
+        <div class="swiper-wrapper">
+            <% s.rushToday.forEach(function(val){ %>
+                <div class="swiper-slide flash-sale-list">
+                    <a href="classify.html" data-id="<%=val.id%>">
+                        <p><%=val.name%></p>
+                        <span class="price">￥<%=val.price%></span>
+                        <p><%=val.description%></p>
+                        <img src="<%=val.imagePath%>" alt="">
+                    </a>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+<%  %>
+</script>
+<!-- 九级头条 -->
+<script type="text/template" id="floor-tops-data">
+<%  %>
+    <img src="images/index/news.631f4fc3356569715f192b0173db71da.png" class="tops-img">
+    <div class="swiper-container floor-tops-swiper">
+        <div class="swiper-wrapper">
+            <% msg.container.floor[4].content.forEach(function(val){ %>
+                <div class="swiper-slide floor-tops-items">
+                    <a href="headline.html" data-id="<%=val.id%>">
+                        <p><%=val.title%></p>
+                        <div class="floor-tops-mask"></div>
+                        <img src="<%=val.picture%>" alt="">
+                    </a>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+<%  %>
+</script>
+<!-- 商品推荐--新人礼包 -->
+<script type="text/template" id="shop-rec-data">
+<%  %>
+<!-- 商品推荐 -->
+<div class="bg padding-top floor">
+    <!-- IOS新品推荐1 -->
+    <div class="shop-rec wrapper">
+    <% msg.container.floor[5].content.forEach(function(val){ %>
+        <a href="classify.html" data-id="<%=val.id%>">
+            <img src="<%=val.imagePath%>" alt="">
+        </a>
+    <% }) %>
+    </div>
+    <!-- IOS建行分期 -->
+    <div class="shop-rec wrapper">
+    <% msg.container.floor[6].content.forEach(function(val){ %>
+        <a href="classify.html" data-id="<%=val.id%>">
+            <img src="<%=val.imagePath%>" alt="">
+        </a>
+    <% }) %>
+    </div>
+    <!-- IOS新品推荐2 -->
+    <div class="shop-rec wrapper">
+    <% msg.container.floor[7].content.forEach(function(val){ %>
+        <a href="classify.html" data-id="<%=val.id%>">
+            <img src="<%=val.imagePath%>" alt="">
+        </a>
+    <% }) %>
+    </div>
+    <!-- IOS新品推荐2 -->
+    <div class="shop-rec wrapper">
+    <% msg.container.floor[8].content.forEach(function(val){ %>
+        <a href="classify.html" data-id="<%=val.id%>">
+            <img src="<%=val.imagePath%>" alt="">
+        </a>
+    <% }) %>
+    </div>
+</div>
+<!-- 新人礼包 -->
+<div class="bg">
+    <div class="new-gift wrapper">
+    <% msg.container.floor[9].content.forEach(function(val){ %>
+        <a href="classify.html">
+            <img src="<%=val.imagePath%>" alt="">
+        </a>
+    <% }) %>
+    </div>
+</div>
+<%  %>
+</script>
+<!-- 为你优选 -->
+<script type="text/template" id="optimization-data">
+<%  %>
+<div class="phone-perfect-tit">
+    <a href="classify.html">
+        <img src="<%=msgg.recommend[0].imagePath%>" alt="">
+    </a>
+</div>
+<!-- 列表 -->
+<div class="swiper-container " id="optimization">
+    <div class="swiper-wrapper">
+        <% msgg.optimize.forEach(function(val){ %>
+        <div class="swiper-slide optimization-list">
+            <a href="classify.html" data-id="<%=val.ppid%>">
+                <img src="<%=val.imagePath%>" alt="">
+                <p><%=val.title%></p>
+                <p><%=val.sellingPoint%></p>
+                <span class="price">￥<%=val.price%></span>
+            </a>
+        </div>
+        <% }) %>
+    </div>
+</div>
+<%  %>
+</script>
+<!-- 手机精品-->
+<script type="text/template" id="phone-perfect-data">
+<%  %>
+<div class="phone-perfect-tit">
+    <a href="classify.html">
+        <img src="images/index/sdsddfff.png.webp" alt="">
+    </a>
+</div>
+<!-- 列表 -->
+<div class="wrapper phone-perfect-floor">
+    <% msgg.container.floor[13].content.forEach(function(val){ %>
+    <a href="classify.html">
+        <img src="<%=val.imagePath%>" alt="">
+    </a>
+    <% }) %>
+</div>
+<div class="wrapper phone-perfect-floor">
+    <% msgg.container.floor[14].content.forEach(function(val){ %>
+    <a href="classify.html">
+        <img src="<%=val.imagePath%>" alt="">
+    </a>
+    <% }) %>
+</div>
+<div class="wrapper phone-perfect-floor">
+    <% msgg.container.floor[15].content.forEach(function(val){ %>
+    <a href="classify.html">
+        <img src="<%=val.imagePath%>" alt="">
+    </a>
+    <% }) %>
+</div>
+<%  %>
+</script>
+<!-- 办公专家 -->
+<script type="text/template" id="floor3-data">
+<%  %>
+<div class="phone-perfect-tit">
+    <a href="classify.html">
+        <img src="<%=msgg.container.floor[16].content[0].imagePath%>" alt="">
+    </a>
+</div>
+<!-- 列表 -->
+<div class="wrapper phone-perfect-floor">
+    <% msgg.container.floor[17].content.forEach(function(val){ %>
+    <a href="classify.html">
+        <img src="<%=val.imagePath%>" alt="">
+    </a>
+    <% }) %>
+</div>
+<div class="wrapper phone-perfect-floor">
+    <% msgg.container.floor[18].content.forEach(function(val){ %>
+    <a href="classify.html">
+        <img src="<%=val.imagePath%>" alt="">
+    </a>
+    <% }) %>
+</div>
+<div class="wrapper phone-perfect-floor">
+    <% msgg.container.floor[19].content.forEach(function(val){ %>
+    <a href="classify.html">
+        <img src="<%=val.imagePath%>" alt="">
+    </a>
+    <% }) %>
+</div>
+<%  %>
+</script>
+<!-- 智能生活 -->
+<script type="text/template" id="floor4-data">
+<%  %>
+<div class="phone-perfect-tit">
+    <a href="classify.html">
+        <img src="<%=msgg.container.floor[20].content[0].imagePath%>" alt="">
+    </a>
+</div>
+<!-- 列表 -->
+<div class="wrapper phone-perfect-floor">
+    <% msgg.container.floor[21].content.forEach(function(val){ %>
+    <a href="classify.html">
+        <img src="<%=val.imagePath%>" alt="">
+    </a>
+    <% }) %>
+</div>
+<div class="wrapper phone-perfect-floor">
+    <% msgg.container.floor[22].content.forEach(function(val){ %>
+    <a href="classify.html">
+        <img src="<%=val.imagePath%>" alt="">
+    </a>
+    <% }) %>
+</div>
+<%  %>
+</script>
+<!-- 发现好货 -->
+<script type="text/template" id="floor5-data">
+<%  %>
+<div class="phone-perfect-tit">
+    <a href="classify.html">
+        <img src="<%=msgg.container.floor[23].content[0].imagePath%>" alt="">
+    </a>
+</div>
+<!-- 列表 -->
+<div class="find-goods wrapper">
+    <% msgg.container.floor[25].content.forEach(function(val){ %>
+    <a href="classify.html" data-id="<%=val.ppid%>">
+        <img src="<%=val.imagePath%>" alt="">
+        <p class="shop-tit"><%=val.title%></p>
+        <p class="shop-brand"><%=val.sellingPoint%></p>
+        <span class="shop-price">￥<%=val.price%></span>
+    </a>
+    <% }) %>
+</div>
+<%  %>
+</script>
+<link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+<script src="js/cityChoice.js"></script>
+<script src="js/indexaddr.js"></script>
+<script>
+    
+
+    
+
+    $(function () {
+        $('.gmenu a').click(function () {
+            var i = $(this).index();//下标        
+            $(this).children('p').addClass('fontcolor').parent().siblings().children('p').removeClass('fontcolor');
+        });
+    })
+    new Vue({
+        el: '.adminBox',
+        data: {
+            cityInputVal: '',
+        },
+        methods: {
+            cityPatFun: function () {
+                this.$refs.city.cityFun();
+            },
+            cityjs: function (data) {
+                this.cityInputVal = data;
+            }
+        }
+    })
+</script>
+</html>

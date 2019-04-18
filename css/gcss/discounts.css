@@ -1,0 +1,119 @@
+body{
+    background: #eee;
+}
+header{
+    padding-top: 0.2rem;
+    text-align: center;
+    width: 100%;
+    color: rgb(247, 151, 26);
+}
+header p{
+    width: 50%;
+    height: 0.05rem;
+    background: #ccc;
+    margin: 0 auto;
+    background: rgb(247, 151, 26);
+    margin-top: 0.2rem;
+}
+#app {
+    /* width: 100%; */
+    padding: .1rem;
+    background: #eee;
+}
+.wrapper {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 0.3rem;
+}
+.content {
+    flex: 1;
+    padding: .2rem;
+    border-radius: 8px 0 0 8px;
+    box-shadow: -2px 2px 2px #ccc;
+    background: #fff;
+}
+.content .gimg{
+    width: 2rem;
+    height: 2rem;
+    /* background: #ccc; */
+    background: url(images/gimg/juan1.jpg) no-repeat;
+    background-size: 2rem 2rem;
+    float: left;
+}
+.content .gprice{
+    float: left;
+    width: 3.5rem;
+    height: 2rem;
+    /* background: #ccc; */
+    margin: 0 auto;
+    margin-left: 0.1rem;
+    text-align: center;
+ 
+}
+.content .gprice h1{
+    font-size: .5rem;
+    color: rgb(168, 0, 0);
+}
+.content .gprice p{
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(252, 30, 30);
+    font-size: 0.2rem;
+    overflow: hidden;
+}
+.content .gprice h3{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0.05rem;
+    font-weight: 300;
+}
+.tip {
+    position: relative;
+    flex: 0 0 1rem;
+    text-align: center;
+    color: #ffffff;
+    /* padding: 20px; */
+    border-radius:0 8px 8px 0;
+    box-shadow: 2px 2px 2px #ccc;
+    background: #fff;
+    
+}
+.tip .get{
+    width: .55rem;
+    height: 1.8rem;
+    background: rgb(37, 166, 218);
+    border-radius:20px;
+    margin: 0 auto;
+    margin-top: 0.35rem;
+    font-size: .2rem;
+    /* padding: .1rem .2rem .1rem .2rem; */
+}
+.split-line {
+    position: relative;
+    flex: 0 0 0;
+    border-left: 2px dashed #eee;
+    margin: 0 5px 0 3px;
+    background: #fff;
+}
+.split-line:before, .split-line:after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 8px;
+    background: #eee;
+    left: -9px;
+    z-index: 1;
+}
+.split-line:before {
+    border-radius: 0 0 8px 8px;
+    top: 0;
+}
+.split-line:after {
+    border-radius: 8px 8px 0 0;
+    bottom: 0;
+}
+
+

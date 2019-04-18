@@ -1,0 +1,87 @@
+header{
+    width: 100%;
+    height: .9rem;
+    background: cover;
+    background: rgba(250, 250, 250,0.98);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e4e4e4;
+}
+header .gback{
+    text-align: center;
+    min-width: .9rem; 
+    line-height: .9rem;
+}
+header .gtit{
+    text-align: center;
+    line-height: .9rem;
+    font-size: 0.3rem;
+}
+header .gmore{
+    width: .8rem;
+    line-height: .9rem;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .gmore img{
+    width: .3rem;
+    height: .4rem;  
+}
+
+article .rec-list a{
+   display: flex;
+   align-content: center;
+   justify-content: space-between;
+   height: 2.3rem;
+ 
+}
+article .rec-list .rec-img{
+    padding: 0.2rem;
+}
+article .rec-list .rec-img img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.2rem;
+    margin-right:1.5rem;
+}
+article .rec-list .rec-tit{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid #e4e4e4;
+}
+.rec-tit .rec-t{
+    padding-top: 0.25rem;
+    
+}
+.rec-tit .rec-t h1{
+    height: .8rem;
+    overflow: hidden;
+    -webkit-line-clamp:2;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    text-overflow:ellipsis;
+    word-break: break-all;
+    font-size: 0.2rem;
+    font-weight: 300;
+}
+.rec-tit .rec-t h2{
+    font-size: 0.2rem;
+    font-weight: 300;
+    margin-top: 0.7rem; 
+    color: #ff0000;
+}
+.rec-tit .recMore{
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rec-tit .recMore img{
+    width: 0.3rem;
+    height: 0.3rem;
+  
+}

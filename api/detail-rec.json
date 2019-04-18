@@ -1,0 +1,796 @@
+{
+    "code": 0,
+    "msg": "请求成功",
+    "userMsg": "请求成功",
+    "data": {
+        "banner": {
+            "imagePath": "",
+            "link": ""
+        },
+        "promotionImage": {
+            "ad1": "",
+            "ad2": ""
+        },
+        "coupon": {
+            "isCoupon": false,
+            "code": "",
+            "tag": "",
+            "description": ""
+        },
+        "appIsFavorPrice": false,
+        "appPrice": 0,
+        "profile": {
+            "title": "【火热销售】官网最高直降1000！",
+            "linkText": "",
+            "link": ""
+        },
+        "instalment": {
+            "name": "",
+            "description": "",
+            "tag": "",
+            "detail": []
+        },
+        "hire": {
+            "tag": "租机体验",
+            "description": "日租 ￥18.88起",
+            "link": "https://zu.9ji.com/product?ppid=68397",
+            "url": "https://zu.9ji.com/product?ppid=68397",
+            "price": "18.88"
+        },
+        "promotions": [
+            {
+                "title": "建行满减",
+                "description": "线上下单选择到店取货，再减500",
+                "link": "https://m.9ji.com/news/13694.html",
+                "type": -1,
+                "options": []
+            },
+            {
+                "title": "优惠套餐",
+                "description": "购买组合套餐，最高省154.0元",
+                "link": "https://m.9ji.com/groupbuy/grouplist.aspx?prod=35744&ppid=68397",
+                "type": -2,
+                "options": []
+            }
+        ],
+        "supportServices": [
+            {
+                "id": 0,
+                "link": "https://m.9ji.com//api/common.aspx?act=addCart&jump=2&ppid=68397",
+                "title": "以旧换新",
+                "description": "（最高抵5000）"
+            },
+            {
+                "id": 0,
+                "link": "https://m.9ji.com/after-service/selPhone?from=imei",
+                "title": "预约维修",
+                "description": "（支持上门）"
+            }
+        ],
+        "accessories": {
+            "name": "推荐配件",
+            "label": 3,
+            "link": "https://m.9ji.com/product/recommend/parts/2/68397",
+            "linkText": "查看更多推荐配件",
+            "list": [
+                {
+                    "ppid": 68191,
+                    "url": "https://m.9ji.com/product/68191",
+                    "name": "苹果 iPhone XS Max 硅胶 定制 保护壳",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/2018091318172238.jpg",
+                    "price": "199.00",
+                    "rank": 0,
+                    "sku": [],
+                    "productId": 35634
+                },
+                {
+                    "ppid": 68244,
+                    "url": "https://m.9ji.com/product/68244",
+                    "name": "乐物 iPhone XS Max 全屏3D钢化膜",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180914155954228.png",
+                    "price": "189.00",
+                    "rank": 1,
+                    "sku": [],
+                    "productId": 35668
+                },
+                {
+                    "ppid": 51852,
+                    "url": "https://m.9ji.com/product/51852",
+                    "name": "苹果 AirPods 蓝牙无线耳机",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180810143817289.jpg",
+                    "price": "1260.00",
+                    "rank": 5,
+                    "sku": [],
+                    "productId": 28714
+                },
+                {
+                    "ppid": 58445,
+                    "url": "https://m.9ji.com/product/58445",
+                    "name": "苹果 USB-C 至 Lightning 原装快充连接线",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20170921145105771.jpg",
+                    "price": "145.00",
+                    "rank": 10,
+                    "sku": [],
+                    "productId": 31148
+                },
+                {
+                    "ppid": 67791,
+                    "url": "https://m.9ji.com/product/67791",
+                    "name": "TOTU PD+QC 双口充电器",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180930114129769.jpg",
+                    "price": "99.00",
+                    "rank": 11,
+                    "sku": [],
+                    "productId": 35485
+                },
+                {
+                    "ppid": 62504,
+                    "url": "https://m.9ji.com/product/62504",
+                    "name": "苹果  HomePod 智能音响",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180224183344146.jpg",
+                    "price": "2699.00",
+                    "rank": 11,
+                    "sku": [],
+                    "productId": 33226
+                },
+                {
+                    "ppid": 60905,
+                    "url": "https://m.9ji.com/product/60905",
+                    "name": "全汉 10000mAh 自带Lightning线 移动电源",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20171214131836259.jpg",
+                    "price": "159.00",
+                    "rank": 14,
+                    "sku": [],
+                    "productId": 32276
+                },
+                {
+                    "ppid": 68020,
+                    "url": "https://m.9ji.com/product/68020",
+                    "name": "洛克 苹果 iPhone XS Max TPU 编织保护壳",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180907113525675.jpg",
+                    "price": "59.00",
+                    "rank": 2,
+                    "sku": [],
+                    "productId": 35580
+                },
+                {
+                    "ppid": 68229,
+                    "url": "https://m.9ji.com/product/68229",
+                    "name": "触宝 iPhone XS Max 全屏3D钢化膜",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180914185429628.jpg",
+                    "price": "199.00",
+                    "rank": 3,
+                    "sku": [],
+                    "productId": 35654
+                },
+                {
+                    "ppid": 68245,
+                    "url": "https://m.9ji.com/product/68245",
+                    "name": "乐物 iPhone XS Max 全屏2.5D钢化膜",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180914154519244.png",
+                    "price": "129.00",
+                    "rank": 6,
+                    "sku": [],
+                    "productId": 35669
+                },
+                {
+                    "ppid": 68242,
+                    "url": "https://m.9ji.com/product/68242",
+                    "name": "乐物 iPhone XS Max 半屏钢化膜",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180914161745139.png",
+                    "price": "59.00",
+                    "rank": 6,
+                    "sku": [],
+                    "productId": 35666
+                },
+                {
+                    "ppid": 68230,
+                    "url": "https://m.9ji.com/product/68230",
+                    "name": "触宝 iPhone XS Max 半屏钢化膜",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180917144839120.jpg",
+                    "price": "69.00",
+                    "rank": 6,
+                    "sku": [],
+                    "productId": 35655
+                },
+                {
+                    "ppid": 68013,
+                    "url": "https://m.9ji.com/product/68013",
+                    "name": "迪沃 苹果iPhone XS Max TPU 保护壳",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180910140946554.jpg",
+                    "price": "49.00",
+                    "rank": 7,
+                    "sku": [],
+                    "productId": 35576
+                },
+                {
+                    "ppid": 72546,
+                    "url": "https://m.9ji.com/product/72546",
+                    "name": "触宝 iPhone XS Max 凯夫拉纤维保护壳",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20181204154132529.jpg",
+                    "price": "239.00",
+                    "rank": 7,
+                    "sku": [],
+                    "productId": 37813
+                },
+                {
+                    "ppid": 68300,
+                    "url": "https://m.9ji.com/product/68300",
+                    "name": "摩仕  苹果iPhone XS Max TPU 保护壳",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180920205948737.jpg",
+                    "price": "199.00",
+                    "rank": 8,
+                    "sku": [],
+                    "productId": 35687
+                },
+                {
+                    "ppid": 72822,
+                    "url": "https://m.9ji.com/product/72822",
+                    "name": "咪咕 漫威正版 iPhone XS MAX 手机保护壳",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20181214181947800.jpg",
+                    "price": "109.00",
+                    "rank": 8,
+                    "sku": [],
+                    "productId": 37955
+                },
+                {
+                    "ppid": 68268,
+                    "url": "https://m.9ji.com/product/68268",
+                    "name": "Switcheasy鱼骨 iPhone XS Max 复合材质保护壳",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180920205835158.jpg",
+                    "price": "159.00",
+                    "rank": 9,
+                    "sku": [],
+                    "productId": 35677
+                },
+                {
+                    "ppid": 68780,
+                    "url": "https://m.9ji.com/product/68780",
+                    "name": "麦麦米 苹果 iPhone XS Max PP  保护壳",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180920165755689.jpg",
+                    "price": "59.00",
+                    "rank": 10,
+                    "sku": [],
+                    "productId": 35902
+                },
+                {
+                    "ppid": 68550,
+                    "url": "https://m.9ji.com/product/68550",
+                    "name": "beiyo 苹果 iPhone XS Max 复合材质保护壳",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180920153422141.jpg",
+                    "price": "159.00",
+                    "rank": 11,
+                    "sku": [],
+                    "productId": 35783
+                },
+                {
+                    "ppid": 44408,
+                    "url": "https://m.9ji.com/product/44408",
+                    "name": "苹果 Lightning至3.5毫米 原装转接线",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20170518203826216.jpg",
+                    "price": "69.00",
+                    "rank": 12,
+                    "sku": [],
+                    "productId": 25181
+                },
+                {
+                    "ppid": 72862,
+                    "url": "https://m.9ji.com/product/72862",
+                    "name": "苹果 原装 18W USB-C 电源适配器",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/2018121319015898.jpg",
+                    "price": "249.00",
+                    "rank": 12,
+                    "sku": [],
+                    "productId": 37980
+                },
+                {
+                    "ppid": 47077,
+                    "url": "https://m.9ji.com/product/47077",
+                    "name": "苹果 原装  5W 单口电源适配器",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/2018080312443336.jpg",
+                    "price": "145.00",
+                    "rank": 13,
+                    "sku": [],
+                    "productId": 26463
+                },
+                {
+                    "ppid": 73726,
+                    "url": "https://m.9ji.com/product/73726",
+                    "name": "洛克 苹果lightning+type-c 二合一数据线",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190115171402976.jpg",
+                    "price": "49.00",
+                    "rank": 13,
+                    "sku": [],
+                    "productId": 38322
+                },
+                {
+                    "ppid": 71824,
+                    "url": "https://m.9ji.com/product/71824",
+                    "name": "Mophie 2018升级版 无线充电器",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20181102165412216.jpg",
+                    "price": "389.00",
+                    "rank": 13,
+                    "sku": [],
+                    "productId": 37565
+                },
+                {
+                    "ppid": 61247,
+                    "url": "https://m.9ji.com/product/61247",
+                    "name": "迪沃 苹果Lightning 充电音频二合一转接线数据线0.2m",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20171225111809588.jpg",
+                    "price": "59.00",
+                    "rank": 16,
+                    "sku": [],
+                    "productId": 32479
+                },
+                {
+                    "ppid": 62114,
+                    "url": "https://m.9ji.com/product/62114",
+                    "name": "乐物 苹果lightning 数据线",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180206152402960.jpg",
+                    "price": "88.00",
+                    "rank": 18,
+                    "sku": [],
+                    "productId": 33015
+                },
+                {
+                    "ppid": 66867,
+                    "url": "https://m.9ji.com/product/66867",
+                    "name": "Anker 4USB口  充电器",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180723104004482.jpg",
+                    "price": "149.00",
+                    "rank": 18,
+                    "sku": [],
+                    "productId": 34631
+                },
+                {
+                    "ppid": 60193,
+                    "url": "https://m.9ji.com/product/60193",
+                    "name": "迪沃 无线充电器",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20171114164822491.jpg",
+                    "price": "99.00",
+                    "rank": 20,
+                    "sku": [],
+                    "productId": 31894
+                },
+                {
+                    "ppid": 44664,
+                    "url": "https://m.9ji.com/product/44664",
+                    "name": "苹果 原装 EarPods 闪电接口 耳塞式 线控耳机",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/2017081411224375.jpg",
+                    "price": "219.00",
+                    "rank": 25,
+                    "sku": [],
+                    "productId": 25313
+                },
+                {
+                    "ppid": 71354,
+                    "url": "https://m.9ji.com/product/71354",
+                    "name": "洛克 苹果+安卓mirco+Type-C一拖三 强拉力充电线",
+                    "imagePath": "https://img2.ch999img.com/pic/product/440x440/20181024112137496.jpg",
+                    "price": "49.00",
+                    "rank": 37,
+                    "sku": [],
+                    "productId": 37390
+                }
+            ]
+        },
+        "recommend": [
+            {
+                "name": "猜你喜欢",
+                "label": 1,
+                "link": "https://m.9ji.com/product/recommend/guess/2/68397",
+                "linkText": "查看更多猜你喜欢",
+                "list": [
+                    {
+                        "ppid": 68436,
+                        "url": "https://m.9ji.com/product/68436",
+                        "name": "Apple iPhone XR(A2108) 全网通版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190212085606745.jpg",
+                        "price": "5299.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 35741
+                    },
+                    {
+                        "ppid": 58206,
+                        "url": "https://m.9ji.com/product/58206",
+                        "name": "Apple iPhone X（A1865） 全网通版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190212085554422.jpg",
+                        "price": "6099.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 30916
+                    },
+                    {
+                        "ppid": 71248,
+                        "url": "https://m.9ji.com/product/71248",
+                        "name": "华为 Mate 20（HMA-AL00） 全网通版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190212085309742.jpg",
+                        "price": "3999.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 37205
+                    },
+                    {
+                        "ppid": 71255,
+                        "url": "https://m.9ji.com/product/71255",
+                        "name": "华为 Mate 20 Pro（LYA-AL00） 全网通版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190212085239635.jpg",
+                        "price": "5399.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 37350
+                    },
+                    {
+                        "ppid": 66631,
+                        "url": "https://m.9ji.com/product/66631",
+                        "name": "华为 nova 3 （PAR-AL00） 全网通版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190212085401144.jpg",
+                        "price": "2599.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 34875
+                    }
+                ]
+            },
+            {
+                "name": "排行榜",
+                "label": 2,
+                "link": "https://m.9ji.com/product/recommend/rank/2/68397",
+                "linkText": "查看完整排行榜",
+                "list": [
+                    {
+                        "ppid": 58206,
+                        "url": "https://m.9ji.com/product/58206",
+                        "name": "Apple iPhone X（A1865） 全网通版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/160x160/20190212085554422.jpg",
+                        "price": "6099.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 30916
+                    },
+                    {
+                        "ppid": 68442,
+                        "url": "https://m.9ji.com/product/68442",
+                        "name": "Apple iPhone XR(A2108) 全网通版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/160x160/20180913062828409.jpg",
+                        "price": "5699.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 35741
+                    },
+                    {
+                        "ppid": 66631,
+                        "url": "https://m.9ji.com/product/66631",
+                        "name": "华为 nova 3 （PAR-AL00） 全网通版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/160x160/20190212085401144.jpg",
+                        "price": "2599.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 34875
+                    },
+                    {
+                        "ppid": 72845,
+                        "url": "https://m.9ji.com/product/72845",
+                        "name": "华为畅享9 （DUB-AL00） 全网通高配版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/160x160/20190212085431151.jpg",
+                        "price": "1299.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 37976
+                    },
+                    {
+                        "ppid": 57646,
+                        "url": "https://m.9ji.com/product/57646",
+                        "name": "Apple iPhone 8 Plus（A1864） 全网通版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/160x160/20170913033540501.jpg",
+                        "price": "4899.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 30919
+                    },
+                    {
+                        "ppid": 71190,
+                        "url": "https://m.9ji.com/product/71190",
+                        "name": "华为畅享9 Plus （JKM-AL00）全网通版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/160x160/20181015155604540.jpg",
+                        "price": "1699.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 37314
+                    },
+                    {
+                        "ppid": 65975,
+                        "url": "https://m.9ji.com/product/65975",
+                        "name": "华为畅享 8e （DRA-AL00） 青春全网通版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/160x160/20190212091453692.jpg",
+                        "price": "699.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 34595
+                    },
+                    {
+                        "ppid": 58196,
+                        "url": "https://m.9ji.com/product/58196",
+                        "name": "Apple iPhone 8（A1863） 全网通版",
+                        "imagePath": "https://img2.ch999img.com/pic/product/160x160/20170913035335475.jpg",
+                        "price": "3999.00",
+                        "rank": 0,
+                        "sku": [],
+                        "productId": 30918
+                    }
+                ]
+            }
+        ],
+        "reminder": "",
+        "packagesList": [
+            {
+                "id": 4582,
+                "name": "推荐套餐一",
+                "imagePath": "https://img2.ch999img.com/pic/product/160x160/20181112161914466.jpg",
+                "price": 9428.0,
+                "reducedPrice": 154.0,
+                "description": "",
+                "goodsList": [
+                    {
+                        "ppid": 68244,
+                        "name": "乐物 iPhone XS Max 全屏3D钢化膜",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20180914155756109.jpg",
+                        "price": 139.0,
+                        "reducedPrice": 50.0
+                    },
+                    {
+                        "ppid": 68190,
+                        "name": "苹果 iPhone XS Max 硅胶 定制 保护壳",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20180913181507218.jpg",
+                        "price": 139.0,
+                        "reducedPrice": 60.0
+                    },
+                    {
+                        "ppid": 58445,
+                        "name": "苹果 USB-C 至 Lightning 原装快充连接线",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20171018151631655.jpg",
+                        "price": 125.0,
+                        "reducedPrice": 20.0
+                    },
+                    {
+                        "ppid": 67791,
+                        "name": "TOTU PD+QC 双口充电器",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/2018091413230266.jpg",
+                        "price": 75.0,
+                        "reducedPrice": 24.0
+                    }
+                ]
+            },
+            {
+                "id": 4583,
+                "name": "推荐套餐二",
+                "imagePath": "https://img2.ch999img.com/pic/product/160x160/20181112161914466.jpg",
+                "price": 9582.0,
+                "reducedPrice": 150.0,
+                "description": "",
+                "goodsList": [
+                    {
+                        "ppid": 68244,
+                        "name": "乐物 iPhone XS Max 全屏3D钢化膜",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20180914155756109.jpg",
+                        "price": 139.0,
+                        "reducedPrice": 50.0
+                    },
+                    {
+                        "ppid": 68189,
+                        "name": "苹果 iPhone XS Max 硅胶 定制 保护壳",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20180913181435239.jpg",
+                        "price": 139.0,
+                        "reducedPrice": 60.0
+                    },
+                    {
+                        "ppid": 58445,
+                        "name": "苹果 USB-C 至 Lightning 原装快充连接线",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20171018151631655.jpg",
+                        "price": 125.0,
+                        "reducedPrice": 20.0
+                    },
+                    {
+                        "ppid": 72862,
+                        "name": "苹果 原装 18W USB-C 电源适配器",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/201812131900536.jpg",
+                        "price": 229.0,
+                        "reducedPrice": 20.0
+                    }
+                ]
+            },
+            {
+                "id": 4584,
+                "name": "原装快充套装",
+                "imagePath": "https://img2.ch999img.com/pic/product/160x160/20181112161914466.jpg",
+                "price": 9404.0,
+                "reducedPrice": 40.0,
+                "description": "",
+                "goodsList": [
+                    {
+                        "ppid": 65880,
+                        "name": "苹果 原装 30W  USB-C 电源适配器",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20181220104246689.jpg",
+                        "price": 329.0,
+                        "reducedPrice": 20.0
+                    },
+                    {
+                        "ppid": 58445,
+                        "name": "苹果 USB-C 至 Lightning 原装快充连接线",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20171018151631655.jpg",
+                        "price": 125.0,
+                        "reducedPrice": 20.0
+                    }
+                ]
+            },
+            {
+                "id": 4585,
+                "name": "品牌快充套装",
+                "imagePath": "https://img2.ch999img.com/pic/product/160x160/20181112161914466.jpg",
+                "price": 9150.0,
+                "reducedPrice": 44.0,
+                "description": "",
+                "goodsList": [
+                    {
+                        "ppid": 67791,
+                        "name": "TOTU PD+QC 双口充电器",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/2018091413230266.jpg",
+                        "price": 75.0,
+                        "reducedPrice": 24.0
+                    },
+                    {
+                        "ppid": 58445,
+                        "name": "苹果 USB-C 至 Lightning 原装快充连接线",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20171018151631655.jpg",
+                        "price": 125.0,
+                        "reducedPrice": 20.0
+                    }
+                ]
+            },
+            {
+                "id": 4587,
+                "name": "智能音响套餐",
+                "imagePath": "https://img2.ch999img.com/pic/product/160x160/20181112161914466.jpg",
+                "price": 11629.0,
+                "reducedPrice": 20.0,
+                "description": "",
+                "goodsList": [
+                    {
+                        "ppid": 62504,
+                        "name": "苹果  HomePod 智能音响",
+                        "picUrl": "https://img2.ch999img.com/pic/product/216x216/20180224183217702.jpg",
+                        "price": 2679.0,
+                        "reducedPrice": 20.0
+                    }
+                ]
+            }
+        ],
+        "shareInSP": true,
+        "services": [],
+        "guides": [],
+        "peiJians": [],
+        "guessYourFavorite": [],
+        "sevenDayStatus": 0,
+        "recommendPackage": {
+            "price": 9428.0,
+            "reducedPrice": 154.0,
+            "mainProduct": {
+                "ppid": 68397,
+                "name": "Apple iPhone XS Max (A2104) 全网通版null",
+                "picUrl": "https://img2.ch999img.com/pic/product/70x70/20181112161914466.jpg",
+                "price": 8950.0,
+                "reducedPrice": 0
+            },
+            "goodsList": [
+                {
+                    "ppid": 68244,
+                    "name": "乐物 iPhone XS Max 全屏3D钢化膜",
+                    "picUrl": "https://img2.ch999img.com/pic/product/216x216/20180914155756109.jpg",
+                    "price": 139.0,
+                    "reducedPrice": 50.0
+                },
+                {
+                    "ppid": 68190,
+                    "name": "苹果 iPhone XS Max 硅胶 定制 保护壳",
+                    "picUrl": "https://img2.ch999img.com/pic/product/216x216/20180913181507218.jpg",
+                    "price": 139.0,
+                    "reducedPrice": 60.0
+                },
+                {
+                    "ppid": 58445,
+                    "name": "苹果 USB-C 至 Lightning 原装快充连接线",
+                    "picUrl": "https://img2.ch999img.com/pic/product/216x216/20171018151631655.jpg",
+                    "price": 125.0,
+                    "reducedPrice": 20.0
+                },
+                {
+                    "ppid": 67791,
+                    "name": "TOTU PD+QC 双口充电器",
+                    "picUrl": "https://img2.ch999img.com/pic/product/216x216/2018091413230266.jpg",
+                    "price": 75.0,
+                    "reducedPrice": 24.0
+                }
+            ]
+        },
+        "tradeIn": {
+            "name": "以旧换新",
+            "description": "急速到账购新机",
+            "link": "https://m.9ji.com//api/common.aspx?act=addCart&jump=2&ppid=68397"
+        },
+        "guessYouLike": {
+            "titleImage": "https://img2.ch999img.com/newstatic/1383/bba029bbcdd70c.png",
+            "list": [
+                {
+                    "ppid": 0,
+                    "url": "",
+                    "name": "Apple iPhone X（A1865） 全网通版",
+                    "imagePath": "",
+                    "price": 0,
+                    "rank": 0,
+                    "sku": [
+                        {
+                            "ppid": 58206,
+                            "name": "银色 64GB ",
+                            "price": 6099.0,
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190212085554422.jpg"
+                        }
+                    ],
+                    "productId": 30916
+                },
+                {
+                    "ppid": 0,
+                    "url": "",
+                    "name": "华为 Mate 20（HMA-AL00） 全网通版",
+                    "imagePath": "",
+                    "price": 0,
+                    "rank": 0,
+                    "sku": [
+                        {
+                            "ppid": 71248,
+                            "name": "翡冷翠 6GB+64GB ",
+                            "price": 3999.0,
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190212085309742.jpg"
+                        }
+                    ],
+                    "productId": 37205
+                },
+                {
+                    "ppid": 0,
+                    "url": "",
+                    "name": "华为 Mate 20 Pro（LYA-AL00） 全网通版",
+                    "imagePath": "",
+                    "price": 0,
+                    "rank": 0,
+                    "sku": [
+                        {
+                            "ppid": 71255,
+                            "name": "亮黑色 6GB+128GB ",
+                            "price": 5399.0,
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190212085239635.jpg"
+                        }
+                    ],
+                    "productId": 37350
+                },
+                {
+                    "ppid": 0,
+                    "url": "",
+                    "name": "华为 nova 3 （PAR-AL00） 全网通版",
+                    "imagePath": "",
+                    "price": 0,
+                    "rank": 0,
+                    "sku": [
+                        {
+                            "ppid": 66631,
+                            "name": "蓝楹紫 6GB+128GB ",
+                            "price": 2599.0,
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190212085401144.jpg"
+                        }
+                    ],
+                    "productId": 34875
+                }
+            ]
+        }
+    }
+}

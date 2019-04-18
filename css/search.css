@@ -1,0 +1,176 @@
+html{
+    font-size: 100px;
+}
+body{
+    /* background: rgb(245, 245, 245); */
+    font-size: .28rem;
+}
+*{
+    box-sizing: border-box;
+}
+.cityChoiceBox .cityChoice-top span {
+    position: absolute;
+    display: inline-block;
+    left: 15px;
+    top: 10px;
+    font-size: 20px;
+}
+.sear-box{
+    position: relative;
+    width: 7.5rem;
+    padding: .14rem;
+    background-color: rgba(250,250,250,.98);
+    border-bottom: .02rem solid #ccc;
+    z-index: 1000;
+}
+.sear-box .sear-se{
+    -webkit-display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+.sear-box input{
+    width: 5.74rem;
+    height: .56rem;
+    border-radius:.28rem;
+    outline: 0;
+    border: .02rem solid #ccc;
+    text-indent: .16rem;
+    line-height: normal;
+    font-size: .28rem;
+}
+input::-webkit-input-placeholder{
+    font-size: .28rem;
+}
+.sear-box .sear-se span{
+    display: block;
+    font-size: .28rem;
+    display: none;
+}
+.sear-box .sear-op{
+    width: .88rem;
+    height: .56rem;
+    text-align: center;
+    line-height: .56rem;
+}
+.sear-box .sear-cont{
+    background-color: #fff;
+    position: absolute;
+    top:.88rem;
+    left:0;
+    z-index: 100;
+}
+.sear-box .sear-cont li{
+    width: 7.5rem;
+    height: .6rem;
+    line-height: .6rem;
+    border-bottom: .02rem solid #ccc;
+    padding:0 .2rem;
+    display: flex;
+    -webkit-display: flex;
+    justify-content:space-between;
+}
+.sear-box .icon-sousuo{
+    color: #9c9c9c;
+    font-size: .26rem;
+    padding-right: .1rem;
+}
+.sear-hot .sear-wen{
+    width: 7.5rem;
+    height: .6rem;
+    line-height: .6rem;
+    padding-left: .2rem;
+    color: #000;
+    font-weight: 600;
+}
+.sear-hot .xian-wen{
+    box-sizing: content-box;
+    width: 7.5rem;
+    padding: .2rem .2rem;
+    height: .48rem;
+    line-height: .48rem;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.sear-hot .xian-wen a{
+    padding: 0 .2rem;
+    border-radius: .24rem;
+    height: .48rem;
+    line-height: .48rem;
+    font-size: .26rem;
+    margin-right: .2rem;
+    border: .02rem solid #ededed;
+    background: #f5f5f5;
+    color: #333;
+}
+.jian{
+    width: 7.5rem;
+    height: .2rem;
+    background: rgb(245, 245, 245);
+}
+.phone-hot{
+    width: 7.5rem;
+}
+.phone-hot .phone-list li{
+    height: .8rem;
+    line-height: .8rem;
+    padding-left: .2rem;
+    color: #000;
+    display: flex;
+    -webkit-display: flex;
+    justify-content:space-between;
+    border-bottom: .02rem solid #ccc;
+}
+.phone-hot .phone-list li .icon-sousuo{
+    font-size: .26rem;
+}
+.phone-hot .phone-list li .list2{
+    padding: 0 .1rem;
+    background: rgba(200,15,30,.1);
+    display: inline-block;
+    height: .32rem;
+    line-height: .32rem;
+    font-size:.24rem;
+    border-radius: .16rem;
+    color: #f21c1c;
+    margin-left: .1rem;
+}
+.history{
+    width: 7.5rem;
+    padding: .2rem;
+    margin-top: .2rem;
+}
+.history .his-title{
+    display: flex;
+    -webkit-display: flex;
+    justify-content:space-between;
+}
+.history .his-title2{
+    font-size: .23rem;
+    font-weight: 700;
+}
+.history .his-title{
+    font-weight: 700;
+}
+.history .all-cont li{
+    display: flex;
+    -webkit-display: flex;
+    justify-content:space-between;
+    height: .8rem;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    line-height: .8rem;
+}
+.history .all-cont li p:nth-child(2){
+    font-size: .23rem;
+}
+.history .clear .icon-shanchu{
+    padding-right: .08rem;
+}
+.history .none{
+    /* display: none; */
+    text-align: center;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .32rem;
+}

@@ -1,0 +1,1363 @@
+{
+    "code": 0,
+    "msg": "",
+    "userMsg": "",
+    "data": {
+        "tabBar": [
+            {
+                "id": "896919970202509314",
+                "type": 0,
+                "link": "https://m.9ji.com/",
+                "title": "首页",
+                "sellingPoint": "",
+                "price": 0,
+                "ppid": "",
+                "imagePath": [
+                    "https://img2.ch999img.com/newstatic/1377/b6a3d53ba71d49.png",
+                    "https://img2.ch999img.com/newstatic/1382/b6a8ef61519d9b.png"
+                ],
+                "promotionTagImg": "",
+                "hint": "",
+                "clientType": 63
+            },
+            {
+                "id": "896920076247097345",
+                "type": 0,
+                "link": "https://m.9ji.com/category",
+                "title": "分类",
+                "sellingPoint": "",
+                "price": 0,
+                "ppid": "",
+                "imagePath": [
+                    "https://img2.ch999img.com/newstatic/1380/b6a3e8181a55f0.png",
+                    "https://img2.ch999img.com/newstatic/1382/b6a3f9284d65c8.png"
+                ],
+                "promotionTagImg": "",
+                "hint": "",
+                "clientType": 63
+            },
+            {
+                "id": "896920183147323394",
+                "type": 0,
+                "link": "https://m.9ji.com/user/mymsg.aspx",
+                "title": "消息",
+                "sellingPoint": "",
+                "price": 0,
+                "ppid": "",
+                "imagePath": [
+                    "https://img2.ch999img.com/newstatic/1381/b6a402cb8268ec.png",
+                    "https://img2.ch999img.com/newstatic/1382/b6a408d6237b50.png"
+                ],
+                "promotionTagImg": "",
+                "hint": "",
+                "clientType": 63
+            },
+            {
+                "id": "896920269789061122",
+                "type": 0,
+                "link": "https://m.9ji.com/trade/cart",
+                "title": "购物车",
+                "sellingPoint": "",
+                "price": 0,
+                "ppid": "",
+                "imagePath": [
+                    "https://img2.ch999img.com/newstatic/1382/b6a40cc1b6d1f0.png",
+                    "https://img2.ch999img.com/newstatic/1379/b6a412e4330f13.png"
+                ],
+                "promotionTagImg": "",
+                "hint": "",
+                "clientType": 63
+            },
+            {
+                "id": "896920364999761922",
+                "type": 0,
+                "link": "https://m.9ji.com/member",
+                "title": "我的",
+                "sellingPoint": "",
+                "price": 0,
+                "ppid": "",
+                "imagePath": [
+                    "https://img2.ch999img.com/newstatic/1380/b6a4188a971faa.png",
+                    "https://img2.ch999img.com/newstatic/1379/b6a42e98e77018.png"
+                ],
+                "promotionTagImg": "",
+                "hint": "",
+                "clientType": 63
+            }
+        ],
+        "popUp": {},
+        "topFloat": {},
+        "container": {
+            "currentPage": 1,
+            "totalPage": 1,
+            "labelId": "891839124172845058",
+            "floor": [
+                {
+                    "id": "951815902520778753",
+                    "type": 1,
+                    "title": "首焦",
+                    "floorStyleId": "0",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,6,5",
+                    "content": [
+                        {
+                            "id": "951816200995835905",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2937.html?from=banner",
+                            "title": "春节活动",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1377/b80119acbf455c.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1088308626690867202",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2976.html?from=banner",
+                            "title": "k55",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1382/b9e859884599f0.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1088617910681829377",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2938.html?from=banner",
+                            "title": "世纪城店",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1381/ba2e92b0f31b1a.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "951816728970629122",
+                            "type": 3,
+                            "link": "https://m.9ji.com/trade/confirm/diygroup/1584?ad=banner",
+                            "title": "华为metebook13",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1380/ba282b21a60af0.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "951817021263290369",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2980.html?from=banner",
+                            "title": "良品",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1377/ba1526c472a144.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1085374607045087234",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2902.html?from=banner",
+                            "title": "三星品牌周",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1380/b92bafb799f51e.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "961490257500565505",
+                    "type": 2,
+                    "title": "服务图标",
+                    "floorStyleId": "7",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "1014796667256406018",
+                            "type": 3,
+                            "link": "https://m.9ji.com/?tabs=4&fwtb",
+                            "title": "春节快修",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1377/b866cb3707b58b.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1014797579991498753",
+                            "type": 3,
+                            "link": "https://huishou.9ji.com/mobile/#/secondHand/index?from=fwtb",
+                            "title": "春节良品",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1383/b866d0447b20c9.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1014797969768153089",
+                            "type": 3,
+                            "link": "https://m.9ji.com/vipclub/#/",
+                            "title": "春节俱乐部",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1379/b866d3ddc97918.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1014798139654258690",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/636.html?from=fwtb",
+                            "title": "春节领券中心",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1383/b866d9253ee508.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1014798274530492417",
+                            "type": 3,
+                            "link": "https://m.9ji.com/member/more?tdsourcetag=s_pctim_aiomsg",
+                            "title": "春节发现更多",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1382/b866e06883da99.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "994055305906085890",
+                    "type": 14,
+                    "title": "订单",
+                    "floorStyleId": "0",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": []
+                },
+                {
+                    "id": "1014800232389656577",
+                    "type": 2,
+                    "title": "春节",
+                    "floorStyleId": "4",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "1014800522841014273",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2937.html?from=iPhoneXRtl",
+                            "title": "春节",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1379/b9c78606a38865.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1014800609285603329",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2937.html?from=iPhoneXRtl",
+                            "title": "春节",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1382/b9c78b2ac02599.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "1014799461677891586",
+                    "type": 2,
+                    "title": "春节1",
+                    "floorStyleId": "4",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "1014799642339147777",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2980.html?from=tl",
+                            "title": "春节二手良品",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1380/ba3511f2f070ff.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1014799779992010754",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2968.html?from=tl",
+                            "title": "春节电脑",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1379/b9df67f0547e6e.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "1027775126274314242",
+                    "type": 2,
+                    "title": "春节-2",
+                    "floorStyleId": "4",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "1027775673505210369",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2969.html?from=dfk",
+                            "title": "春节数码",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1380/ba4c39630bbf34.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1027775745835929601",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2961.html?from=tl",
+                            "title": "春节配件",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1379/b9df7bf2139804.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "948485589505703937",
+                    "type": 13,
+                    "title": "今日抢购",
+                    "floorStyleId": "0",
+                    "hasInterval": true,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": []
+                },
+                {
+                    "id": "948485871060942849",
+                    "type": 12,
+                    "title": "头条",
+                    "floorStyleId": "0",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": 13932,
+                            "tag": "",
+                            "title": "首创真无孔无按键！魅族zero来袭",
+                            "url": "https://m.9ji.com/?tabs=6",
+                            "picture": "https://img2.ch999img.com//pic/edt/news/20190124/20190124143450_9887.jpg"
+                        },
+                        {
+                            "id": 13931,
+                            "tag": "",
+                            "title": "小米首款双折叠屏手机来袭！",
+                            "url": "https://m.9ji.com/?tabs=6",
+                            "picture": "https://img2.ch999img.com//pic/edt/news/20190123/20190123173248_6393.jpg"
+                        },
+                        {
+                            "id": 13896,
+                            "tag": "",
+                            "title": "荣耀V20新品发布，2999起售！",
+                            "url": "https://m.9ji.com/?tabs=6",
+                            "picture": "https://img2.ch999img.com//pic/edt/news/20181226/20181226164930_1300.png"
+                        },
+                        {
+                            "id": 13885,
+                            "tag": "",
+                            "title": "小米Play新品发布，自带流量，1099元起售！",
+                            "url": "https://m.9ji.com/?tabs=6",
+                            "picture": "https://img2.ch999img.com//pic/edt/news/20181224/20181224142018_1362.png"
+                        },
+                        {
+                            "id": 13869,
+                            "tag": "",
+                            "title": "3099元起，华为nova4发布！",
+                            "url": "https://m.9ji.com/?tabs=6",
+                            "picture": "https://img2.ch999img.com//pic/edt/news/20181217/20181217172021_6904.png"
+                        }
+                    ]
+                },
+                {
+                    "id": "1044430951346008065",
+                    "type": 2,
+                    "title": "IOS新品推荐1",
+                    "floorStyleId": "6",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "1044531367647780865",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/68436.html",
+                            "title": "iPhone XR",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1381/b800b190a77125.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1044537481626054657",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/67868.html",
+                            "title": "iPhone XS",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1378/b9d97123a53339.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1044541021245284353",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/58206.html",
+                            "title": "iPhone X",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1377/b94deb7876e726.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "1044431164005556225",
+                    "type": 2,
+                    "title": "IOS建行分期",
+                    "floorStyleId": "4",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "1044543411486859265",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/71248.html",
+                            "title": "mate 20 ",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1377/b92a4a4e605fcc.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1044543829993160706",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/66624.html",
+                            "title": "华为nova 3",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1378/86a5c0e9c2bda2.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "1044431356243144705",
+                    "type": 2,
+                    "title": "IOS新品推荐2",
+                    "floorStyleId": "1",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "1044544387881857025",
+                            "type": 3,
+                            "link": "https://m.9ji.com/news/13611.html",
+                            "title": "苹果使用技巧",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/918/731b177571c8bf.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1044544832176091138",
+                            "type": 3,
+                            "link": "https://zu.9ji.com/?curCategoryId=2&curBrandId=1&curStatus=01",
+                            "title": "苹果租机",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1379/8812bc519a3022.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "1082957135283970049",
+                    "type": 2,
+                    "title": "IOS新品推荐3",
+                    "floorStyleId": "1",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,5,6,-1",
+                    "content": [
+                        {
+                            "id": "1082958127853428738",
+                            "type": 3,
+                            "link": "https://m.9ji.com/rush.aspx?qid=38074",
+                            "title": "苹果",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1379/b634696f453590.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "1082958772250775554",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/72242.html",
+                            "title": "联想",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1381/b797069aebabd2.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "920996813929975809",
+                    "type": 2,
+                    "title": "新人礼",
+                    "floorStyleId": "1",
+                    "hasInterval": true,
+                    "level": "0,-1",
+                    "content": [
+                        {
+                            "id": "920997067056222210",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/823.html?from=lc",
+                            "title": "新人礼1",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/769/31e2cadbf0a546.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "920997097209077761",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/823.html?from=lc",
+                            "title": "新人礼2",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/770/31e93b6aa7a531.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "925403061295366146",
+                    "type": 2,
+                    "title": "标题-为你优选",
+                    "floorStyleId": "8",
+                    "hasInterval": true,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "925403546165297153",
+                            "type": 3,
+                            "link": "",
+                            "title": "为你优选",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/765/2f9b7ffcc6f286.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "908154669812957186",
+                    "type": 11,
+                    "title": "为你优选商品",
+                    "floorStyleId": "0",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": []
+                },
+                {
+                    "id": "920996052147900417",
+                    "type": 2,
+                    "title": "标题-手机精品",
+                    "floorStyleId": "8",
+                    "hasInterval": true,
+                    "level": "0,-1,1,2,3,5,6",
+                    "content": [
+                        {
+                            "id": "920997238376763393",
+                            "type": 3,
+                            "link": "",
+                            "title": "手机精品",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/766/2f9b805649cbeb.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "936257890934702082",
+                    "type": 2,
+                    "title": "手机精品1",
+                    "floorStyleId": "4",
+                    "hasInterval": false,
+                    "level": "-1,0,1,2,3,5,6",
+                    "content": [
+                        {
+                            "id": "936258235601518593",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/68397.html?from=sjjp",
+                            "title": "iPhone XS Max",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1379/b968659a113b37.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "936258355210600450",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2669.html",
+                            "title": "建行分期",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1383/8c80e86e98bade.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "936258454955343874",
+                    "type": 2,
+                    "title": "手机精品2",
+                    "floorStyleId": "4",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "936258792558952450",
+                            "type": 3,
+                            "link": "https://m.9ji.com/rush.aspx?qid=40269",
+                            "title": "荣耀8X",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1381/b5dc5a3e008ef0.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "936258914646867969",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/72753.html",
+                            "title": "vivo NEX 双屏版",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1380/b33dd18cd44601.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "936258573045972993",
+                    "type": 2,
+                    "title": "手机精品3",
+                    "floorStyleId": "1",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "936259096767627265",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/51852.html",
+                            "title": "AirPods 蓝牙耳机",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1377/8747231bccbe60.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "936259267681320961",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/72555.html",
+                            "title": "airpods硅胶保护套",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1380/b9c549fd50b5d0.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "920997488441171970",
+                    "type": 2,
+                    "title": "标题-办公专家",
+                    "floorStyleId": "8",
+                    "hasInterval": false,
+                    "level": "0,-1,1,2,3,5,6",
+                    "content": [
+                        {
+                            "id": "920997605969764354",
+                            "type": 3,
+                            "link": "",
+                            "title": "办公专家",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/769/2f9b8742ca0fa9.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "936260431579824130",
+                    "type": 2,
+                    "title": "办公专家1",
+                    "floorStyleId": "4",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "936261121211367426",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/73690.html",
+                            "title": "华为路由器",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1383/b9b862d09ab2fb.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "936261282218229762",
+                            "type": 3,
+                            "link": "https://m.9ji.com/rush.aspx?qid=37238",
+                            "title": "iPad WiFi",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1378/b7db3ee7e482fd.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "936260546013020161",
+                    "type": 2,
+                    "title": "办公专家2",
+                    "floorStyleId": "4",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "936261444432936961",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/53348.html",
+                            "title": "华为",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1377/89c0163136bc51.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "936261550934589442",
+                            "type": 3,
+                            "link": "https://m.9ji.com/rush.aspx?qid=37333&from=event-2350",
+                            "title": "键盘",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/917/81f0e9368bf5af.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "936260641244577794",
+                    "type": 2,
+                    "title": "办公专家3",
+                    "floorStyleId": "1",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1",
+                    "content": [
+                        {
+                            "id": "936261746146000898",
+                            "type": 3,
+                            "link": "https://m.9ji.com/event/2893.html",
+                            "title": "价格狩猎",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1381/8c8eac31b4eb7d.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "936261884746776577",
+                            "type": 3,
+                            "link": "https://m.9ji.com/rush.aspx?qid=40793",
+                            "title": "华硕 飞行堡垒6",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1382/871a7e39b29a1e.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "936262139953397762",
+                    "type": 2,
+                    "title": "标题-智能生活",
+                    "floorStyleId": "8",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "936262866058608641",
+                            "type": 3,
+                            "link": "",
+                            "title": "",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/766/2f9b9328e9284f.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "936262639520055297",
+                    "type": 2,
+                    "title": "智能生活1",
+                    "floorStyleId": "5",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "936263156312948737",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/72955.html",
+                            "title": "摇摆鹅",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1380/b7f67c0128d593.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "936263392838139905",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/71378.html",
+                            "title": "呆小猪",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1383/b5a04d33af20db.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "936263510538698754",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/72719.html",
+                            "title": "猪小屁",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1383/b5a0516344fc1e.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "936262705374822401",
+                    "type": 2,
+                    "title": "智能生活2",
+                    "floorStyleId": "1",
+                    "hasInterval": false,
+                    "level": "0,1,2,3,-1,5,6",
+                    "content": [
+                        {
+                            "id": "936263672795348993",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/71066.html",
+                            "title": "斗禾 暖风机",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1379/b4784b754a3424.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": "936263790319632385",
+                            "type": 3,
+                            "link": "https://m.9ji.com/product/73679.html",
+                            "title": "科沃斯扫地机",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/1380/b9b872824efef9.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "920997919590453250",
+                    "type": 2,
+                    "title": "标题-发现好货",
+                    "floorStyleId": "8",
+                    "hasInterval": true,
+                    "level": "-1,3,2,1,0,5,6",
+                    "content": [
+                        {
+                            "id": "920998014767603714",
+                            "type": 3,
+                            "link": "",
+                            "title": "发现好货",
+                            "sellingPoint": "",
+                            "price": 0,
+                            "ppid": "",
+                            "imagePath": "https://img2.ch999img.com/newstatic/769/2f9b9cb8e1a5d2.png",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "901066243749986306",
+                    "type": 3,
+                    "title": "瀑布流楼层",
+                    "floorStyleId": "0",
+                    "hasInterval": false,
+                    "level": "-1",
+                    "content": []
+                },
+                {
+                    "id": 0,
+                    "type": 3,
+                    "title": "瀑布流商品",
+                    "floorStyleId": 0,
+                    "hasInterval": false,
+                    "level": "0,1,2,3,5,6,-1",
+                    "content": [
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/58206.html",
+                            "title": "iPhone X 全网通版",
+                            "sellingPoint": "超值爆款 特惠热销",
+                            "price": "5960.00",
+                            "ppid": "58206",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190116164007470.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20190124/20190124173340_4980.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/68436.html",
+                            "title": "iPhone XR全网通版",
+                            "sellingPoint": "超视网膜显示屏",
+                            "price": "5299.00",
+                            "ppid": "68436",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190116164038756.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20190124/20190124173340_4980.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/73560.html",
+                            "title": "乐物 10000mAh 移动电源",
+                            "sellingPoint": "双输入 双输出",
+                            "price": "99.00",
+                            "ppid": "73560",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190118182327422.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/70946.html",
+                            "title": "华为 Mate 20 全网通版",
+                            "sellingPoint": "智慧新高度",
+                            "price": "3999.00",
+                            "ppid": "70946",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190124110932661.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20190124/20190124173340_4980.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/71255.html",
+                            "title": "华为 Mate 20 Pro 全网通版",
+                            "sellingPoint": "智慧新高度",
+                            "price": "5399.00",
+                            "ppid": "71255",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190116164700887.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20190124/20190124173340_4980.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/52829.html",
+                            "title": "三星 32GB 存储卡",
+                            "sellingPoint": "更快传输 畅爽实用",
+                            "price": "59.00",
+                            "ppid": "52829",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20170518181103212.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/68397.html",
+                            "title": "iPhone XS Max 全网通版",
+                            "sellingPoint": "超视网膜显示屏",
+                            "price": "8799.00",
+                            "ppid": "68397",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190116171224946.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20190124/20190124173340_4980.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/72861.html",
+                            "title": "荣耀 V20 全网通高配版",
+                            "sellingPoint": "魅眼全面屏",
+                            "price": "3499.00",
+                            "ppid": "72861",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190116164357105.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20190124/20190124173340_4980.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/51852.html",
+                            "title": "AirPods 蓝牙无线耳机",
+                            "sellingPoint": "无线 无繁琐",
+                            "price": "1260.00",
+                            "ppid": "51852",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20180810143817289.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/72753.html",
+                            "title": "vivo NEX 双屏版",
+                            "sellingPoint": "非凡双屏 突破未来",
+                            "price": "4998.00",
+                            "ppid": "72753",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190116164330759.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20190124/20190124173340_4980.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/72964.html",
+                            "title": "华为 nova 4 全网通标配版",
+                            "sellingPoint": "自拍极点全面屏",
+                            "price": "3099.00",
+                            "ppid": "72964",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190116164310215.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20190124/20190124173340_4980.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/60905.html",
+                            "title": "全汉 10000mAh 移动电源",
+                            "sellingPoint": "自带苹果输出线",
+                            "price": "159.00",
+                            "ppid": "60905",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20171214131836259.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20170908/20170908104114_2659.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/67868.html",
+                            "title": "iPhone XS 全网通版",
+                            "sellingPoint": "超视网膜显示屏",
+                            "price": "7899.00",
+                            "ppid": "67868",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190116171245891.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20190124/20190124173340_4980.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/68101.html",
+                            "title": "荣耀8X 全网通版",
+                            "sellingPoint": "霸屏实力 随身影院",
+                            "price": "1899.00",
+                            "ppid": "68101",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190116164922100.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20190124/20190124173340_4980.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/71545.html",
+                            "title": "华为NM卡 存储卡",
+                            "sellingPoint": "高速读写 华为正品",
+                            "price": "399.00",
+                            "ppid": "71545",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20181024171641468.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/71979.html",
+                            "title": "华为 荣耀Magic 2 全网通版",
+                            "sellingPoint": "魔法全视屏",
+                            "price": "4299.00",
+                            "ppid": "71979",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190116164239826.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20190124/20190124173340_4980.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/72238.html",
+                            "title": "vivo X23 幻彩版",
+                            "sellingPoint": "水滴全面屏",
+                            "price": "2798.00",
+                            "ppid": "72238",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20181116094239714.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/44664.html",
+                            "title": "苹果 EarPods线控耳机",
+                            "sellingPoint": "原装正品 轻松舒适",
+                            "price": "219.00",
+                            "ppid": "44664",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/2017081411224375.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20170908/20170908104151_0271.png",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/73632.html",
+                            "title": "红米Note 7 全网通版",
+                            "sellingPoint": "拍照千元机",
+                            "price": "1150.00",
+                            "ppid": "73632",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190110155604816.jpg",
+                            "promotionTagImg": "",
+                            "hint": "",
+                            "clientType": 0
+                        },
+                        {
+                            "id": 0,
+                            "type": 0,
+                            "link": "https://m.9ji.com/product/66631.html",
+                            "title": "华为 nova 3 全网通版",
+                            "sellingPoint": "高颜值 爱自拍",
+                            "price": "2599.00",
+                            "ppid": "66631",
+                            "imagePath": "https://img2.ch999img.com/pic/product/440x440/20190116164023113.jpg",
+                            "promotionTagImg": "https://img2.ch999img.com//pic/edt/ProEva/20190124/20190124173340_4980.png",
+                            "hint": "",
+                            "clientType": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "ershouComments": [],
+        "label": [
+            {
+                "id": "891839124172845058",
+                "title": "推荐",
+                "noCache": false
+            },
+            {
+                "id": "891839163259564033",
+                "title": "限时购",
+                "noCache": true
+            },
+            {
+                "id": "891839589119832066",
+                "title": "以旧换新",
+                "noCache": false
+            },
+            {
+                "id": "953075097912078338",
+                "title": "手机快修",
+                "noCache": false
+            },
+            {
+                "id": "931470332379910145",
+                "title": "久久租",
+                "noCache": false
+            },
+            {
+                "id": "891839620925239297",
+                "title": "头条",
+                "noCache": false
+            }
+        ],
+        "float": {}
+    }
+}

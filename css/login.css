@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size:.32rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 100px;
+}
+body{
+    width: 100%;
+    background: #fff;
+}
+/* 头部 */
+header{
+    background-color: rgba(250, 250, 250, 0.98);
+}
+    /* 导航 */
+header nav{
+    color: rgb(51, 51, 51);
+    display: flex;
+    height:.88rem;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 0.32rem;
+    border-bottom:0.02rem solid #ccc;
+}
+.header-back-btn i,.header-menu-btn i{
+    font-weight:bold;
+    color: rgb(51, 51, 51);
+}
+.header-back-btn{
+    margin-left: 0.2rem;
+}
+.header-menu-btn{
+    margin-right: 0.2rem;
+    color:#333;
+}
+    /* 导航end */
+/* 隐藏菜单 */
+header .menu{
+    background: #000;
+    display: flex;
+    font-size: .24rem;
+    height: 1.1rem;
+    overflow: hidden;
+    transition: all .5s;
+    height: 0;
+}
+header .menu a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+header .menu i{
+    font-size:.4rem;
+    margin-bottom: -0.15rem; 
+}
+/* 头部end */
+/* 主体 */
+.main-tabs{
+    margin:.6rem  .3rem;
+    display: flex;
+    justify-content: center;
+}
+.main-tabs p:first-of-type{
+    color: #f21c1c;
+}
+.main-tabs span{
+    margin: 0px .4rem;
+}
+.login{
+    margin:0 .3rem;
+    color: #6b6b6b;
+}
+.login-item{
+    height: 0.9rem;
+    display: flex;
+    align-items: center;
+    border-bottom:.02rem solid #dfdfdf;
+}
+.login-item:last-child{
+    justify-content: space-between;
+}
+.login-item:nth-child(2){
+    justify-content: space-between;
+}
+.login-item i{
+    margin-right: 0.2rem;
+}
+.login-item input{
+    outline: none;
+}
+.get-pwd-btn{
+    height: .5rem;
+    padding: .02rem .1rem;
+    text-align: center;
+    border-radius:.08rem;
+    border:.02rem solid #78b;
+    color: #78b;
+    font-size:.24rem;
+    background: #fff;
+    display: none;
+}
+.login-time{
+    display: flex;
+    align-items: center;
+    background: #1aad19;
+    position: relative;
+    width:1.04rem;
+    height:.64rem;
+    border-radius:.32rem;
+    border:.02rem solid #1aad19;
+}
+.login-time span{
+    width:.6rem;
+    height:.6rem;
+    background: #fdfdfd;
+    border-radius: 50%;
+    margin-left: 0.4rem;
+}
+
+.submit-btn{
+    margin-top:.8rem;
+    background: #dfdfdf;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    margin:0 .3rem;
+    text-align: center;
+    color:#fff;
+    font-size: .32rem;
+    border-radius: .04rem;
+}
+
+.reg-pwd{
+    margin:.3rem .3rem;
+    display: flex;
+    justify-content: space-between;  
+}
+.reg-pwd a{
+    color:#333;
+}
+.another{
+    margin-top:1rem;
+    color:#9c9c9c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.another a{
+    margin:.3rem;
+}
+.another img{
+    width: 0.68rem;
+    height: 0.68rem;
+}

@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    box-sizing: border-box;
+}
+body{
+    font-size: .28rem;
+    /* background: #f0f0f0; */
+}
+    
+html{
+    font-size: 100px;
+}
+@media (min-width:320px){
+    html {
+        font-size:42.67px;
+    } 
+}
+@media (min-width:360px){
+    html {
+        font-size:48px;
+    }
+}
+@media (min-width:375px){
+    html {
+        font-size:50px;
+    }
+}
+@media (min-width:414px){
+    html {
+        font-size:55.2px;
+    }
+}
+header.change2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding-top: .28rem;
+    width: 7.5rem;
+    height: 1.88rem;
+    background: #e10f02 url(../images/newo/newo54.png) no-repeat 0 0;
+    background-size: cover;
+}
+.change2 .top{
+    width: 6.34rem;
+    background: rgba(0,0,0,.4);
+    border-radius: .6rem;
+    height: .68rem;
+    line-height: .68rem;
+    padding: 0 .3rem;
+    margin:0 auto;
+    display: -webkit-flex;
+    display: flex;
+    color: #fff;
+    margin-bottom: .28rem;
+}
+.change2 .top .cit{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    width: 1.4rem;
+}
+.change2 .top .cit .adminBox{
+    width: 1.3rem;
+}
+.change2 .cit span{
+    display: block;
+    width: 1.3rem;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.change2 .cit span input{
+    width: 1.3rem;
+    text-align: center;
+    font-size: .26rem;
+}
+.change2 .cit i{
+    font-size: .26rem;
+    margin-right:.1rem;
+    line-height: .7rem;
+    padding-right: .2rem;
+}
+.change2 .search2 i{
+    font-size: .26rem;
+    font-weight: 900;
+}
+.change2 .search2 input{
+    width: 3.8rem;
+    height: .68rem;
+    line-height: .68rem;
+    background: none;
+    outline: 0;
+    color: #fff;
+    opacity: .3;
+    font-size: .24rem;
+}
+input::-webkit-input-placeholder{
+    color: #fff;
+    font-size: .26rem;
+}
+.change2 .bottom{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+.change2 .bottom span{
+    color: #fff;
+    font-weight: 700;
+    font-size: .26rem;
+}
+/* 头部结束 */
+.newo-head2{
+    width: 7.5rem;
+    background: linear-gradient(#e10f02,#e10f02 70%,#fff 0,#fff);
+}
+.newo-head2 .zhan{
+    height: 1.88rem;
+
+}
+.newo-head2 .newo-box{
+    /* width: 100%; */
+    height: 3.6rem;
+    padding: 14px;
+}
+.newo-head2 .newo-ban,.newo-head2 .newo-banner{
+    margin:0 auto;
+}
+.newo-head2 .newo-ban,.newo-head2 .newo-banner,.newo-head2 .newo-banner img{
+    border-radius: 0.05rem;
+    width: 6.94rem;
+    height: 3.49rem;
+}
+/* banner图结束 */
+/* 导航开始 */
+.floor {
+    width: 7.5rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.floor a.block {
+    width: 1.28rem;
+    height: 1.28rem;
+}
+.floor a img {
+    width: 100%;
+    height: 100%;
+}
+/* 导航结束 */
+/* 支持开始 */
+.nice {
+    width: 7.5rem;
+}
+.nice .data {
+    width: 100%;
+    height: .1rem;
+    background-color: #f5f5f5;
+}
+.nice .floor-pic {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nice .floor-pic a {
+    width: 100%;
+    height: .8rem;
+    color: #333;
+    text-decoration: none;
+}
+.nice .floor-pic img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+.nice .floor1 {
+    width: 100%;
+    height: 2.13rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nice .floor1 .block {
+    width: 3.75rem;
+    height: 2.13rem;
+}
+.nice .floor1 .block img {
+    width: 3.75rem;
+    height: 2.13rem;
+}
+.nice .floor-pici {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nice .floor-pici a {
+    width: 100%;
+    height: .8rem;
+    color: #333;
+    text-decoration: none;
+}
+.nice .floor-pici img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+/* 支持结束 */
+/* 手机推荐开始 */
+.nice .floor-pic1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nice .floor-pic1 a {
+    width: 100%;
+    height: .8rem;
+    color: #333;
+    text-decoration: none;
+}
+.nice .floor-pic1 img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+.nice .floor2 {
+    width: 100%;
+    height: 2.13rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nice .floor2 .block {
+    width: 1.6rem;
+    height: 2.13rem;
+}
+.nice .floor2 .block img {
+    width: 1.6rem;
+    height: 2.13rem;
+}
+.nice .floor-pici1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nice .floor-pici1 a {
+    width: 100%;
+    height: .8rem;
+    color: #333;
+    text-decoration: none;
+}
+.nice .floor-pici1 img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+.nice .floor3 {
+    width: 100%;
+    height: 1.06rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nice .floor3 .block1 {
+    width: 3.75rem;
+    height: 1.06rem;
+}
+.nice .floor3 .block1 img {
+    width: 3.75rem;
+    height: 1.06rem;
+}
+/* 手机推荐结束 */
+
+/* 我们的优势开始 */
+.nice .floor-pic2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nice .floor-pic2 a {
+    width: 100%;
+    height: .8rem;
+    color: #333;
+    text-decoration: none;
+}
+.nice .floor-pic2 img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+.nice .floor4 {
+    width: 100%;
+    height: 3.13rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nice .floor4 .block {
+    width: 3.75rem;
+    height: 2.13rem;
+}
+.nice .floor4 .block img {
+    width: 3.75rem;
+    height: 2.13rem;
+}
+/* 我们的优势结束 */
+/* 底部开始 */
+/* .foot {
+    width: 7.5rem;
+}
+.foot .height {
+    height: 0.75rem;
+}
+.foot .pic {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.foot .pic .pic-img {
+    display: flex;
+    justify-content: space-between;
+    width: 7.5rem;
+    height: .75rem;
+    background: hsla(0,0%,98%,.98);
+    box-shadow: 0 -.01rem .02rem #ccc;
+}
+.foot .pic .pic-img a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+.foot .pic .pic-img .item {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    color: #c80f1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.foot .pic .pic-img img {
+    height: .4rem;
+    vertical-align: top;
+}
+.foot .pic .pic-img .word {
+    margin-top: .02rem;
+    font-size: .1rem;
+}
+.foot .pic .pic-img .badge {
+    position: absolute;
+    right: .15rem;
+    top: .02rem;
+    padding: 0 .04rem;
+    border-radius: .14rem;
+    background: #f21c1c;
+    color: #fff;
+    font-size: .12rem;
+    height: .2rem;
+    line-height: .2rem;
+    box-sizing: border-box;
+} */
+/* 底部结束 */

@@ -1,0 +1,1792 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/detail/iconfont.css">
+    <link rel="stylesheet" href="./css/detail.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="header-wrapper">
+            <!-- 头部广告 -->
+            <div class="app-guide">
+                <div class="app-guide-main">
+                    <a href="javascript:;" class="close">×</a>
+                    <img src="data:image/png;base64,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"
+                        class="app-icon">
+                    <div class="mar-2">
+                        <p>打开九机APP购物</p>
+                        <p class="font-12">新人领469元红包</p>
+                    </div>
+                </div>
+                <a href="javascript:;" class="open-btn">立即打开</a>
+            </div>
+            <!-- 导航 -->
+            <div class="nav-wrapper">
+                <div class="back-btn">
+                    <a href="javascript:;">
+                        <i class="iconfont font-4">&#xe600;</i>
+                    </a>
+                </div>
+                <nav>
+                    <a href="javascript:;" class="active">商品</a>
+                    <a href="javascript:;">评论</a>
+                    <a href="javascript:;">详情</a>
+                </nav>
+                <div class="side">
+                    <a href="javascript:;">
+                        <i class="iconfont font-5">&#xe610;</i>
+                    </a>
+                </div>
+            </div>
+            <!-- 隐藏菜单 -->
+            <div class="menu">
+                <a href="#">
+                    <i class="iconfont">&#xe605;</i>
+                    <span>首页</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont">&#xe60a;</i>
+                    <span>分类</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont">&#xe60b;</i>
+                    <span>购物车</span>
+                </a>
+                <a href="#">
+                    <i class="iconfont">&#xe62b;</i>
+                    <span>我的</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="aaaa">
+        <!-- /* swiper图 */ -->
+        <div class="swiper-container banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <video src="images/detail/1.mp4" poster="images/detail/20181112161914466.jpg" id="vdo"></video>
+                    <div class="play-btn">
+                        <i class="iconfont">&#xe70e;</i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail/20180913060812574.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail/20180913060813785.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail/20180925135546807.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail/20180913060814930.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail/20190104220645663.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail/20190104220646671.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail/20190104220647659.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail/20190104220648653.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/detail/20190104220649656.jpg" alt="">
+                </div>
+            </div>
+                
+            <div class="play-3d-btn">
+                <i></i>
+                <span>3D视图</span>
+            </div>
+                
+            <div class="ban-tabs">
+                <button class="active">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAAXNSR0IArs4c6QAAA5VJREFUWAnVmc1PE0EYxt+CscpFYi8tmh4wol6pGA9GvdCYKOBBBa4a03D0BCIXPAAHxYPgVf8AEg7VuxGjEAU/b8bEr0ATJYFAlHpgfJ7ttuy2WLaz23b7Jk/3a96Z30xnZ96ZDYhLU0qFkUUHFIOaLArhfBlatGge58lAIJDCsbIG0CjUD72ANqFSjOnpR/9o2clRSAgah9KQF8Z8mB//FW8NmQahAWgFKocxX+Yf9IQcGYWhl1AljOXwHdE3ZNAKfa8EraUMlteqRQ3HTui3JbNKnrLczv+BB7Z7AAcOXzPQ3u2eV+jeH5RzCsPjQn55BdAAZp96BR3MT1yF6x8osy1/XK+zggCYb+805AdgopFj2uTitWE2aNy5AZ3MPPLNL3nIlbNc90BtOMB/hvblnvrnZBUoh9BNGBaItaVv4dqPwOQkF/kMM1oarcwY4BO0O3Pbl79/QXUYrf0t29K9roBXV0RSS+WuKRuUnLnucVG7xJlnCEgjIgcQlfZ2i3z9op2VA8cMJ7oGY4tSw0u4mJa4rlSdbKlhj1JDg0qtr2VTeHkkZ5jdg9NlbhRxUFt7ko2NwuuREZEjLSKPHoqoTftzd1fk7CA0p2zvbQl9/NpVkRNtIs8ZEXhmxwmNDllGW0DocOa0SPdlr/p7hNBc15XfpqZEjh0VGRoUWV9zU16Te2ilnAOk0yKjo5n+Pjfr3M+e0oDm9F1ZS2ExfnNAt8wQW9qYz3Vz0PZrbtZ1XSb0oq63ll99vUhfn8j9CS138rqHDpQwxLe3i7x5KzLxAGuiBm3oXSTX9Xbs14KJ5s5dkfMXHLsUSWi0NLeqymONjSLj90Q+fPQKmJzzbOkkxHGrhP8ZqYsZ+20iITJ8W2S/p4MTOZN15qJxrhhD0WeRvAk1Hhd59x4v2qTXwMSYzS1yETlxM1DPfv1U6solpc7FlXryWC8P5179JDe6BHxqb+XCJQwqgP/T1zZpcm69fGhtvjG1tRpHLTidj/m0rcdMPgPPNsyhtYO4+xTy04YNw8GzgEaImDEbNG8BPIxD7ezlERo1QtwoXRB3LatpLL/L5LFxMGAqMCTk9moPVC1wlttjchTwFb2BrhKDqvElIFYUbKeH7ONQ7XxzyVYI0LX1dSsLziPga+c7ohXchI+iAgyy2G1K3VJjevppf7EtGKfzAXe6RuEc17m1xpeHcSr3USiGBZxluTKisOUkryHX38b/ASm/YgUgC5Y6AAAAAElFTkSuQmCC"
+                        alt="">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAAXNSR0IArs4c6QAAA0pJREFUWAnVWS2MGkEUnqNJayAhAQEVFzRBEK4CA6rBEKrOVCJaQTCoYisgYOoICQIBiiAPQ3CIq6B1CILANIGaS1CQS6DT921YAleW3Z3ZXcqXPHZY5r3v2+HN794weQQoRIbsjuztgfmo/EQ2P7CfVH4g+03mOG6J8QvZI9kfMm7CUB9+8Ecc24HW+0b2TGZGqFZdxEE8xLUcbyhikWxJpiVA5j7iIj54LAFy9juZjCijvuABnxRi5P2LzCipFfXAB14hfCCvFZkVQszGAC/4TeGOal9KsPqA4Dfc4sgpp1NCFfryCh26OY7e61SneylQ6zv0QJcmivSLlvMl70PXSWCAt2scln1g6Do5AWFmkg1upz/0HQFrAKumZruEQ5+yVnHtpH+k6+td2fTF6/WyYDBo2s+kA/RB5x7CI0YymeTr9ZoDnU6Hh0Ihu1oacaFTAcZBLBeFyBqNhiJY/cADlEol7na7heLp6IBOZdz+rFPxLHmr1VL1Hl3n8znPZrPc5XKd9Rfg/oScxpRtOZDjzWaTjUYjlkgkrIz/DqJt7UGxWIwNh0PW7XYZ5bsV4oMQjX2d7bi/v2eTyYSVy2Xm8Xhk+BS9c4ognHftdvsol418WSwWPB6Pi3LO0dInp0eZptDzDQQCrFKp6FXT+t0H0djmO47ZbCbK+QTRSA/HsN1uWb1eZ/l8XpRTSQ8p0ZTDhskHgwGLRqMsl8ux1QobEyHIizZCO51OWSaTYalUio3HYyMu5+ooonFUZQuWyyUrFAosEomwXq9nFYeiV2rtcWoa32w2vFarcZ/PJzqsafnt1x5oAeFVXrVaPRqa+/0+D4fDWqSy9x8P/y4cBgoF9Pv9nKZoDrHpdFoohglu6NzjlkrPZHaTysSHPug8wtXtEaH+anbjrw7aer0rvz+4978Uv5KQgZYYnOQIjyTkK5OzWr7QA11ngXH7qs7y1KfBaeVVnZqqwnE+fCnh4AW/ELDpdTpVwCe92UaOO9U5waOca9BVGui9RTK7TlUtf7t1+MSYgDBzWjXlIw7iIa7twBoAixf8nVguao2xp+6jPvzg/89agu7p4ka3hn4F5CB6OjpPkEx9P47Ww6YZ2znYguwH2QOZ1LvxvxhgAah2MrmnAAAAAElFTkSuQmCC"
+                        alt="">
+                    <span>视频</span>
+                </button>
+                <button>图片</button>
+                <button>实拍</button>
+                <button class="swiper-pagination swiper-pagination-fraction btn-pages"></button>
+            </div>
+                
+            <div class="ban-mask"></div>
+            <div class="ban-3d">
+                <div class="ban-3d-tit">
+                    <span>3D视图</span>
+                    <a href="javascript:;">
+                        <b>x</b>
+                    </a>
+                </div>
+                <div class="ban-3d-img">
+                    <img src="images/detail/1.jpg" alt="">
+                </div>
+                <div class="ban-3d-tit2">左右滑动查看3D视图</div>
+            </div> -->
+        </div>
+        <!-- 产品 -->
+        <div class="product">
+            <h2 class="pro-tit">Apple iPhone XS
+                全网通版 金色 64GB A12
+                仿生IP68
+                防水面容ID性能之选
+            </h2>
+            <p class="pro-profile">【新春专享价】1.16-2.11官网最高直降800元！</p>
+            <p class="pro-price">
+                <span>¥</span>
+                <span>7999.00</span>
+            </p>
+            <!-- /* 选项 */ -->
+            <div class="pro-option">
+                <a href="javascript:;">
+                    <i class="iconfont">&#xe6a0;</i>
+                    <span>价格走势</span>
+                </a>
+                <a href="javascript:;">
+                    <i class="iconfont">&#xe764;</i>
+                    <span>降价通知</span>
+                </a>
+                <a href="javascript:;">
+                    <i class="iconfont">&#xe603;</i>
+                    <span>机型对比</span>
+                </a>
+                <a href="javascript:;">
+                    <i class="iconfont">&#xe68b;</i>
+                    <span>开箱展示</span>
+                </a>
+            </div>
+        </div>
+        <!-- 规格 -->
+        <div class="pro-size-box">
+            <div class="pro-size-tit font-12">
+                <span>规</span>
+                <span>格</span>
+            </div>
+            <div class="swiper-container pro-size">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="javascript:;" class=" size ">
+                            <img src="images/detail/20180803153357141.png" alt="">
+                            <span>屏幕尺寸</span>
+                            <p class="size">5.8英寸</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/detail/20180803153357141.png" alt="">
+                            <span>主屏分辨率</span>
+                            <p class="size">2436x1125像素</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/detail/20180803153357141.png" alt="">
+                            <span>机身内存</span>
+                            <p class="size">64GB</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/detail/20180803153357141.png" alt="">
+                            <span>运行内存</span>
+                            <p class="size">4GB</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/detail/20180803153357141.png" alt="">
+                            <span>屏幕尺寸</span>
+                            <p class="size">5.8英寸</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/detail/20180803153357141.png" alt="">
+                            <span>主屏分辨率</span>
+                            <p class="size">2436x1125像素</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/detail/20180803153357141.png" alt="">
+                            <span>机身内存</span>
+                            <p class="size">64GB</p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/detail/20180803153357141.png" alt="">
+                            <span>运行内存</span>
+                            <p class="size">4GB</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 不同服务价格 -->
+        <div class="service">
+            <a href="javascript:;">
+                <p>一手优品</p>
+                <span>￥</span>
+                <span>6999</span>
+                <span>.00</span>
+            </a>
+            <a href="javascript:;">
+                <p>二手良品</p>
+                <span>￥</span>
+                <span>6899</span>
+                <span>.00</span>
+            </a>
+            <a href="javascript:;">
+                <p>租机体验</p>
+                <span>￥</span>
+                <span>15</span>
+                <span>.33/日 起</span>
+            </a>
+        </div>
+        <!-- 促销活动 -->
+        <div class="sales">
+            <div class="sales-tit">
+                <span class="font-12">促销活动</span>
+                <a href="javascript:;">
+                    <i class="iconfont">&#xe610;</i>
+                </a>
+            </div>
+            <!-- 促销活动 -->
+            <div class="discounts">
+                <p>
+                    <span class="discounts-btn">建行满减</span>
+                    <span>线上下单选择到店取货，再减500</span>
+                </p>
+                <p>
+                    <span class="discounts-btn">优惠套餐</span>
+                    <span>购买组合套餐，最高省103.0元</span>
+                </p>
+            </div>
+            <!-- 以旧换新 -->
+            <div class="trade-news">
+                <span>以旧换新 急速到账购新机</span>
+                <i class="iconfont">&#xe600;</i>
+            </div>
+            <!-- 九级分期 -->
+            <div class="stages">
+                <span class="font-12">九级分期</span>
+                <span>低至 ￥693.25×12 首付￥0</span>
+                <i class="iconfont">&#xe610;</i>
+            </div>
+        </div>
+        <!-- 促销活动弹窗 -->
+        <div class="sales-mask"></div>
+        <div class="sales-pop-up-wrapper">
+            <div class="sales-pop-up">
+                <div class="sales-pop-up-tit">
+                    <span>促销活动</span>
+                    <a href="javascript:;">x</a>
+                </div>
+                <p>
+                    <span class="tit">建行满减</span>
+                    <span>线上下单选择到店取货，再减500</span>
+                    <a href="#" class="iconfont">&#xe62e;</a>
+                </p>
+                <p>
+                    <span class="tit">优惠套餐</span>
+                    <span>购买组合套餐，最高省103.0元</span>
+                    <a href="#" class="iconfont">&#xe62e;</a>
+                </p>
+            </div>
+        </div>
+        <!-- 九级分期弹出 -->
+        <div class="stages-mask"></div>
+        <div class="stages-pop-up-wrapper">
+            <div class="stages-pop-up">
+                <!-- tabs -->
+                <ul class="stages-tabs stages-tabs-first">
+                    <li class="act">信用卡分期</li>
+                    <li>花呗分期</li>
+                    <li>捷信分期</li>
+                </ul>
+                <!-- 信用卡分期 -->
+                <div class="stages-detail-wrapper">
+                    <div class="stages-tabs-wrapper">
+                        <ol class="stages-tabs stages-tabs-second">
+                            <li class="act">建行分期</li>
+                            <li>其他银行分期</li>
+                        </ol>
+                    </div>
+                    <div class="stages-list-wrapper">
+                        <div class="stages-list">
+                            <dl>
+                                <dt>分期价：￥2723.58 × 3期</dt>
+                                <dd>最低首付0元，费率1.5%</dd>
+                            </dl>
+                            <dl>
+                                <dt>分期价：￥2723.58 × 6期</dt>
+                                <dd>最低首付0元，费率2%</dd>
+                            </dl>
+                            <dl>
+                                <dt>分期价：￥2723.58 × 12期</dt>
+                                <dd>最低首付0元，费率4%</dd>
+                            </dl>
+                            <dl>
+                                <dt>分期价：￥2723.58 × 24期</dt>
+                                <dd>最低首付0元，费率8%</dd>
+                            </dl>
+                            <p class="stages-tit">*分期业务仅支持银联标识建行信用卡办理</p>
+                            <a href="https://m.9ji.com/goods/fenqi.aspx?tab=1&pid=67868" class="stages-count">
+                                查看分期计算器
+                                <i class="iconfont">&#xe62e;</i>
+                            </a>
+                        </div>
+                        <div class="stages-list">
+                            <dl>
+                                <dt>分期价：￥2723.58 × 3期</dt>
+                                <dd>最低首付0元，费率2%</dd>
+                            </dl>
+                            <dl>
+                                <dt>分期价：￥2723.58 × 6期</dt>
+                                <dd>最低首付0元，费率3.3%</dd>
+                            </dl>
+                            <dl>
+                                <dt>分期价：￥2723.58 × 12期</dt>
+                                <dd>最低首付0元，费率5.5%</dd>
+                            </dl>
+                            <p class="stages-tit">*分期业务仅支持银联标识信用卡办理</p>
+                            <p class="stages-tit">*本业务由库分期提供</p>
+                            <a href="https://m.9ji.com/goods/fenqi.aspx?tab=1&pid=67868" class="stages-count">
+                                查看分期计算器
+                                <i class="iconfont">&#xe62e;</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 花呗分期 -->
+                <div class="stages-detail-wrapper">
+                    <div class="stages-list">
+                        <dl>
+                            <dt>分期价：￥2723.58 × 3期</dt>
+                            <dd>最低首付0元，费率1.5%</dd>
+                        </dl>
+                        <dl>
+                            <dt>分期价：￥2723.58 × 6期</dt>
+                            <dd>最低首付0元，费率2%</dd>
+                        </dl>
+                        <dl>
+                            <dt>分期价：￥2723.58 × 12期</dt>
+                            <dd>最低首付0元，费率4%</dd>
+                        </dl>
+                        <a href="https://m.9ji.com/goods/fenqi.aspx?tab=1&pid=67868" class="stages-count">
+                            查看分期计算器
+                            <i class="iconfont">&#xe62e;</i>
+                        </a>
+                    </div>
+                </div>
+                <!-- 捷信分期 -->
+                <div class="stages-detail-wrapper">
+                    <div class="stages-list">
+                        <dl>
+                            <dt>分期价：￥634 × 10期</dt>
+                            <dd>最低首付0元，费率1.5%</dd>
+                        </dl>
+                        <dl>
+                            <dt>分期价：￥2723.58 × 6期</dt>
+                            <dd>最低首付0元，费率2%</dd>
+                        </dl>
+                        <dl>
+                            <dt>分期价：￥2723.58 × 12期</dt>
+                            <dd>最低首付0元，费率4%</dd>
+                        </dl>
+                        <dl>
+                            <dt>分期价：￥2723.58 × 3期</dt>
+                            <dd>最低首付0元，费率1.5%</dd>
+                        </dl>
+                        <dl>
+                            <dt>分期价：￥2723.58 × 6期</dt>
+                            <dd>最低首付0元，费率2%</dd>
+                        </dl>
+                        <dl>
+                            <dt>分期价：￥2723.58 × 12期</dt>
+                            <dd>最低首付0元，费率4%</dd>
+                        </dl>
+                        <a href="https://m.9ji.com/goods/fenqi.aspx?tab=1&pid=67868" class="stages-count">
+                            查看分期计算器
+                            <i class="iconfont">&#xe62e;</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 选商品 -->
+        <div class="shop-selected">
+            <span class="font-12">已&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选</span>
+            <p>
+                <span class="color">金色</span>
+                <span class="memory">64GB</span>
+                <span class="num">1</span>件
+            </p>
+            <i class="iconfont shops-show-btn">&#xe610;</i>
+        </div>
+        <!-- 商品弹窗 -->
+        <div class="shops-box">
+            <div class="shops-mask"></div>
+            <div class="shops-wrapper">
+                <div class="shops">
+                    <div class="shops-img-box">
+                        <img src="images/detail/20190116171245891.jpg" alt="">
+                        <img src="images/detail/20180913060736867.jpg" alt="">
+                        <img src="images/detail/20180913060741768.jpg" alt="">
+                        <img src="images/detail/20190116171245891.jpg" alt="">
+                        <img src="images/detail/20190116171245891.jpg" alt="">
+                        <img src="images/detail/20180913062832472.jpg" alt="">
+                        <img src="images/detail/20180802145103988.jpg" alt="">
+                    </div>
+                    <!-- /* 参数显示 */ -->
+                    <div class="shops-params-show">
+                        <div class="shops-price red">
+                            <p>¥ 7999.00</p>
+                            <p>¥ 8799.00</p>
+                            <p>¥ 5350.00</p>
+                            <p>¥ 5999.00</p>
+                        </div>
+                        <div class="shops-num font-12">
+                            <p>商品编号：67868</p>
+                            <p>商品编号：68410</p>
+                            <p>商品编号：68411</p>
+                            <p>商品编号：67868</p>
+                            <p>商品编号：68397</p>
+                            <p>商品编号：68437</p>
+                            <p>商品编号：57640</p>
+                        </div>
+                        <div class="shops-color font-12">
+                            <p>
+                                <span>已选：</span>
+                                <span class="color">金色</span>
+                                <span class="memory">64GB</span>
+                            </p>
+                        </div>
+                    </div>
+                    <a href="javascript:; " class="shops-close-btn">x</a>
+                </div>
+                <div class="shops-parameter-wrapper">
+                    <div class="shops-product-content">
+                        <div class="shops-product-module">
+                            <div class="shops-module-title">
+                                <span>颜色</span>
+                            </div>
+                            <div class="shops-module-content wid-1 shops-module-color">
+                                <a href="javascript:;" class="active">金色</a>
+                                <a href="javascript:;">银色</a>
+                                <a href="javascript:;">深空灰色</a>
+                            </div>
+                        </div>
+                        <div class="shops-product-module">
+                            <div class="shops-module-title">
+                                <span class="sku-title">容量</span>
+                            </div>
+                            <div class="shops-module-content wid-1 shops-module-memory">
+                                <a href="javascript:;" class="active">64GB</a>
+                                <a href="javascript:;">256GB</a>
+                                <a href="javascript:;">512GB</a>
+                            </div>
+                        </div>
+                        <div class="shops-product-module">
+                            <div class="shops-module-title">
+                                <span class="sku-title">版本</span>
+                            </div>
+                            <div class="shops-module-content shops-module-versions">
+                                <a href="javascript:;" class="active">iPhone XS</a>
+                                <a href="javascript:;">iPhone XS Max</a>
+                                <a href="javascript:;">iPhone XR</a>
+                                <a href="javascript:;">iPhone X</a>
+                            </div>
+                        </div>
+                        <div class="shops-product-module">
+                            <div class="shops-module-title">
+                                <span class="sku-title">套餐</span>
+                            </div>
+                            <div class="shops-module-content">
+                                <a href="javascript:;" class=" active">官方标配</a>
+                                <a href="javascript:;">推荐套餐一</a>
+                                <a href="javascript:;">推荐套餐二</a>
+                                <a href="javascript:;">原装快充套装</a>
+                                <a href="javascript:;">品牌快充套装</a>
+                                <a href="javascript:;">壳膜套餐</a>
+                                <a href="javascript:;">智能音响套餐</a>
+                            </div>
+                        </div>
+                        <div class="shops-product-module">
+                            <div class="shops-module-title border-top">
+                                <span class="sku-title">门店库存</span>
+                            </div>
+                            <div class="shops-module-content">
+                                <a href="javascript:;" class="not-option">昆明市区
+                                    <span class="ml-5 red">现货</span>
+                                    <i class="iconfont">&#xe62e;</i>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="shops-product-main-title border-top">
+                            <span>九机服务</span>
+                            <a href="javascript:;" class="font-12  not-option">
+                                <i class="iconfont">&#xe612;</i>
+                                服务介绍
+                            </a>
+                        </div>
+                        <div class="shops-product-module">
+                            <div class="shops-module-title">
+                                <span>以换代修保</span>
+                            </div>
+                            <div class="shops-module-content">
+                                <a href="javascript:;" class="options">以换代修保 2年 ¥549</a>
+                            </div>
+                        </div>
+                        <div class="shops-product-module">
+                            <div class="shops-module-title">
+                                <img src="images/detail/132x32@2x.png">
+                                <span>电池保</span>
+                            </div>
+                            <div class="shops-module-content ">
+                                <a href="javascript:;" class="options">电池保 2年 ¥139</a>
+                            </div>
+                        </div>
+                        <div class="shops-product-module">
+                            <div class="shops-module-title">
+                                <img src="images/detail/76777767.png">
+                                <span>碎屏保</span>
+                                <span class=" font-12">意外碎屏免费换屏1次</span>
+                            </div>
+                            <div class="shops-module-content">
+                                <a href="javascript:;" class="options">碎屏保 1年 ¥389</a>
+                                <a href="javascript:;" class="options">碎屏保 2年 ¥589</a>
+                            </div>
+                        </div>
+                        <div class="shops-product-module">
+                            <div class="shops-module-title">
+                                <img src="images/detail/66_32x32@2x.png">
+                                <span>屏背保服务</span>
+                            </div>
+                            <div class="shops-module-content">
+                                <a href="javascript:;" class="options">屏背保服务 1年 ¥499</a>
+                                <a href="javascript:;" class="options">屏背保服务 2年 ¥749</a>
+                            </div>
+                        </div>
+                        <div class="shops-product-module">
+                            <div class="shops-module-title ">
+                                <img src="images/detail/4444_32x32@2x.png">
+                                <span>延长保</span>
+                            </div>
+                            <div class="shops-module-content">
+                                <a href="javascript:;" class="options">延长保 1年 ¥99</a>
+                                <a href="javascript:;" class="options">延长保 2年 ¥149</a>
+                            </div>
+                        </div>
+                        <div class="shops-product-module">
+                            <div class="shops-module-title">
+                                <img src="images/detail/4455_32x32@2x.png">
+                                <span>意外保</span>
+                            </div>
+                            <div class="shops-module-content ">
+                                <a href="javascript:;" class="options">意外保 2年 ¥769</a>
+                                <a href="javascript:;" class="options">意外保 1年 ¥519</a>
+                            </div>
+                        </div>
+                        <div class="shops-module-count">
+                            <div>数量</div>
+                            <div class="shops-module-content">
+                                <a href="javascript:;" class="btn-minus not-option">
+                                    <i class="iconfont">&#xe63e;</i>
+                                </a>
+                                <span class="product-number">1</span>
+                                <a href="javascript:;" class="btn-add not-option">
+                                    <i class="iconfont">&#xe63d;</i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="shops-product-module">
+                            <div class="shops-module-title">配置</div>
+                            <p>充电器x1，数据线x1，耳机x1（内置2658mAh电池）</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shops-btn">
+                    <a href="javascript:; not-option submit-btn">加入购物车</a>
+                </div>
+            </div>
+        </div>
+        <!-- 地址管理 -->
+        <div class="shop-addr">
+            <!-- 送至 -->
+            <div class="addr">
+                <span class="font-12">送&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;至</span>
+                <div class="mar-l">
+                    <p>云南省昆明市昆明市区</p>
+                    <p>
+                        <span class="f-red">现货</span>
+                        <span>现在下单，预计 今天 15:56 前送达</span>
+                    </p>
+                    <p class="time">
+                        <img src="images/detail/2345.png" alt="">
+                        <span>3小时极速达（闪电配送）</span>
+                        <img src="data:image/png;base64,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"
+                            alt="">
+                    </p>
+                </div>
+                <i class="iconfont">&#xe610;</i>
+            </div>
+            <!-- 门店库存 -->
+            <div class="store">
+                <span class="font-12">门店库存</span>
+                <p>
+                    <span class="color">昆明市区</span>
+                    <span class="red">现货</span>
+                </p>
+                <i class="iconfont">&#xe600;</i>
+            </div>
+        </div>
+        <!-- 推荐套餐 -->
+        <div class="referrals">
+            <h5>推荐套餐</h5>
+            <div class="selected">
+                <div>
+                    <img src="images/detail/20190116171245891.jpg" alt="">
+                </div>
+                <div class="tit">
+                    <p>Apple iPhone XS (A2100) 全网通版金色 64GB </p>
+                    <p class="red">￥7999.00</p>
+                </div>
+            </div>
+            <!-- /* 推荐列表 */ -->
+            <div class="ref-item">
+                <span class="checked"></span>
+                <img src="images/detail/20180410160707508.jpg" alt="">
+                <div class="tit">
+                    <p>乐物 iPhone XS/X 全屏3D钢化膜 </p>
+                    <p>
+                        <span class="red">￥160.00</span>
+                        <del class="font-12">￥189.00</del>
+                    </p>
+                </div>
+            </div>
+            <div class="ref-item">
+                <span class="checked"></span>
+                <img src="images/detail/20180913163331563.jpg" alt="">
+                <div class="tit">
+                    <p>苹果 iPhone XS 硅胶 定制 保护壳 </p>
+                    <p>
+                        <span class="red">￥160.00</span>
+                        <del class="font-12">￥199.00</del>
+                    </p>
+                </div>
+            </div>
+            <div class="ref-item">
+                <span class="checked"></span>
+                <img src="images/detail/20171018151631655.jpg" alt="">
+                <div class="tit">
+                    <p>苹果 USB-C 至 Lightning 原装快充连接线</p>
+                    <p>
+                        <span class="red">￥130.00</span>
+                        <del class="font-12">￥145.00</del>
+                    </p>
+                </div>
+            </div>
+            <div class="ref-item">
+                <span class="checked"></span>
+                <img src="images/detail/2018091413230266.jpg" alt="">
+                <div class="tit">
+                    <p>TOTU PD+QC 双口充电器 </p>
+                    <p>
+                        <span class="red">￥79.00</span>
+                        <del class="font-12">￥99.00</del>
+                    </p>
+                </div>
+            </div>
+            <!-- 推荐总价 -->
+            <div class="all-price">
+                <span class="tit">总价</span>
+                <p class="red">
+                    <small>￥</small>
+                    <span>8528</span>
+                    <small>.00</small>
+                </p>
+                <p>
+                    <del>
+                        <small>￥</small>
+                        <span>8631</span>
+                        <small>.00</small>
+                    </del>
+                </p>
+                <p>
+                    <small>节省</small>
+                    <small>￥</small>
+                    <span>103</span>
+                    <small>.00</small>
+                </p>
+            </div>
+            <div class="ref-btn">购买此套装&nbsp;&nbsp;(5件商品)</div>
+        </div>
+        <!-- 推荐商品 -->
+        <div class="rec-shop">
+            <div class="tit">
+                <span>
+                    <strong>推荐商品</strong>
+                </span>
+                <a href="javascript:;">
+                    <span>查看更多</span>
+                    <i class="iconfont">&#xe600;</i>
+                </a>
+            </div>
+            <div class="swiper-container rec-shop-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/detail/20180913161530763.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥199.00</strong>
+
+                            </span>
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180410160722220.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥189.00</strong>
+
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180810143817289.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥1260.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20170518203654563.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥145.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180930114129769.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥99.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180224183344146.jpg" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥2699.00</strong>
+                            </span>
+
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/detail/20180913161530763.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥199.00</strong>
+
+                            </span>
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180410160722220.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥189.00</strong>
+
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180810143817289.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥1260.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20170518203654563.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥145.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180930114129769.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥99.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180224183344146.jpg" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥2699.00</strong>
+                            </span>
+
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/detail/20180913161530763.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥199.00</strong>
+
+                            </span>
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180410160722220.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥189.00</strong>
+
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180810143817289.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥1260.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20170518203654563.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥145.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180930114129769.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥99.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180224183344146.jpg" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥2699.00</strong>
+                            </span>
+
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/detail/20180913161530763.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥199.00</strong>
+
+                            </span>
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180410160722220.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥189.00</strong>
+
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180810143817289.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥1260.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20170518203654563.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥145.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180930114129769.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥99.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180224183344146.jpg" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥2699.00</strong>
+                            </span>
+
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="images/detail/20180913161530763.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥199.00</strong>
+
+                            </span>
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180410160722220.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥189.00</strong>
+
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180810143817289.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥1260.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20170518203654563.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥145.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180930114129769.jpg.webp" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥99.00</strong>
+                            </span>
+
+                        </a>
+                        <a href="javascript:;">
+
+                            <img src="images/detail/20180224183344146.jpg" alt="">
+                            <p>苹果 iPhone XS 硅胶 定制 保护壳</p>
+                            <span>
+                                <strong>¥2699.00</strong>
+                            </span>
+
+                        </a>
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- 评论 -->
+        <div class="comment">
+            <div class="com-tit">
+                <span>
+                    <b>评论</b>
+                </span>
+                <a href="javascript:;">
+                    <span>更多评价</span>
+                    <i class="iconfont">&#xe600;</i>
+                </a>
+            </div>
+            <!-- 内容 -->
+            <div class="com-content">
+                <div class="com-user">
+                    <img src="images/detail/201510221048010_150x150.jpg.webp" alt="">
+                    <div>
+                        <p>D****绡</p>
+                        <p class="red">★★★★★</p>
+                    </div>
+                    <span class="time">2018-09-21</span>
+                </div>
+                <p>今天早上8:00拿到手机，九机网太给力的，第一个用上iPhone XS的人，哈哈哈</p>
+                <p class="com-handle">
+                    <span>
+                        <i class="iconfont">&#xe63a;</i>
+                        30
+                    </span>
+                    <span>
+                        <i class="iconfont">&#xe630;</i>
+                        9
+                    </span>
+                </p>
+            </div>
+            <div class="com-pic-tit">
+                <p>
+                    <b>买家相册</b>
+                </p>
+                <p>
+                    <span>全部(50)</span>
+                    <i class="iconfont">&#xe600;</i>
+                </p>
+            </div>
+            <div class="com-pic">
+                <img src="images/detail/20180921115122_2091.jpg" alt="">
+                <img src="images/detail/201901173874.jpg" alt="">
+                <img src="images/detail/201901135824.jpg" alt="">
+                <img src="images/detail/201901114696.jpg" alt="">
+            </div>
+        </div>
+        <!-- 问大家 -->
+        <div class="ask-everyone">
+            <div class="ask-tit">
+                <p>
+                    <b>问大家</b>
+                </p>
+                <p>
+                    <span>全部(10)</span>
+                    <i class="iconfont">&#xe600;</i>
+                </p>
+            </div>
+            <div class="ask-question">
+                <p>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABUlJREFUWAm9WF1oHFUUvndmZ7PZ7Mb4U6k6uyYmJqAYH4I2wZ++CFVELaXFPhT8SR9S65ugPklA8UFLURGFSmihQdBiQYsS2qotpfXFUBTjT5pNdnc2tTW1sTubzW52do7fnbjLzGZnspttvBDm3HO+c84355575244W8NYiEb7iow9xon6iegezthNjPMbEOoqI/qTGLvIOR+XGPsqmEyOQ4aqtoFYtQ1qbw8sFIs7TcZeQtIHavNi4MlngT0UUpR3+fT0tdX8aiKUiUS24BVHUI07VgvoYf9b4vztltbWD/nExJIbzpMQ9fa2ZObn94HIkFuANejPSYqyLTQzc7marysh6upq1fP5E1ieB6s5NqJD0pQkSVtb0F+VcdB3K4dVmXz+6/UgI7Jh+dUi0clcR0dPZfYVhLA8HMv0BZ4PV4Kv65yobalQOEbR6I32uCsI6ZHIIMhssYMqZZTcwF/NW7nS3za/WzfNUducOXoo096+0SwWf8NStdlBDpnzaV9T02YqFDYAOwZWt2Jv/4MzKe7AlSacKxA78ZKBkqryiao8EUqlxoTeZzeSab7pSUaAiQrNqnqJnzqVSkci2/FGJ2S/vzcYi2n2WHY53d19C89mT4L8/XZ9SSbO36Hh4eN8eNgsLxn19QVB6NkSyOPZk4nF3hP2Vk07gyTHzXzevaICNzl5BWfQB24xUb37MgcPbhX2coUW5ua2YR52cxJ6nLqnfbL8fNEwhtLR6OtQneGm2Q9S51Gt9ApfIpPL8o5wIvE9k6TLrIgPjtsgEvmPlgmB5XNu2JIepR1rjsfjmY6OT1mh8JPQg8zyIHLslpIavaWWECVdtSfyP4lVUuyE+qsBvXTon59Jkvbi7a/YcQjaZhiGWNZNdr2njI2kz81tsgjpXV0bKJcLeTpUMSp+//bA9PSFKiamd3Y+Tfl81c9DNbzQoaHbLUKyYdxluKE89E2KckmYcXYNoeRPCRnN+21I0/aHY7G/dFUtr6iwrTZM07zdIlQ0zchqYC87sj4D++MCYxLdjMd+Idc7sGlus7Y93mqxXuf1wKMnF60KgZmjKetNhkBn4bPR8uP8x3r9S3hUOmURYrJ8kRn1d1GuUBBbXQ9r2lt4ir/ywA2zTTcMDrI1DyzXMiFx7KdVNQHPO2v2BtAoFEZzqvpik8/nqPCiLIf1paUD9cQSWFlRfl+ukJhx/h2+Uy8IsdaBnfUI7qIXliqra5sD43pdtedB20zgCJksf8tg/NIOaERG8Jfxgo9ySdoRCga/EbHw46DZMybREWEvVyg8OHhMHxmZQpW63BzxGZCFDd8v6+mGw31jLKBpMYedaLNjbpugz4h8vs+EytFzOOD2oMQf2bAOEW/+K46I13DW7ALO/WbA+Qywh3F7SOLZBOwAAu1yBLNPOD+Em4PVLg5CpKrNOmPiuPf86ttjNSxznpZ8vu7SrxB7DzGeSokD8peGk9QRABV/o0RGuDkI/Rfnah3xGoJieT4JJZPv24NUI9RtB6yXDDJHQwMDeyrjO3pIj0bvRSP+H0s2Gg4EdvOpqXwlofK2FwbshlcrAdd5ruMX614s02G3uOUK4Y78EM4XcWkv69yc1qDP4Fb5MVeUfeKe5OVvJaeenrCezZ5HiTq9wPXYEFjc6E/jxD4SIvocO7imzWItWSabPdAIGSQ38QMgAQJ/QB7HspwLEv3Ak8n5el5CYH34388rOHl3ejnitM2BcByYWSSeRdIUZA2JNfjOhPz+WLUG9YrpZvOhkXejrNeQRIMcR/IE5DgSxyWiBMmy1oL/5UCP9lr/8S92FwqKAZWPVQAAAABJRU5ErkJggg=="
+                        alt="">
+                    <span>售后怎么样</span>
+                </p>
+                <p class="font-12">1个回答</p>
+                <p>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABUlJREFUWAm9WF1oHFUUvndmZ7PZ7Mb4U6k6uyYmJqAYH4I2wZ++CFVELaXFPhT8SR9S65ugPklA8UFLURGFSmihQdBiQYsS2qotpfXFUBTjT5pNdnc2tTW1sTubzW52do7fnbjLzGZnspttvBDm3HO+c84355575244W8NYiEb7iow9xon6iegezthNjPMbEOoqI/qTGLvIOR+XGPsqmEyOQ4aqtoFYtQ1qbw8sFIs7TcZeQtIHavNi4MlngT0UUpR3+fT0tdX8aiKUiUS24BVHUI07VgvoYf9b4vztltbWD/nExJIbzpMQ9fa2ZObn94HIkFuANejPSYqyLTQzc7marysh6upq1fP5E1ieB6s5NqJD0pQkSVtb0F+VcdB3K4dVmXz+6/UgI7Jh+dUi0clcR0dPZfYVhLA8HMv0BZ4PV4Kv65yobalQOEbR6I32uCsI6ZHIIMhssYMqZZTcwF/NW7nS3za/WzfNUducOXoo096+0SwWf8NStdlBDpnzaV9T02YqFDYAOwZWt2Jv/4MzKe7AlSacKxA78ZKBkqryiao8EUqlxoTeZzeSab7pSUaAiQrNqnqJnzqVSkci2/FGJ2S/vzcYi2n2WHY53d19C89mT4L8/XZ9SSbO36Hh4eN8eNgsLxn19QVB6NkSyOPZk4nF3hP2Vk07gyTHzXzevaICNzl5BWfQB24xUb37MgcPbhX2coUW5ua2YR52cxJ6nLqnfbL8fNEwhtLR6OtQneGm2Q9S51Gt9ApfIpPL8o5wIvE9k6TLrIgPjtsgEvmPlgmB5XNu2JIepR1rjsfjmY6OT1mh8JPQg8zyIHLslpIavaWWECVdtSfyP4lVUuyE+qsBvXTon59Jkvbi7a/YcQjaZhiGWNZNdr2njI2kz81tsgjpXV0bKJcLeTpUMSp+//bA9PSFKiamd3Y+Tfl81c9DNbzQoaHbLUKyYdxluKE89E2KckmYcXYNoeRPCRnN+21I0/aHY7G/dFUtr6iwrTZM07zdIlQ0zchqYC87sj4D++MCYxLdjMd+Idc7sGlus7Y93mqxXuf1wKMnF60KgZmjKetNhkBn4bPR8uP8x3r9S3hUOmURYrJ8kRn1d1GuUBBbXQ9r2lt4ir/ywA2zTTcMDrI1DyzXMiFx7KdVNQHPO2v2BtAoFEZzqvpik8/nqPCiLIf1paUD9cQSWFlRfl+ukJhx/h2+Uy8IsdaBnfUI7qIXliqra5sD43pdtedB20zgCJksf8tg/NIOaERG8Jfxgo9ySdoRCga/EbHw46DZMybREWEvVyg8OHhMHxmZQpW63BzxGZCFDd8v6+mGw31jLKBpMYedaLNjbpugz4h8vs+EytFzOOD2oMQf2bAOEW/+K46I13DW7ALO/WbA+Qywh3F7SOLZBOwAAu1yBLNPOD+Em4PVLg5CpKrNOmPiuPf86ttjNSxznpZ8vu7SrxB7DzGeSokD8peGk9QRABV/o0RGuDkI/Rfnah3xGoJieT4JJZPv24NUI9RtB6yXDDJHQwMDeyrjO3pIj0bvRSP+H0s2Gg4EdvOpqXwlofK2FwbshlcrAdd5ruMX614s02G3uOUK4Y78EM4XcWkv69yc1qDP4Fb5MVeUfeKe5OVvJaeenrCezZ5HiTq9wPXYEFjc6E/jxD4SIvocO7imzWItWSabPdAIGSQ38QMgAQJ/QB7HspwLEv3Ak8n5el5CYH34388rOHl3ejnitM2BcByYWSSeRdIUZA2JNfjOhPz+WLUG9YrpZvOhkXejrNeQRIMcR/IE5DgSxyWiBMmy1oL/5UCP9lr/8S92FwqKAZWPVQAAAABJRU5ErkJggg=="
+                        alt="">
+                    <span>售后怎么样</span>
+                </p>
+                <p class="font-12">1个回答</p>
+            </div>
+
+        </div>
+        <!-- 详情 -->
+        <div class="detail">
+            <div class="detail-mask"></div>
+            <div class="detail-tabs">
+                <a href="javascript:;" class="act">图文详情</a>
+                <a href="javascript:;">详细参数</a>
+                <a href="javascript:;">售后保障</a>
+            </div>
+            <!-- 图文详情 -->
+            <div class="detail-img tabs">
+                <img src="images/detail/20180914202208_1630.jpg.webp" alt="">
+                <img src="images/detail/20181107224113_1428.jpg.webp" alt="">
+                <img src="images/detail/20180930193047_8748.jpg.webp" alt="">
+                <img src="images/detail/20181010104553_7016.jpg.webp" alt="">
+                <img src="images/detail/20181010104554_6995.jpg.webp" alt="">
+                <img src="images/detail/20181010104555_6604.jpg.webp" alt="">
+                <img src="images/detail/20181010104610_3104.jpg.webp" alt="">
+                <img src="images/detail/20181010104611_2012.jpg.webp" alt="">
+                <img src="images/detail/20181010104612_2122.jpg.webp" alt="">
+                <img src="images/detail/20181010104622_8580.jpg.webp" alt="">
+                <img src="images/detail/20181010104623_7559.jpg.webp" alt="">
+                <img src="images/detail/20181010104624_7478.jpg.webp" alt="">
+                <img src="images/detail/20181010104635_9953.jpg.webp" alt="">
+                <img src="images/detail/20181010104637_2175.jpg.webp" alt="">
+                <img src="images/detail/20181010104638_0203.jpg.webp" alt="">
+                <img src="images/detail/20181010104649_8652.jpg.webp" alt="">
+                <img src="images/detail/20181010104650_7771.jpg.webp" alt="">
+                <img src="images/detail/20181010104651_7791.jpg.webp" alt="">
+            </div>
+            <!-- 详细参数 -->
+            <div class="detail-params tabs">
+                <div class="params-table-box">
+                    <table>
+                        <tr>
+                            <td>商品名称</td>
+                            <td>
+                                <span>Apple iPhone XS (A2100) 全网通版 金色 64GB </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>品牌</td>
+                            <td>
+                                <a href="#">苹果（Apple）</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="params-table-box">
+                    <div class="params-table-header">显示屏幕</div>
+                    <table>
+                        <tr>
+                            <td>屏幕尺寸</td>
+                            <td>
+                                <span>5.8 英寸</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>主屏分辨率</td>
+                            <td>
+                                <span>2436x1125 像素</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>屏幕像素密度</td>
+                            <td>
+                                <span>458 ppi</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>主屏材质</td>
+                            <td>
+                                <span>OLED</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="params-table-box">
+                    <div class="params-table-header">基本参数</div>
+                    <table>
+                        <tr>
+                            <td>机身内存</td>
+                            <td>
+                                <span>64GB</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>运行内存</td>
+                            <td>
+                                <span>4GB</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>产品特点</td>
+                            <td>
+                                <span>面部识别解锁,无线充电,全面屏,防水防尘,支持NFC</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>网络制式</td>
+                            <td>
+                                <span>4G全网通,移动4G（TD-LTE）,联通4G（TD/FDD-LTE）,电信4G（TD/FDD-LTE）
+                                    ,移动3G（TD-SCDMA）,联通3G（WCDMA）,电信3G（CDMA2000）,移动2G/联通2G（GSM
+                                    ）,单卡
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>CPU型号</td>
+                            <td>
+                                <span>A12 仿生</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>操作系统</td>
+                            <td>
+                                <span>苹果（iOS）</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>核心数</td>
+                            <td>
+                                <span>六核</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>储存卡类型</td>
+                            <td>
+                                <span>不支持</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>SIM卡规格</td>
+                            <td>
+                                <span>单Nano SIM卡</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>机身尺寸</td>
+                            <td>
+                                <span>143.6mm*70.9mm*7.7 mm（长x宽x厚）</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>机身重量</td>
+                            <td>
+                                <span>约177 g</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>手机类型</td>
+                            <td>
+                                <span>4G手机,智能手机</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>上市时间</td>
+                            <td>
+                                <span>2018年9月</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="params-table-box">
+                    <div class="params-table-header">数码相机功能</div>
+                    <table>
+                        <tr>
+                            <td>拍摄特色</td>
+                            <td>
+                                <span>人像模式、双镜头光学图像防抖、六镜式镜头、全景模式、背照式感光元件、混合红外线滤镜、Focus Pixels 自动对焦、Focus Pixels 轻点对焦、智能
+                                    HDR、照片、拍摄广色域的照片和实况照片、局部色调映射功能、先进的红眼校正功能、曝光控制、自动图像防抖功能、连拍快照模式、计时模式、照片地理标记功能等</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>视频拍摄</td>
+                            <td>
+                                <span>4K视频拍摄，30 fps；1080p HD 视频拍摄，30 fps 或 60 fps；720p HD 视频拍摄，30 fps，视频光学图像防抖功能</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>闪光灯</td>
+                            <td>
+                                <span>四LED补光灯</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>前置摄像头像素</td>
+                            <td>
+                                <span>700万像素</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>后置摄像头像素</td>
+                            <td>
+                                <span>1200万像素+1200万像素</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>数码相机感光元件</td>
+                            <td>
+                                <span>CMOS</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>光学防抖</td>
+                            <td>
+                                <span>支持</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>摄像头数量</td>
+                            <td>
+                                <span>三个摄像头</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>数码相机功能</td>
+                            <td>
+                                <span>支持</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="params-table-box">
+                    <div class="params-table-header">主要功能</div>
+                    <table>
+                        <tr>
+                            <td>陀螺仪</td>
+                            <td>
+                                <span>支持</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>电子罗盘</td>
+                            <td>
+                                <span>支持</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>距离感应</td>
+                            <td>
+                                <span>支持</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>光线感应</td>
+                            <td>
+                                <span>支持</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>指纹识别</td>
+                            <td>
+                                <span>不支持</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>重力感应</td>
+                            <td>
+                                <span>支持</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>NFC技术</td>
+                            <td>
+                                <span>支持</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>快速充电</td>
+                            <td>
+                                <span>支持（需使用快速充电器）</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>GPS导航</td>
+                            <td>
+                                <span>内置GPS,支持A-GPS,支持Glonass</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Flash功能</td>
+                            <td>
+                                <span>支持</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>图形格式</td>
+                            <td>
+                                <span>支持JPEG、PNG、BMP等格式</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>视频播放</td>
+                            <td>
+                                <span>支持MP4、AVI、NAVI、HEVC、H.264、MPEG-4 Part 2 与 Motion JPEG等格式</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>音频播放</td>
+                            <td>
+                                <span>支持AAC-LC、HE-AAC、HE-AAC v2、Protected AAC、MP3、Linear PCM、Apple Lossless、FLAC、Dolby
+                                    Digital (AC-3)、Dolby
+                                    Digital Plus (E-AC-3) 与 Audible (格式 2、3、4，Audible Enhanced Audio、AAX 与
+                                    AAX+)等格式</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>耳机接口</td>
+                            <td>
+                                <span>Lightning</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>数据接口</td>
+                            <td>
+                                <span>Lightning</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>WLAN功能</td>
+                            <td>
+                                <span>WiFi</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>蓝牙传输</td>
+                            <td>
+                                <span>蓝牙5.0</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="params-table-box">
+                    <div class="params-table-header">配件</div>
+                    <table>
+                        <tr>
+                            <td>标配电池</td>
+                            <td>
+                                <span>2658mAh</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>电池设计</td>
+                            <td>
+                                <span>内置电池</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- 售后保障 -->
+            <div class="detail-afterService tabs">
+                <div class="params-table-box">
+                    <div class="params-table-header">质保政策</div>
+                    <div class="assurance-table">
+                        <table class="zbzc">
+                            <tbody>
+                                <tr class="firstRow">
+                                    <td rowspan="1" colspan="2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp;
+                                        <strong>九机网手机（含平板）质保政策</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="1" colspan="2">
+                                        <p>根据国家“三包规定”，因制造商产品故障问题，可享受退换质保政策；产品没有故障，则不享受退换政策仅享受保修政策，若因用户原因导致产品故障的，将不在享受质保；因制造商产品故障问题的质保政策为：
+                                        </p>
+                                        <p>
+                                            <strong>7天内</strong>：支持退货、换货、保修；</p>
+                                        <p>
+                                            <strong>8天-15天</strong>：仅支持更换同型号同规格产品或选择保修；&nbsp;</p>
+                                        <p>
+                                            <strong>1</strong>
+                                            <strong>6天-12个月</strong>：仅享受保修。</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="1" colspan="2">
+                                        <strong>九机网依据国家"三包"规定，升级保障客户权益，手机和平板适用，具体质保政策如下：</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong>故障类型</strong>
+                                    </td>
+                                    <td>
+                                        <strong>售后政策</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong>制造商产品故障</strong>
+                                    </td>
+                                    <td>
+                                        <p>
+                                            <strong>7天内</strong>：九机网可为您退补差价更换其它机型；</p>
+                                        <p>
+                                            <strong>8天-15天</strong>：九机网可为您以购机金额的88%进行退款；例：购买机器为2000元，包配完整全新，您还可退回：2000*88%=1760元
+                                        </p>
+                                        <p>
+                                            <strong>16天-12个月</strong>：九机网可为您提供折价退款，自购机之日起，第一个月内退款80%，每多一个月递增扣6%（不足一个月的按照一个月计）例：2个月退还购机金额74%的价格，3个月是68%......
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong>产品没有故障</strong>
+                                    </td>
+                                    <td>
+                                        <p>
+                                            <strong>购机日-15天内</strong>：九机网以购机金额的88%进行折价退款；例：购机为2000元，包配完整全新，您还可以退2000*88%=1760元整；
+                                        </p>
+                                        <p>
+                                            <strong>16天-12个月</strong>：九机网为您提供折价退款，自购机之日起，第一个月内退款80%，每多一个月递增扣6%（不足一个月的按照一个月计）例：2个月退还购机金额74%的价格，3个月是68%......
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <strong>用户原因导致的产品故障</strong>
+                                    </td>
+                                    <td>
+                                        <p>
+                                            <strong>九机网为您提供付费维修或旧机回收服务；</strong>
+                                        </p>
+                                        <p>备注：用户原因导致问题为机器不能保持100%原始状态，包括但不限于屏幕或机身，有刮花、刮伤，软件问题（ROOT、越狱等）和硬件问题（人为摔碰、进液等）及非厂家授权三包的修理者拆动等；
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="1" colspan="2">
+                                        <p>
+                                            <strong>保修细则说明</strong>
+                                        </p>
+                                        <p>1、新机由厂家承保，故障情况与否及故障原因归属问题存在争议的以厂家授权售后检测界定为准；</p>
+                                        <p>2、购机15天内享受退换的商品须保证100%原样退回，存在附件缺失或明显使用痕迹的需叠加折价：充头、数据线、耳机、转接线以九机官网售价或者对应品牌官网售价为准；包装盒:80
+                                            元/件；进网标、保卡和其他：50元/件；
+                                        </p>
+                                        <p>3、附件非人为厂家质保政策为：充电头、数据线、转接线为质保一年（特殊：360、8848品牌为6个月、AGM为3个月；），耳机质保3个月（特殊：苹果、努比亚、黑莓为质保1年），存在差异部分会以厂家售后质保为基准；
+                                        </p>
+                                        <p>4、因制造商产品问题导致的7天内退货，随机器一并购买的该机的壳、膜、九机服务、存储卡可原价退款，其它类配件按九机配件质保政策进行；</p>
+                                        <p>5、平板电脑系列厂家非人为质保部分以厂家保修为准则，具体如：苹果平板：显示屏和主板质保两年；亚马逊平板：显示屏、主板和附带电源适配器质保两年；微软整机和附件配件质保两年；
+                                        </p>
+                                        <p>6、符合《网络购买商品七日无理由退货暂行办法》部分参照国家规定进行退换，厂家售后政策优于以上政策的以厂家售后政策为基准；</p>
+                                        <p>7、制造商产品故障为非人为产品性能故障（三包法），不包括以下所列问题：①产品功能正常无性能故障，但因各品牌厂家的产品配件供应商不同，导致的同样配置机型相同条件下的差异的；包括但不限于屏幕显示色差（冷暖屏），外观颜色，电池厂家不同等；②使用方法差异造成问题的；包括但不限于：软件和系统问题、网络原因、电池耗电速度、发热、手感等问题；③软件导致的非性能故障问题，即为通过软件处理能够排除的问题；④商品外观、网络制式等非性能故障问题进行退换货；
+                                        </p>
+                                        <p>8、涉及有开具过纸质发票的商品退款，需原样退回发票，未在退款时提供的将会叠加暂扣3%退款手续费，发票归还后会做退回。</p>
+                                        <p>
+                                            <strong>※其他未尽事宜，以国家相关“三包规定”、《中华人民共和国消费者权益保护法》或相应品牌厂商授权规定政策处理。</strong>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="params-table-box">
+                    <div class="params-table-header">售后商品注意事项</div>
+                    <table class="normal-table">
+                        <tr>
+                            <td class="argument-only-value">
+                                一、备用机：手机送修期间九机网将为您免费提供备用机（会视情况收取相应押金，机器归还后全额退还），若备用机出现遗失或损坏情况将按备用机出借协议标识的价值或九机网快修维修价格进行承担。
+                                <br>二、九机代送修流程：涉及厂家质保部分，九机可免费为您代送至厂家售后处理，流程为：
+                                <br>故障机器送九机门店→九机送至就近授权服务站点→站点检测维修（或返厂维修）→返回九机门店→通知您取机。
+                                <br>三、手机平板送修所需资料：
+                                <br>（一）购机日-15天：
+                                <br>1. 苹果,美图：整机、保卡、发票；
+                                <br>2. 华为,三星,摩托罗拉,8848,海信,夏普,黑莓,AGM,其他：全套包装、发票；
+                                <br>3. OPPO,VIVO,金立,魅族,锤子,诺基亚,HTC,索尼,中兴,360,酷派,联想,小米,努比亚,一加：整机、保卡。
+                                <br>（二）16天-12个月：
+                                <br>1. 苹果：整机、保卡、发票；
+                                <br>2. 小米，三星，美图，OPPO，VIVO，金立：整机、保卡；
+                                <br>3. 华为，魅族，锤子，诺基亚，海信，夏普，黑莓，AGM，摩托罗拉，8848，努比亚，一加，HTC，索尼，中兴，360，酷派，联想：整机。
+                                <br>（三）附件质保：
+                                <br>1. 苹果：整机、保卡、发票；
+                                <br>2. 华为，小米，三星，努比亚，一加:整机、附件；
+                                <br>3. 魅族，锤子，诺基亚，HTC，索尼，中兴，360，酷派，联想，摩托罗拉，8848，海信，夏普，黑莓，AGM，OPPO，VIVO，金立：保卡、附件。
+                                <br>四、制造商故障不包括（三包法）：
+                                <br>1. 产品功能正常无性能故障，但因各品牌厂家的产品配件供应商不同，导致的同样配置机型相同条件下的差异的；包括但不限于屏幕显示色差（冷暖屏），颜色差异，电池厂家不同等；
+                                <br>2. 使用方法差异造成的问题；包括但不限于：软件问题和系统问题、网络原因、电池耗电速度、发热、手感等问题；(软件导致的非性能故障问题，即为通过软件处理能够排除的问题)；
+                                <br>3. 商品外观、网络制式等非性能故障问题进行退换货。
+                                <br>五、数据安全：在申请退换货/送修/软件升级前需自行对设备上的重要数据进行备份、解除相关ID密码、退出重要软件。九机可为您提供免费资料备份互导服务。
+                                <br>六、取机时效：九机网取机时效为60天：即通知取机日起60天内，未取机的，将视为自动放弃该设备的所有权，同意我司按照无人认领来进行处置。
+                                <br>七、退款问题：符合退款商品，九机网会全款退换，包括购机时使用的九机币、积分、优惠码将全部返回（优惠码为新生成，有效使用期7天）。
+                                <br>八、优品良品机说明：一手优品和二手良品商品特殊，仅提供退款，不可换货。出现《移动电话机商品性能故障表》所列性能故障的，消费者可以选择修理。
+                                <br>九、邮寄商品外观问题：邮寄购买用户需在收件后
+                                ，先对商品外观验收再激活，存在外观瑕疵的须在未激活的24小时内反馈至九机网，超24h未反馈的，将不再就商品外观问题进行保障。
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="params-table-box">
+                    <div class="params-table-header">品牌厂家信息</div>
+                    <table class="normal-table">
+                        <tr>
+                            <td class="bor-r">品牌厂家网站</td>
+                            <td>
+                                <a href="https://www.apple.com/cn/">https://www.apple.com/cn/</a>
+                            </td>
+                        </tr>
+                        <tr class="bor-b">
+                            <td class="bor-r">厂家服务电话</td>
+                            <td>
+                                <a href="tel:4006668800">400-666-8800</a>
+                            </td>
+                        </tr>
+                    </table>
+
+
+                </div>
+                <div class="params-table-box last">
+                    <div class="params-table-header  tit">离你最近的九机维修点</div>
+                    <div class="repairPoint-wrapper">
+                        <div>
+                            <span>九机网佰腾店</span>
+                        </div>
+                        <div class="repairPoint">
+                            地址：昆明市五华区圆通北路127号云大晟苑5楼 [除夕休息，02月05日至02月08日营业时间：10:00-19:00，02月09日开始正常营业。]
+                        </div>
+                        <div class="addr">
+                            <div>
+                                <a href="https://m.9ji.com/stores/location/1">
+                                    <i class="iconfont">&#xe604;</i>
+                                    <span>到这里去</span>
+                                </a>
+                                <a href="tel:0871-65141852" class="mar-l">
+                                    <i class="iconfont">&#xe613;</i>
+                                    <span>拨打电话</span>
+                                </a>
+                            </div>
+                            <a href="https://m.9ji.com/after-service/repairShop">查看更多维修点
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 看了又看 -->
+        <div class="look-see">
+            <img src="images/detail/2222.png" alt="">
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/detail/20190116171224946.jpg" alt="">
+                    </a>
+                    <p>Apple iPhone XS Max (A2104) 全网通版金色 64GB </p>
+                    <div class="price">
+                        <span>￥8799.00</span>
+                        <a href="javascript:;">
+                            <i class="iconfont">&#xe60b;</i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/detail/20190116164007470.jpg" alt="">
+                    </a>
+                    <p>Apple iPhone XS Max (A2104) 全网通版金色 64GB </p>
+                    <div class="price">
+                        <span>￥8799.00</span>
+                        <a href="javascript:;">
+                            <i class="iconfont">&#xe60b;</i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/detail/20190121110200375.jpg" alt="">
+                    </a>
+                    <p>Apple iPhone XS Max (A2104) 全网通版金色 64GB </p>
+                    <div class="price">
+                        <span>￥8799.00</span>
+                        <a href="javascript:;">
+                            <i class="iconfont">&#xe60b;</i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/detail/20190121110200375.jpg" alt="">
+                    </a>
+                    <p>Apple iPhone XS Max (A2104) 全网通版金色 64GB </p>
+                    <div class="price">
+                        <span>￥8799.00</span>
+                        <a href="javascript:;">
+                            <i class="iconfont">&#xe60b;</i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/detail/20190116164357105.jpg" alt="">
+                    </a>
+                    <p>Apple iPhone XS Max (A2104) 全网通版金色 64GB </p>
+                    <div class="price">
+                        <span>￥8799.00</span>
+                        <a href="javascript:;">
+                            <i class="iconfont">&#xe60b;</i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/detail/20190116164038756.jpg" alt="">
+                    </a>
+                    <p>Apple iPhone XS Max (A2104) 全网通版金色 64GB </p>
+                    <div class="price">
+                        <span>￥8799.00</span>
+                        <a href="javascript:;">
+                            <i class="iconfont">&#xe60b;</i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <div class="mask-wrapper">
+        <!-- banner视图弹窗 -->
+        <!-- 3D视图弹窗 -->
+        <div class="ban-mask"></div>
+        <div class="ban-3d">
+            <div class="ban-3d-tit">
+                <span>3D视图</span>
+                <a href="javascript:;">
+                    <b>x</b>
+                </a>
+            </div>
+            <div class="ban-3d-img">
+                <!-- <img src="images/detail/1.jpg" alt=""> -->
+            </div>
+            <div class="ban-3d-tit2">左右滑动查看3D视图</div>
+        </div>
+    </div>
+    <!-- footer底部 -->
+    <footer>
+        <div class="flex">
+            <a href="javascript:;">
+                <img src="data:image/png;base64,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"
+                    alt="">
+                <span>客服</span>
+            </a>
+            <a href="javascript:;">
+                <!-- <i class="iconfont">&#xe676;</i> -->
+                <img src="data:image/png;base64,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"
+                    alt="">
+                <span>收藏</span>
+            </a>
+            <a href="javascript:;">
+                <img src="data:image/png;base64,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"
+                    alt="">
+                <span>购物车</span>
+            </a>
+        </div>
+        <div class="footer-submit flex">
+            <a href="javascript:;">
+                <span>加入购物车</span>
+            </a>
+            <a href="javascript:;" class="last">
+                <span>立即购买</span>
+            </a>
+        </div>
+    </footer>
+    <!-- 返回顶部 -->
+    <div class="go-top">
+        <img src="data:image/png;base64,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"
+            alt="">
+    </div>
+</body>
+<script src="./js/base.js"></script>
+<script src="./js/zepto.min.js"></script>
+<script src="./js/ejs.js"></script>
+<script src="./js/touch.js"></script>
+<script src="./js/fastclick.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script src="./js/detail.js"></script>
+</html>

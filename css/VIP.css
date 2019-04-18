@@ -1,0 +1,817 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+html{
+    font-size: 100px;
+}
+@media (min-width:320px){
+    html {
+        font-size:42.67px;
+    } 
+}
+@media (min-width:360px){
+    html {
+        font-size:48px;
+    }
+}
+@media (min-width:375px){
+    html {
+        font-size:50px;
+    }
+}
+@media (min-width:414px){
+    html {
+        font-size:55.2px;
+    }
+}
+/* 头部开始 */
+header {
+    width: 7.5rem;
+    border-bottom: .1rem solid #f5f5f5;
+}
+header .wrapper {
+    width: 7.5rem;
+    position: relative;
+    z-index: 1;
+}
+header .wrapper .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 7.5rem;
+    height: 0.88rem;
+    background-color: rgba(0, 0, 0, 0);
+    background: url(../images/img-buttom/red.png) no-repeat top;
+}
+header .wrapper .main .left {
+    height: 0.88rem;
+    width: .88rem;
+}
+header .wrapper .main .left a {
+    color: #333;
+    text-decoration: none;
+}
+header .wrapper .main .left .button {
+    height: .88rem;
+    width: .88rem;
+    box-sizing: border-box;
+}
+header .wrapper .main .left .button .iconfont {
+    color: #fff;
+    height: .66rem;
+    width: .66rem;
+    line-height: .88rem;
+    vertical-align: top;
+    font-size: .4rem;
+    display: inline-block;
+}
+header .wrapper .main .left .button .back-text {
+    margin-left: .05rem;
+    font-size: .16rem;
+}
+header .wrapper .main .title {
+    width: 5.74rem;
+    height: 0.88rem;
+    left: .88rem;
+    right: .88rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .wrapper .main .title .line-1 {
+    font-size: .3rem;
+    font-weight: 400;
+    line-height: 2.5;
+    height: .762rem;
+}
+header .wrapper .main .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .88rem;
+    width: .88rem;
+}
+header .wrapper .main .right a {
+    color: #fff;
+    height: .44rem;
+    width: .44rem;
+}
+header .wrapper .main .right a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: .44rem;
+    height: .44rem;
+}
+header .wrapper .main .right a .icon {
+    background: url(../images/img-buttom/tubiao.png) no-repeat;
+    background-size: 100% 100%;
+}
+header .top-bg {
+    background: url('../images/img-buttom/red.png') no-repeat top;
+    background-size: cover;
+    width: 7.5rem;
+    height: 1.8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+header .width-bg {
+    background-color: #f5f5f5;
+    background-color: #fff;
+    margin-bottom: .1rem;
+}
+header .width-bg .userinfo {
+    border-radius: .08rem;
+    box-shadow: 0 .01rem .1rem 0 rgba(0,0,0,.08);
+    background: #fff;
+    margin: .1rem .15rem;
+    padding: 0 .1rem;
+    box-sizing: border-box;
+}
+header .width-bg .relative {
+    position: relative;
+}
+header .width-bg .userinfo .member {
+    padding: .2rem 0 .15rem;
+}
+header .width-bg .userinfo .flex {
+    display: flex;
+}
+header a {
+    color: #333;
+    text-decoration: none;
+}
+header .width-bg .userinfo .member .img {
+    width: .58rem;
+    height: .58rem;
+    border-radius: 50%;
+    border: .03rem solid #fff;
+    box-shadow: 0 .02rem .04rem .01rem rgba(0,0,0,.1);
+    margin-right: .1rem;
+}
+header .width-bg .userinfo .member .flex-clo {
+    flex-direction: column;
+}
+header .width-bg .userinfo .member .flex-clo .font-1 {
+    margin-bottom: .06rem;
+    margin-top: .03rem;
+    font-size: .25rem;
+}
+header .width-bg .userinfo .member .flex-clo .flex {
+    display: flex;
+}
+header .width-bg .userinfo .member .flex-clo .flex .flex-center {
+    justify-content: center;
+    align-items: center;
+}
+header .width-bg .userinfo .member .flex-clo .flex .flex-center img {
+    width: .3rem;
+    height: .3rem;
+    vertical-align: top;
+}
+header .width-bg .userinfo .member .flex-clo .flex .flex-center span {
+    font-size: .12rem;
+}
+header .width-bg .userinfo .member .flex-clo .flex .margin-left {
+    margin-left: .1rem;
+} 
+header .width-bg .userinfo .member .flex-clo .flex .flex-center .mr-1 {
+    margin-right: .05rem;
+}
+header .width-bg .userinfo .member .flex-clo .font-2 {
+    font-size: .12rem;
+}
+header .width-bg .userinfo .member .flex-clo .mt-1 {
+    margin-top: .05rem;
+    color: #9c9c9c;
+}
+header .width-bg .userinfo .property {
+    padding-bottom: .2rem;
+}
+header .width-bg .userinfo .property .flex-child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header .width-bg .userinfo .property .flex-child .blod {
+    font-weight: 700;
+    font-size: .18rem;
+    margin-bottom: .05rem;
+}
+header .width-bg .userinfo .property .flex-child .font-2 {
+    font-size: .12rem;
+}
+header .width-bg .userinfo .sign {
+    padding: .07rem .1rem;
+    background: #f21c1c;
+    border-radius: .12rem 0 0 .12rem;
+    color: #fff;
+    font-size: .12rem;
+    position: absolute;
+    right: 0;
+    top: .2rem;
+}
+header .width-bg .privilege {
+    padding: .2rem 0 .15rem;
+}
+header .width-bg .privilege {
+    width: 7.5rem;
+}
+header .width-bg .privilege .flex {
+    padding: 0px .15rem;
+    margin-bottom: .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .width-bg .privilege .flex .font-3 {
+    font-size: .3rem;
+}
+header .width-bg .privilege .flex .flex-align-center {
+    display: flex;
+    align-items: center;
+}
+header .width-bg .privilege .flex .flex-align-center .font-4 {
+    font-size: .14rem;
+    color: #9c9c9c;
+}
+header .width-bg .privilege .flex .flex-align-center .iconfont {
+    margin-left: .05rem;
+    font-size: .18rem;
+    color: #9c9c9c;
+}
+header .width-bg .privilege .privilege-list {
+    padding: 0 .7rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 1rem;
+}
+header .width-bg .privilege .privilege-list .full-height {
+    width: 3.2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .width-bg .privilege .privilege-list .full-height .privilege-item {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header .width-bg .privilege .privilege-list .full-height .privilege-item img{
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%;
+}
+header .width-bg .privilege .privilege-list .full-height .privilege-item .font-2 {
+    padding-left: .5rem;
+    width: 1.2rem;
+    font-size: .12rem;
+}
+/* 头部结束 */
+/* banner图开始 */
+.swiper-container {
+    width: 7.5rem;
+    height: 2.4rem;
+    padding: .2rem 0;
+    margin-bottom: .1rem;
+    overflow: hidden;
+}
+.swiper-container .swiper-wrapper .swiper-slide {
+    width:  4rem;
+    height: 100%;
+}
+.swiper-container .swiper-wrapper .swiper-slide .swiper-item {
+    border-radius: .08rem;
+    overflow: hidden;
+    display: block;
+    width:  4rem;
+    height: 100%;
+}
+.swiper-container .swiper-wrapper .swiper-slide .swiper-item img{
+    vertical-align: top;
+    width:  4rem;
+    height: 100%;
+}
+/* banner图结束 */
+/* 限时兑好物开始 */
+.nice {
+    width: 7.5rem;
+    overflow: hidden;
+}
+.nice .data {
+    width: 100%;
+    height: .1rem;
+    background-color: #f5f5f5;
+}
+.nice .font-3 {
+    color: rgb(0, 0, 0);
+    margin-bottom: .15rem;
+    font-size: .3rem;
+    padding: .2rem .15rem;
+}
+.nice .rush-wrapper {
+    box-shadow: 0 .02rem .1rem 0 rgba(0,0,0,.08);
+    border-radius: .05rem;
+    width: 7.5rem;
+    height: 2rem;
+    background: url(../images/img-buttom/103.png) no-repeat 0 0;
+    background-size: auto 110%;
+    justify-content: space-between;
+}
+.nice .flex {
+    display: flex;
+}
+.nice .rush-wrapper .rush-time {
+    width: 1.45rem;
+    height: 2.2rem;
+    box-sizing: border-box;
+    padding: .1rem 0;
+}
+.nice .rush-wrapper .flex-col {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nice .rush-wrapper .rush-time .font-2 {
+    font-size: .12rem;
+    text-align: center;
+    color: #fff;
+}
+.nice .rush-wrapper .rush-time .line-height {
+    line-height: 1.5;
+}
+.nice .rush-wrapper .rush-time .font-1 {
+    opacity: 0.6;
+    margin-top: .06rem;
+    color: #fff;
+    font-size: .1rem;
+}
+.nice .rush-wrapper .rush-time .margin-top {
+    margin-top: .2rem;
+}
+.nice .rush-wrapper .rush-time .timer {
+    margin-top: .1rem;
+    width: 1.2rem;
+    height: .3rem;
+    line-height: .3rem;
+    background: #fff;
+    text-align: center;
+    border-radius: .03rem;
+    font-size: .12rem;
+    color: #f21c1c;
+}
+.nice .rush-wrapper .rush-time .timer em {
+    font-style: normal;
+}
+.nice .rush-wrapper .rush-goods {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border-radius: 0 .05rem .05rem 0;
+    width: 4.5rem;
+    height: 2rem;
+}
+.nice .rush-wrapper .flex-child {
+    flex: 1;
+}
+.nice .rush-wrapper .rush-goods .full-height {
+    width: 20rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: .05rem;
+}
+.nice .rush-wrapper .rush-goods .flex a {
+    color: #333;
+    text-decoration: none;
+}
+.nice .rush-wrapper .rush-goods .flex .goodes-item {
+    width: 1.5rem;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0 .05rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.nice .rush-wrapper .rush-goods .flex .goodes-item .ellipses {
+    width: 1.5rem;
+    height: .3rem;
+    font-size: .13rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.nice .rush-wrapper .rush-goods .flex .goodes-item .point {
+    color: #f21c1c;
+    font-size: .13rem;
+}
+.nice .rush-wrapper .rush-goods .flex .goodes-item img {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: top;
+}
+.nice .rush-wrapper .rush-goods .flex .goodes-item .change-btn {
+    width: .8rem;
+    height: .2rem;
+    border-radius: .1rem;
+    background-color: #ff0909;
+    line-height: .2rem;
+    text-align: center;
+    font-size: .12rem;
+    color: #fff;
+}
+/* 限时兑好物结束 */
+/* 许愿池开始 */
+.nice {
+    width: 7.5rem;
+}
+.nice .data {
+    width: 100%;
+    height: .1rem;
+    background-color: #f5f5f5;
+}
+.nice .moudle {
+    width: 7.5rem;
+    padding: .2rem;
+}
+.nice .margin-bottom {
+    margin-bottom: .1rem;
+}
+.nice .moudle .wishes-box{
+    height: 1.5rem;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: .08rem;
+    box-shadow: 0 .02rem .1rem 0 rgba(0,0,0,.08);
+    margin: 0 .15rem;
+}
+.nice .moudle .wishes-box .wishes {
+    height: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nice .moudle .wishes-box .wishes .wish-title{
+    width: 2.6rem;
+    height: 0.32rem;
+    position: relative;
+    /* padding: 0 .1rem; */
+    line-height: 2;
+}
+.nice .moudle .wishes-box .wishes .wish-title .font-4 {
+    font-size: .12rem;
+}
+.nice .moudle .wishes-box .wishes .wish-title .font-4 .main {
+    color: #f21c1c;
+}
+.nice .moudle .wishes-box .wishes .wish-title .font-4 .font-2 {
+    color: #9c9c9c;
+    margin-top: .05rem;
+    font-size: .12rem;
+    font-weight: normal;
+}
+.nice .moudle .wishes-box .wishes .wish-title:after {
+    bottom: 0;
+    top: 0;
+    right: 0;
+    border-right: .01rem solid #dfdfdf;
+    content: "";
+    position: absolute;
+    transform: scaleX(.5);
+    transform-origin: 0 0;
+}
+.nice .moudle .wishes-box .wishes .swiper-container {
+    height: 1rem;
+    margin-bottom: -.6rem;
+    overflow: hidden;
+    flex-grow: 1;
+}
+.nice .moudle .wishes-box .wishes .swiper-container .swiper-wrapper {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+.nice .moudle .wishes-box .wishes .swiper-container .swiper-wrapper .swiper-slide {
+    font-size: .12rem;
+    height: 1.2rem;
+    padding: 0 .1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nice .moudle .wishes-box .wishes .swiper-container .swiper-wrapper .swiper-slide .mt-5 {
+    font-size: .12rem;
+    margin-top: .05rem;
+    line-height: 1.3;
+    height: .3rem;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.nice .moudle .wishes-box .wishes .show-wish {
+    border: .01rem solid #9c9c9c;
+    height: .4rem;
+    width: 1.2rem;
+    border-radius: .24rem;
+    margin-right: .2rem;
+    margin-bottom: -.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nice .moudle .wishes-box .wishes a {
+    color: #333;
+    text-decoration: none;
+    font-size: .12rem;
+}
+.nice .moudle .wishes-box .wishes .show-wish .iconfont {
+    margin-top: .1rem;
+    font-size: .12rem;
+}
+
+/* 许愿池结束 */
+/* 惊喜开始 */
+.nice .flexx {
+    height: 1.5rem;
+    padding: .15rem .1rem;
+    margin-bottom: .1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nice .flexx .active-menu {
+    margin-bottom: .3rem;
+    width: 50%;
+}
+.nice .flexx .active-menu .flex-center {
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-left: .01rem dashed #9c9c9c;
+}
+.nice .flexx .active-menu .flex-center img {
+    width: .66rem;
+    height: .66rem;
+    margin-right: .05rem;
+    border-radius: 50%;
+    vertical-align: top;
+}
+.nice .flexx .active-menu .flex-center .flex-c {
+    width: 3.475rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.nice .flexx .active-menu .flex-center .flex-c .font-5 {
+    margin-bottom: .05rem;
+    font-size: .16rem;
+}
+.nice .flexx .active-menu .flex-center .flex-c .font-2 {
+    font-size: .12rem;
+}
+/* 惊喜结束 */
+/* 会员福利趴开始 */
+
+.nice .relative {
+    position: relative;
+}
+.nice .relative .slide-tab {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 100%;
+}
+.nice .relative .slide-tab .tab {
+    padding: 0 .15rem;
+    width: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nice .relative .slide-tab .tab a {
+    font-size: .16rem;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nice .relative .slide-tab .tab .cur {
+    width: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nice .relative .slide-tab .tab .cur .bold {
+    border-bottom: .02rem solid #f21c1c;
+    color: #f21c1c;
+    height: .44rem;
+    display: block;
+    height: 100%;
+    line-height: .44rem;
+    font-weight: 700;
+}
+.nice .relative .mask-left {
+    left: 0;
+    background: linear-gradient(90deg,#fff,hsla(0,0%,100%,0));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: .25rem;
+    pointer-events: none;
+}
+.nice .relative .mask-right {
+    right: 0;
+    background: linear-gradient(90deg,hsla(0,0%,100%,0),#fff);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: .25rem;
+    pointer-events: none;
+}
+.nice .relative::after {
+    content: "";
+    transform: scaleY(.5);
+    transform-origin: 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: .01rem solid #dfdfdf;
+}
+.nice .cont {
+    width: 7.5rem;
+    height: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nice .sale-product {
+    padding: 0 .15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nice .sale-product a {
+    color: #333;
+    text-decoration: none;
+}
+.nice .sale-product .sale-item {
+    width: 48%;
+    margin-top: .15rem;
+    box-shadow: 0 .02rem .1rem 0 rgba(0,0,0,.08);
+    padding-bottom: .1rem;
+}
+.nice .sale-product .sale-item img {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.nice .sale-product .sale-item .pro-title {
+    margin-bottom: .1rem;
+    font-size: .12rem;
+    margin: .05rem .1rem;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    -webkit-line-clamp: 1;
+    line-height: 1.3;
+}
+.nice .sale-product .sale-item .pro-price {
+    font-size: .12rem;
+    margin: .1rem .1rem 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.nice .sale-product .sale-item .pro-price .pice {
+    line-height: 1.3;
+    color: #f21c1c;
+}
+.nice .sale-product .sale-item .pro-price .btn {
+    color: #f21c1c;
+    height: .3rem;
+    border: .01rem solid #f21c1c;
+    background: rgba(242,28,28,.1);
+    border-radius: .2rem;
+    padding: 0 .08rem;
+    line-height: .3rem;
+    color: #f21c1c;
+    font-size: .12rem;
+}
+/* 会员福利趴结束 */
+/* 结尾开始 */
+.nice .flex {
+    /* padding: 0px .15rem; */
+    margin-bottom: .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nice .flex .font-5 {
+    padding: .2rem .15rem;
+    font-size: .14rem;
+}
+.nice .flex .flex-align-center {
+    display: flex;
+    align-items: center;
+}
+.nice .flex .flex-align-center .font-6 {
+    font-size: .12rem;
+    color: #9c9c9c;
+}
+.nice .flex .flex-align-center .iconfont {
+    margin-left: .05rem;
+    font-size: .18rem;
+    color: #9c9c9c;
+}
+.nice .coupon-list {
+    width: 7.5rem;
+}
+.nice .coupon-list .coupon-item {
+    margin: .15rem .15rem 0;
+    display: flex;
+}
+.nice .coupon-list .coupon-item .bg {
+    width: 1.08rem;
+    height: 1.5rem;
+    background: url(../images/img-buttom/102.png) no-repeat 50%;
+    background-size: cover;
+    padding: 0 .1rem;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.nice .coupon-list .coupon-item .bg .pricer {
+    font-size: .12rem;
+    color: #fff;
+}
+.nice .coupon-list .coupon-item .bg .pricer span {
+    font-size: .16rem;
+    color: #fff;
+}
+.nice .coupon-list .coupon-item .bg p {
+    font-size: .12rem;
+    text-align: right;
+    word-break: normal;
+}
+.nice .coupon-list .coupon-item .main {
+    box-shadow: 0 0 .08rem #e0e0e0;
+    background: #fff;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nice .coupon-list .coupon-item .main .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.nice .coupon-list .coupon-item .main .txt p {
+    font-size: .12rem;
+    margin: .05rem 0;
+}
+.nice .coupon-list .coupon-item .main .txt .font-7 {
+    font-size: .16rem;
+}
+.nice .coupon-list .coupon-item .main a {
+    font-size: .12rem;
+    width: .24rem;
+    height: 1rem;
+    line-height: .25rem;
+    text-align: center;
+    display: block;
+    border: 1px solid #f21c1c;
+    color: #f21c1c;
+    border-radius: .24rem;
+    padding: .05rem 0;
+    margin: 0 .1rem;
+    text-decoration: none;
+}
+/* 结尾结束 */

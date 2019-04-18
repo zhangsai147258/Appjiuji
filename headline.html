@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Animate.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">   
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/headline.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header-bottom.css">
+    <link rel="stylesheet" href="css/gcss/iconfont.css">
+    <script src="js/zepto.min.js"></script>
+    <script src="js/base.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/cityChoice.js"></script>
+
+</head>
+
+<body>
+<div class="gt">
+        <div class="search">
+            <!-- 地址开始 -->
+            <section class="adminBox">
+          
+              <div class="cityChoice">
+                <!-- <h3>点击输入框选择内容</h3> -->
+                <i class="iconfont  icon-dizhi fl"></i>
+                <input type="text" class="cityInput" v-model.trim='cityInputVal' v-on:click='cityPatFun' placeholder="选择城市" />
+              </div>
+              <com-citychoice ref="city" v-on:tochildevent='cityjs'></com-citychoice>
+            </section>
+          
+            <!-- 地址结束 -->
+            <div class="line"></div>
+            <a href="" class="sea">
+          
+              <i class="iconfont  icon-sousuo"></i>
+              <span>iPhone XS Max</span>
+            </a>
+          </div>
+    </div>
+<!-- 顶部轮播图开始 -->
+    <div id="banner" class="swiper-container swiper-container-horizontal swiper-container-ios">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide-duplicate">
+                <img src="images/good/10.jpg">
+                <h2>首创真无孔无按键！魅族zero来袭</h2>
+            </div>
+            <div class="swiper-slide">
+                <a href="" target="_blank">
+                    <img src="images/good/10.jpg">
+                    <h2>首创真无孔无按键！魅族zero来袭</h2>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="" target="_blank">
+                    <img src="images/good/6.jpg">
+                    <h2>小米首款双折叠屏手机来袭！</h2>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="" target="_blank">
+                    <img src="images/good/7.jpg">
+                    <h2>云南华为与九机战略合作签约仪式圆满落地</h2>
+                </a>
+            </div>
+
+            <div class="swiper-slide">
+                <img src="images/good/8.jpg">
+                <h2>999元起，红米Note7新品发布</h2>
+            </div>
+            <div class="swiper-slide">
+                <a href="" target="_blank">
+                    <img src="images/good/9.jpg">
+                    <h2>省委常委、常务副省长宗国英到九机指导工作</h2>
+                </a>
+            </div>
+        </div>
+        <div class="pagination ">
+            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+        </div>
+    </div>
+    <!-- 顶部轮播图结束 -->
+    <!-- 文按开始 -->
+    <div class="floor-news">
+        <ul class="new-item">
+            <li>
+                <div class="item-picter">
+                    <img src="images/good/11.jpg" alt="">
+                </div>
+                <div class="item-meal">
+                    <p>九机网2019年春节期间运营公告</p>
+                    <div class="user">
+                        <span>九机营销中心</span>
+                        <span>10978阅读</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-picter">
+                    <img src="images/good/12.png" alt="">
+                </div>
+                <div class="item-meal">
+                    <p>荣耀V20新品发布，2999起售！</p>
+                    <div class="user">
+                        <span>九机营销中心</span>
+                        <span>10978阅读</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-picter">
+                    <img src="images/good/13.png" alt="">
+                </div>
+                <div class="item-meal">
+                    <p>小米Play新品发布，自带流量，1099元起售！</p>
+                    <div class="user">
+                        <span>九机营销中心</span>
+                        <span>10978阅读</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-picter">
+                    <img src="images/good/15.png" alt="">
+                </div>
+                <div class="item-meal">
+                    <p>3099元起，华为nova4发布！</p>
+                    <div class="user">
+                        <span>九机营销中心</span>
+                        <span>10978阅读</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="big-pic">
+            <img src="images/good/14.jpg" alt="">
+            <div class="new-big-title">
+                <span>【新品】全新系列MateBook 13</span>
+            </div>
+        </div>
+    </div>
+<!-- 文案结束 -->
+<!-- 底部菜单 -->
+    <div class="gmenu">
+        <a href="index.html">
+            <img src="images/gimg/index@2x.png" alt="">
+            <p>首页</p>
+        </a>
+        <a href="classify.html">
+            <img src="images/gimg/fenlei@2x.png" alt="">
+            <p>分类</p>
+        </a>
+        <a href="#">
+            <img src="images/gimg/magssage@2x.png" alt="">
+            <p>消息</p>
+        </a>
+        <a href="shopCar.html">
+            <img src="images/gimg/gouwuche@2x.png" alt="">
+           
+            <p>购物车</p>
+        </a>
+        <a href="user.html">
+            <img src="images/gimg/mine@2x.png" alt="">
+            <p>我的</p>
+        </a>
+        
+    </div>
+    <script src="js/swiper.min.js"></script>
+</body>
+<script src="js/headline.js"></script>
+<script>
+    $(function () {
+        $('.gmenu a').click(function() {
+            var i = $(this).index();//下标        
+            $(this).children('p').addClass('fontcolor').parent().siblings().children('p').removeClass('fontcolor');
+         
+        });  
+    })
+        
+
+</script>
+<script>
+        new Vue({
+          el:'.adminBox',
+          data:{
+            cityInputVal:'',
+          },
+          methods:{
+            cityPatFun:function(){
+              this.$refs.city.cityFun();
+            },
+            cityjs:function(data){
+              this.cityInputVal=data;              
+            }
+          }
+        })
+      </script>
+
+</html>

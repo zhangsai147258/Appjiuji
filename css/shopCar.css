@@ -1,0 +1,413 @@
+html{
+    font-size: 100px;
+    height: 100%;
+}
+body{
+    background: #f0f0f0;
+    height: 100%;
+    font-size: .28rem;
+}
+*{
+    box-sizing: border-box;
+}
+/* 头部开始 */
+header.car-head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 110;
+    width: 7.5rem;
+    height: .88rem;
+    background-color: #f72325;
+    color: #fff;
+    line-height: .88rem;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between
+}
+.car-head .car-left,.car-head .car-right,.car-head .car-right2{
+    margin: 0 .2rem;
+}
+.car-head .car-middle{
+    font-size: .36rem;
+}
+.car-head .car-none{
+    display: none;
+}
+.car-main{
+    width: 7.5rem;
+}
+/* 头部结束 */
+/* 背景图开始 */
+.car-pic{
+    position: relative;
+    width:7.5rem;
+    height: 2.625rem;
+}
+.car-pic .pic-box{
+    position: absolute;
+    top:0;
+    left: 0;;
+    width: 100%;
+    height: 2.625rem;
+    background: url(../images/car/car13.png) no-repeat 0 0;
+    background-size: cover;
+}
+.car-pic .car-mess{
+    position: absolute;
+    top:1rem;
+    left: .2rem;
+    color: #fff;
+}
+.car-pic .car-mess .car{
+    font-size: .36rem;
+}
+.car-pic .car-mess span{
+    display: inline-block;
+    width:.3rem;
+    text-align: center;
+}
+/* 背景图结束 */
+/* 购物车商品列表开始 */
+.car-list{
+    position: relative;
+    margin-top: -.5rem;
+    z-index: 1;
+}
+.car-list ul{
+    width: 6.94rem;
+    height: 2.56rem;
+    background-color: #fff;
+    margin: 0 auto;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 .04rem .2rem 0 rgba(0,0,0,.08);
+    border-radius: .08rem;
+    margin-bottom: .3rem;
+    padding: 0 .1rem;
+}
+.list-shop span{
+    background-color: aquamarine;
+    display: block;
+    border: .02rem solid #ccc;
+    width: .4rem;
+    height: .4rem;
+    border-radius: 100%;
+    outline: 0;
+    /* -webkit-appearance: checkbox; */
+}
+.car-list .list-shop{
+    height: .32rem;
+    width: .32rem;
+    margin-top: -.35rem;/* 和照片对齐 */
+}
+.car-list .lab-xuan,.car-foot .lab-foot{
+    position: relative;
+    cursor: default;
+    overflow: hidden;
+}
+.car-list .checkSingle,.car-foot .checkAll{
+    outline: none;
+    border: none !important;
+    display: inline-block;
+    width: .32rem;
+    height: .22rem;
+    box-shadow: none !important;
+    font-size: 100%;
+    vertical-align: middle;
+}
+.car-list .checkSingle:after,.car-foot .checkAll:after{
+    content: '';
+    background: #fff;
+    background-position: center top;
+    width: .32rem;
+    height:.32rem;
+    position: absolute;
+    top: .02rem !important;
+    left: 0 !important;
+    background-size: .32rem;
+    background-repeat: no-repeat;
+    background-image: url(../images/car/car14.png);
+}
+.car-list .checkSingle:checked:after,.car-foot .checkAll:checked:after{
+    content: '';
+    background-position: center bottom;
+    position: absolute;
+    height: .32rem;
+    width: .32rem;
+    box-shadow: none !important;
+}
+.car-list .car-box{
+    width:1.8rem;
+    height: 2rem;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.car-list .car-img{
+    font-size: 0;
+}
+.car-list .car-img img{
+    width: 1.4rem;
+    height: 1.4rem;
+    vertical-align: middle;
+}
+.car-list .car-serve {
+    margin-left: .2rem;
+    transform: scale(.8);
+}
+.car-list .car-serve i{
+    font-size: .28rem;
+    color: #f72325;
+}
+.car-list .car-serve span{
+    font-size: .26rem;
+}
+.car-list .car-intro{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:4.3rem;
+    height: 2rem;   
+}
+.car-list .car-name{
+    width: 4.3rem;
+    height: .84rem;
+    margin-bottom: .2rem;
+}
+.car-list .sin-price1,.car-list .sin-price{
+    color: #f72325;
+}
+.car-list .add,.car-list .reduce,.car-list .sin-num{
+    display: inline-block;
+    width: .48rem;
+    height: .48rem;
+    line-height: .48rem; 
+    background-color: #ccc;
+    text-align: center;
+
+}
+/* 购物车商品列表开结束 */
+/* 无商品时的情况开始  */
+.car-none2{
+    display: none;
+    padding: .6rem 0;
+    background: #fff;
+}
+.car-none2 .icon-gouwuche{
+    display: block;
+    font-size: 48px;
+    color: #ccc;
+    text-align: center;
+}
+.car-none2 p{
+    margin: 0 0 .4rem;
+    color: #9c9c9c;
+    text-align: center;
+}
+.car-none2 a{
+    display: block;
+    width: 1.4rem;
+    height: .72rem;
+    text-align: center;
+    line-height: .72rem;
+    border: .02rem solid #333;
+    border-radius: .06rem;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin:0 auto;
+}
+/* 为你优选开始 */
+.car-option{
+    width: 6.94rem;
+    margin: 0 auto 1rem;
+}
+.car-option .car-title{
+    width: 100%;
+    height: .82rem;
+    background: url(../images/car/car01.png) no-repeat 0 0;
+    background-size: cover;
+}
+.car-option ul{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+.car-option li{
+    width: 3.375rem;
+    height: 4.84rem;
+    padding: 0 .2rem .2rem;
+    margin-bottom: .15rem;
+    background: #fff;
+}
+.car-option .car-pic-box{
+    font-size: 0;
+}
+.car-option .car-pic-box img{
+    width: 2.975rem;
+    height: 2.975rem;
+}
+.car-option .item-name{
+    width: 3rem;
+    height: 1rem;
+    /* text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    word-break: break-all; */
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    /* text-align: center; */
+}
+.car-option .item-price{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+.car-option .item-price span{
+    color: #f21c1c;
+    font-size: .32rem;
+}
+.car-option .item-price i{
+    font-size: .36rem;
+    color: black;
+}
+/* 为你优选结束 */
+/* 合计开始 */
+.car-foot{
+    position: fixed;
+    left: 0;
+    bottom:0rem;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    width: 7.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    background: #fff;
+    text-align: center;
+    z-index: 100;
+}
+.car-foot .xuan,.car-foot .finalSuan{
+    flex:1;
+}
+.car-foot .all-foot{
+    flex:3;
+}
+.car-foot .alltNum,.car-foot .allPrice{
+    color: #f21c1c;
+}
+.car-foot .finalSuan{
+    height: 1rem;
+    background-color: #f21c1c;
+}
+.car-foot .finalSuan a{
+    color: #fff;
+}
+.car-foot .car-none3{
+    display: none;
+    background: #ff6700;
+} 
+.title-mess{
+    position: fixed;
+    top:50%;
+    left:50%;
+    width: 2rem;
+    height: 1rem;
+    margin-top: -.5rem;
+    margin-left: -1rem;
+    /* display: none; */
+}
+.title-mess p{
+    width: 2rem;
+    height: 1rem;;
+    font-size: .28rem;
+    border: .02rem solid #9c9c9c;
+    text-align: center;
+    line-height: 1rem;
+    border-radius: .2rem;
+    background-color: #666;
+    color: #fff;
+    display: none;
+}
+.title-mess div{
+    width: 2rem;
+    height: 1rem;
+    display: none;
+}
+.title-mess div img{
+    width: 2rem;
+    height: 1rem;
+    border-radius: .2rem; 
+}
+.car-loading{
+    /* display: none; */
+    width: 6.94rem;
+    margin: 0 auto; 
+}
+.car-loading img{
+    width: 6.94rem; 
+    height: 3rem;;
+}
+.car-login{
+    width: 7.5rem;
+    height: .72rem;
+    background: #e9ecf4;
+    color: #78b;
+    display: flex;
+    -webkit-display: flex;
+    justify-content: center;
+    line-height: .72rem;
+    font-size: .24rem;
+}
+.car-login i{
+    font-size: .28rem;
+}
+.car-login a{
+    display: block;
+    width: .8rem;
+    height: .4rem;
+    /* height: .4rem; */
+    color: #78b;
+    border: .02rem solid #78b;
+    padding: .08rem .12rem;
+    border-radius: .06rem;
+    margin-left: .2rem;
+    margin-top: .15rem;
+    line-height: .24rem;
+}
+
+/* 合计结束 */
+/* .car-bott{
+    position: fixed;
+    left: 0;
+    bottom: 1.2rem;
+    z-index: 200;
+    width: 7.5rem;
+    height: 1.14rem;
+    bottom: 0;
+    height: 1rem;
+    background: #fff;
+    display: -webkit-flex;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.car-bott div{
+    flex:1
+}
+.car-bott i{
+    font-size: .48rem;
+    width: .48rem;
+    height: .48rem;;
+}
+.car-foot .car-none{
+    display: none;
+}
+.car-foot .car-none2{
+    background: #ff6700;
+} */

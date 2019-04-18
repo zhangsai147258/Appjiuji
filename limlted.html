@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/limlted.css">
+    <link rel="stylesheet" href="ali/iconfont.css">
+</head>
+
+<body>
+    <!-- 头部样式开始 -->
+    <header>
+        <div class="change">
+            <div class="top">
+                <div class="city">
+                    <span>郑州市区</span>
+                    <i class="iconfont icon-xialacaidan"></i>
+                </div>
+                <span></span>
+                <div class="search">
+                    <i class="iconfont icon-sousuo"></i>
+                    <a href="search.html">
+                        <input type="text" placeholder="iPhone XS Max">
+                    </a>
+                </div>
+            </div>
+            <div class="bottom">
+                <a href="index.html"><span>推荐</span></a>
+                <a href="limlted.html"><span>限时购</span></a>
+                <a href="newo.html"><span>以旧换新</span></a>
+                <a href="quick.html"><span>手机快修</span></a>
+                <a href="headline.html"><span>头条</span></a>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/limlted/1.png" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/limlted/2.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/limlted/3.png.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="images/limlted/4.png.jpg" alt=""></a>
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </header>
+    <!-- 结束 -->
+
+    <!-- 页面内容 -->
+    <main>
+        <!-- 标题列表 -->
+        <div class="headera swiper-container-horizontal swiper-container-free-mode">
+            <div class="swiper-wrapper relative">
+                <div class="swiper-slide swiper-slide-active" data-type='time'>
+                    <span>周一抢</span>
+                    <p class="zhouyi">即将开始</p>
+                </div>
+                <div class="swiper-slide swiper-slide-next cur rush-tabs-item" data-type='time1'>
+                    <span>周二抢</span>
+                    <p class="zhouyi">即将开始</p>
+                </div>
+                <div class="swiper-slide" data-type='time2'>
+                    <span>周三抢</span>
+                    <p class="zhouyi">即将开始</p>
+                </div>
+                <div class="swiper-slide" data-type='time3'>
+                    <span  class="sad">周四抢</span>
+                    <p class="zhouyi">抢购中</p>
+                </div>
+                <div class="swiper-slide" data-type='time4'>
+                    <span>周五抢</span>
+                    <p class="zhouyi">即将开始</p>
+                </div>
+                <div class="swiper-slide" data-type='time5'>
+                    <span>周六抢</span>
+                    <p class="zhouyi">即将开始</p>
+                </div>
+                <div class="swiper-slide" data-type='time6'>
+                    <span>周日抢</span>
+                    <p class="zhouyi">即将开始</p>
+                </div>
+            </div>
+            <div class="zou absolute mask"></div>
+            <div class="you absolute mask"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <!--结束-->
+        <!-- 倒计时 -->
+        <div class="daoji">
+            <div class="rush-product">
+                <div class="timetip text-center">
+                    <p class="rush-timer">距结束
+                        <span>
+                            <span>0</span>
+                            时
+                            <span>0</span>
+                            分
+                            <span>0</span>
+                            秒
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 结束 -->
+
+        <!-- 商品列表 -->
+        <div class="shang">
+            <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/tomtr/9999.gif" alt="" data-original="images/limlted/5.jpg" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">iphone XR全网通版【黑色 128GB】</p>
+                            <p class="grey-9 selling-point">官网直降1300</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">5650.00</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥5699.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余6件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/tomtr/9999.gif" alt="" data-original="images/limlted/6.jpg" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">小米彩虹5号电池</p>
+                            <p class="grey-9 selling-point">安全环保 无毒无泵</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">9.90</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥14.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余9件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+           <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/limlted/7.jpg" alt="" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">火折子 创意打火机</p>
+                            <p class="grey-9 selling-point">气流激活一吹既燃</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">35.00</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥59.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余8件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+             <div class="rush-product-item relative border-bottom"> -->
+                <a href="#" class="flex">
+                    <img src="images/limlted/10.jpg" alt="" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">超大鼠标垫</p>
+                            <p class="grey-9 selling-point">机密锁边 游戏必备</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">9.90</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥29.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余4件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/limlted/8.jpg" alt="" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">iphone XR全网通版【白色 64GB】</p>
+                            <p class="grey-9 selling-point">官网直降1200</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">5280.00</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥5350.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余8件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/limlted/9.jpg" alt="" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">漫威正版超级英雄摇头公仔 车载饰品</p>
+                            <p class="grey-9 selling-point">弹人车载摆件</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">39.00</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥58.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余10件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/limlted/11.jpg" alt="" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">华为畅享9 全网通高配【幻夜黑 4+64GB】</p>
+                            <p class="grey-9 selling-point">限时特惠 仅此一天</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">1199.00</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥1299.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余4件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/limlted/12.jpg" alt="" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">乐物 iphone XS/X 3D钢化膜</p>
+                            <p class="grey-9 selling-point">防刮防爆防指纹</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">129.00</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥189.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余10件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/limlted/13.jpg" alt="" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">斗 禾 电暖器</p>
+                            <p class="grey-9 selling-point">办公取暖好帮手</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">139.00</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥169.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余6件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/limlted/14.jpg" alt="" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">OPPO 闪充数据线1m</p>
+                            <p class="grey-9 selling-point">快速充电 稳定传输</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">25.00</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥29.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余10件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/limlted/15.jpg" alt="" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">华硕 a豆</p>
+                            <p class="grey-9 selling-point">全面屏 指纹识别</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">3399.00</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥3499.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余10件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/limlted/16.jpg" alt="" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">猪小屁 故事机</p>
+                            <p class="grey-9 selling-point">趣味学舌 智能点播</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">88.00</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥99.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余6件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/limlted/17.jpg" alt="" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">全汉 5600mAh 移动电源+暖手宝</p>
+                            <p class="grey-9 selling-point">超萌造型 双面发热</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">89.00</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥139.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余10件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="rush-product-item relative border-bottom">
+                <a href="#" class="flex">
+                    <img src="images/limlted/18.jpg" alt="" class="lazy-img rush-img flex-child-noshrinh">
+                    <div class="flex flex-col flex-justify-between flex-child-grow">
+                        <div>
+                            <p class="font-15 lines-2">好写液晶手写板</p>
+                            <p class="grey-9 selling-point">轻薄便捷 绿色环保</p>
+                        </div>
+                        <div class="flex flex-justify-between flex-align-end flex-1">
+                            <div class="flex-child-grow">
+                                <div class="flex flex-align-end">
+                                    <div class="flex flex-align-end margin-right">
+                                        <span class="font-12 bold">￥</span>
+                                        <span class="font-20 bold">69.00</span>
+                                    </div>
+                                    <del class="grey-9 font-12">￥89.00</del>
+                                </div>
+                                <div class="percent flex flex">
+                                    <p class="flex-child-grow">
+                                        <span class="font-12">剩余9件</span>
+                                        <i></i>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="rush-btn red-bg">去抢购</div>
+                        </div>
+
+                    </div>
+                </a>
+            </div>  -->
+        </div>
+        <script type="text/template" id="tpl">
+          <% data.forEach(function(val,index){%>
+        <div class="rush-product-item relative border-bottom">
+            <a href="#" class="flex">
+                <img src="<%=val.images%>" alt="" data-original="images/tomtr/9999.gif" class="lazy-img rush-img flex-child-noshrinh">
+                <div class="flex flex-col flex-justify-between flex-child-grow">
+                    <div>
+                        <p class="font-15 lines-2"><%=val.name%></p>
+                        <p class="grey-9 selling-point"><%=val.ide%></p>
+                   </div>
+                   <div class="flex flex-justify-between flex-align-end flex-1">
+                       <div class="flex-child-grow">
+                           <div class="flex flex-align-end">
+                               <div class="flex flex-align-end margin-right">
+                                   <span class="font-12 bold"><%=val.fuhao%></span>
+                                   <span class="font-20 bold"><%=val.price%></span>
+                               </div>
+                               <del class="grey-9 font-12"><%=val.tope%></del>
+                           </div>  
+                           <div class="percent flex flex">
+                               <p class="flex-child-grow">
+                                   <span class="font-12"><%=val.surpius%></span>
+                                   <i></i>
+                               </p>
+                           </div>  
+                                                            
+                       </div>
+                       <div class="rush-btn red-bg"><%=val.purchase%></div> 
+                   </div>
+                  
+                </div>
+            </a>
+        </div>
+    <%})%>                  
+        </script>
+        <!-- 结束 -->
+        <!-- 底部 -->
+        <div class="car-bott">
+            <div>
+                <a href="index.html">
+                <i class="iconfont icon-icon"></i>
+                <p>首页</p>
+                </a>
+            </div>
+            <div>
+                <a href="classify.html">
+                <i class="iconfont icon-fenleiguanli"></i>
+                <p>分类</p>
+               </a>
+            </div>
+            <div>
+                <a href="">
+                <i class="iconfont icon-xiaoxi2"></i>
+                <p>消息</p>
+                </a>
+            </div>
+            <div>
+                <a href="shopCar.html">
+                <i class="iconfont icon-gouwuche1"></i>
+                <p>购物车</p>
+                </a>
+            </div>
+            <div>
+                <a href="mine.html">
+                <i class="iconfont icon-wode-copy"></i>
+                <p>我的</p>
+                </a>
+            </div>
+        </div>
+        <!-- 结束 -->
+    </main>
+    <!-- 结束 -->
+
+</body>
+<script src="js/ejs.js"></script>
+<script src="js/zepto.min.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/jquery.lazyload.js"></script>
+<script src="js/base.js"></script>
+<script src="js/fx.js"></script>
+<script src="js/fx_methods.js"></script>
+<script src="js/limlted.js"></script>
+
+</html>

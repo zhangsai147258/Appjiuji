@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cearch.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+</head>
+
+<body>
+    <div class="app-wrap">
+        <div class="weapper grey-f-bg">
+            <!-- 搜索框 -->
+            <div class="flex-childen-noshrink">
+                <header class="header">
+                    <div class="wrapper">
+                        <div class="main flex flex-justify-between relative bb">
+                            <div class="left-side">
+                                <a href="tomtr.html" class="back-button flex flex-center">
+                                    <i class="iconfont icon-ios-arrow-back"></i>
+                                </a>
+                            </div>
+                            <div class="title flex flex-center">
+                                <form action="javascript:return true" class="search-form">
+                                    <input type="search" placeholder="iPhone XS Max">
+                                </form>
+                            </div>
+                            <div class="right-side flex flex-center">
+                                <a href="#" class="search-btn">搜索</a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <!-- 搜索框结束 -->
+
+            <!-- 弹出窗口 -->
+            <div class="search-guess white-bg">
+                <a href="#" class="flex flex-align-center flex-justify-between border-bottom">
+                    <div class="flex flex-align-center">
+                        <i class="fa fa-search grey-9 iconfont icon-Zoom"></i>
+                        <span class="lines-1"></span>
+                    </div>
+                    <i class="fa fa-angle-right font-24 grey-9 flex-child-noshrink iconfont icon-ios-arrow-forward"></i>
+                </a>
+            </div>
+            <script type="text/template" id="tpl">
+                <% data.forEach(function(val,index){%>
+                    <a href="#" class="flex flex-align-center flex-justify-between border-bottom">
+                            <div class="flex flex-align-center">
+                                <i class="fa fa-search grey-9 iconfont icon-Zoom"></i>
+                                <span class="lines-1"><%=val.name%></span>
+                            </div>
+                            <i class="fa fa-angle-right font-24 grey-9 flex-child-noshrink iconfont icon-ios-arrow-forward"></i>
+                        </a>
+                <%})%>                  
+            </script>
+            <!-- 弹出窗口结束 -->
+
+            <!-- 热门 -->
+            <div class="cell-title white-bg">热门搜索</div>
+            <!-- 热门结束 -->
+
+            <!-- 标题列表 -->
+            <div class="hot-search white-bg">
+                <a href="#" class="hot-item">小米手机6</a>
+                <a href="#" class="hot-item">iPhone 8</a>
+                <a href="#" class="hot-item">iPhone X</a>
+                <a href="#" class="hot-item">华为 Mate9</a>
+                <a href="#" class="hot-item">三星S8</a>
+                <a href="#" class="hot-item">苹果 iPad</a>
+                <a href="#" class="hot-item">iPhone 7</a>
+                <a href="#" class="hot-item">iPhone 6</a>
+            </div>
+            <!-- 标题列表 -->
+        </div>
+    </div>
+
+</body>
+<script src="js/ejs.js"></script>
+<script src="js/zepto.min.js"></script>
+<script src="js/base.js"></script>
+<script src="js/cearch.js"></script>
+
+</html>

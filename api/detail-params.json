@@ -1,0 +1,454 @@
+{
+    "code": 0,
+    "msg": "请求成功",
+    "userMsg": "请求成功",
+    "data": {
+        "introduction": "<html>\n <head></head>\n <body>\n  <p style=\"text-align: center;\"><img src=\"https://img2.ch999img.com//pic/edt/product/20190118/20190118182401_5387.jpg\" title=\"\" alt=\"\"><a href=\"https://m.9ji.com/news/13611.html\" target=\"_blank\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122914_5208.jpg\" title=\"\" alt=\"\"></a><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122920_7388.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009123124_0349.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122925_5304.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122927_5003.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122929_5842.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122931_5802.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122933_6862.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122936_0074.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122937_7981.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122940_0663.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122942_0852.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122944_0571.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122946_6156.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122951_1111.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122954_3462.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122956_8216.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009122959_2188.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009123002_0715.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009123005_1304.jpg\" title=\"\" alt=\"\"><img src=\"https://img2.ch999img.com//pic/edt/product/20181009/20181009123009_4222.jpg\" title=\"\" alt=\"\"></p>\n </body>\n</html>",
+        "introductionUrl": "https://m.9ji.com/product/detailForApp/68397",
+        "params": [
+            {
+                "title": "",
+                "arguments": [
+                    {
+                        "key": "商品名称",
+                        "value": "Apple iPhone XS Max (A2104) 全网通版 ",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": true,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "品牌",
+                        "value": "苹果（Apple）",
+                        "link": "https://m.9ji.com/list/2-1-0-0-0-0-0-0-0-0-0_0",
+                        "inputtype": 0,
+                        "detailShow": true,
+                        "imgPath": ""
+                    }
+                ]
+            },
+            {
+                "title": "显示屏幕",
+                "arguments": [
+                    {
+                        "key": "屏幕尺寸",
+                        "value": "6.5 英寸",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": true,
+                        "imgPath": "20180803153357141.png"
+                    },
+                    {
+                        "key": "主屏分辨率",
+                        "value": "2688x1242 像素",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": true,
+                        "imgPath": "20180803153248164.png"
+                    },
+                    {
+                        "key": "屏幕像素密度",
+                        "value": "458 ppi",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "主屏材质",
+                        "value": "OLED",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": false,
+                        "imgPath": ""
+                    }
+                ]
+            },
+            {
+                "title": "基本参数",
+                "arguments": [
+                    {
+                        "key": "机身内存",
+                        "value": "64GB",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": true,
+                        "imgPath": "20180803153435742.png"
+                    },
+                    {
+                        "key": "运行内存",
+                        "value": "4GB",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": true,
+                        "imgPath": "20180803153447276.png"
+                    },
+                    {
+                        "key": "产品特点",
+                        "value": "面部识别解锁,无线充电,全面屏,防水防尘,支持NFC",
+                        "link": "",
+                        "inputtype": 3,
+                        "detailShow": true,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "网络制式",
+                        "value": "4G全网通,移动4G（TD-LTE）,联通4G（TD/FDD-LTE）,电信4G（TD/FDD-LTE）,移动3G（TD-SCDMA）,联通3G（WCDMA）,电信3G（CDMA2000）,移动2G/联通2G（GSM ）,电信2G（CDMA）,双卡",
+                        "link": "",
+                        "inputtype": 3,
+                        "detailShow": true,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "CPU型号",
+                        "value": "A12 仿生",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": true,
+                        "imgPath": "20180803153142471.png"
+                    },
+                    {
+                        "key": "操作系统",
+                        "value": "苹果（iOS）",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": true,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "核心数",
+                        "value": "六核",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": true,
+                        "imgPath": "20180803153323547.png"
+                    },
+                    {
+                        "key": "储存卡类型",
+                        "value": "不支持",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "SIM卡规格",
+                        "value": "两个Nano SIM卡",
+                        "link": "",
+                        "inputtype": 3,
+                        "detailShow": true,
+                        "imgPath": "20180803153203987.png"
+                    },
+                    {
+                        "key": "机身尺寸",
+                        "value": "157.5mm*77.4mm*7.7mm（长x宽x厚）",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "机身重量",
+                        "value": "约208g",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "手机类型",
+                        "value": "4G手机,智能手机,双卡双待",
+                        "link": "",
+                        "inputtype": 3,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "上市时间",
+                        "value": "2018年9月",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": true,
+                        "imgPath": ""
+                    }
+                ]
+            },
+            {
+                "title": "数码相机功能",
+                "arguments": [
+                    {
+                        "key": "拍摄特色",
+                        "value": "人像模式、双镜头光学图像防抖、六镜式镜头、全景模式、背照式感光元件、混合红外线滤镜、Focus Pixels 自动对焦、Focus Pixels 轻点对焦、智能 HDR、照片、拍摄广色域的照片和实况照片、局部色调映射功能、先进的红眼校正功能、曝光控制、自动图像防抖功能、连拍快照模式、计时模式、照片地理标记功能等",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "视频拍摄",
+                        "value": "4K视频拍摄，30 fps；1080p HD 视频拍摄，30 fps 或 60 fps；720p HD 视频拍摄，30 fps，视频光学图像防抖功能",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "闪光灯",
+                        "value": "四LED补光灯",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "前置摄像头像素",
+                        "value": "700万像素",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "后置摄像头像素",
+                        "value": "1200万像素+1200万像素",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": true,
+                        "imgPath": "20180803153342880.png"
+                    },
+                    {
+                        "key": "数码相机感光元件",
+                        "value": "CMOS",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "光学防抖",
+                        "value": "支持",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "摄像头数量",
+                        "value": "三个摄像头",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "数码相机功能",
+                        "value": "支持",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    }
+                ]
+            },
+            {
+                "title": "主要功能",
+                "arguments": [
+                    {
+                        "key": "陀螺仪",
+                        "value": "支持",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "电子罗盘",
+                        "value": "支持",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "距离感应",
+                        "value": "支持",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "光线感应",
+                        "value": "支持",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "指纹识别",
+                        "value": "不支持",
+                        "link": "",
+                        "inputtype": 3,
+                        "detailShow": true,
+                        "imgPath": "20180803153610643.png"
+                    },
+                    {
+                        "key": "重力感应",
+                        "value": "支持",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "NFC技术",
+                        "value": "支持",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": true,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "快速充电",
+                        "value": "支持（需使用快速充电器）",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": true,
+                        "imgPath": "20180803153513113.png"
+                    },
+                    {
+                        "key": "GPS导航",
+                        "value": "内置GPS,支持A-GPS,支持Glonass",
+                        "link": "",
+                        "inputtype": 3,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "Flash功能",
+                        "value": "支持",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "图形格式",
+                        "value": "支持JPEG、PNG、BMP等格式",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "视频播放",
+                        "value": "支持MP4、AVI、NAVI、HEVC、H.264、MPEG-4 Part 2 与 Motion JPEG等格式",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "音频播放",
+                        "value": "支持AAC-LC、HE-AAC、HE-AAC v2、Protected AAC、MP3、Linear PCM、Apple Lossless、FLAC、Dolby Digital (AC-3)、Dolby Digital Plus (E-AC-3) 与 Audible (格式 2、3、4，Audible Enhanced Audio、AAX 与 AAX+)等格式",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "耳机接口",
+                        "value": "Lightning",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "数据接口",
+                        "value": "Lightning",
+                        "link": "",
+                        "inputtype": 3,
+                        "detailShow": true,
+                        "imgPath": "20180803153542542.png"
+                    },
+                    {
+                        "key": "WLAN功能",
+                        "value": "WiFi",
+                        "link": "",
+                        "inputtype": 3,
+                        "detailShow": false,
+                        "imgPath": ""
+                    },
+                    {
+                        "key": "蓝牙传输",
+                        "value": "蓝牙5.0",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": false,
+                        "imgPath": ""
+                    }
+                ]
+            },
+            {
+                "title": "配件",
+                "arguments": [
+                    {
+                        "key": "标配电池",
+                        "value": "3174mAh",
+                        "link": "",
+                        "inputtype": 0,
+                        "detailShow": true,
+                        "imgPath": "20180803153730820.png"
+                    },
+                    {
+                        "key": "电池设计",
+                        "value": "内置电池",
+                        "link": "",
+                        "inputtype": 2,
+                        "detailShow": true,
+                        "imgPath": "2018080315372063.png"
+                    }
+                ]
+            }
+        ],
+        "afterService": [
+            {
+                "title": "质保政策",
+                "type": 3,
+                "arguments": [],
+                "text": "<link rel=\"stylesheet\" href=\"https://img2.ch999img.com/static/style/zbzc.css?v=1548664270042\" /><p><br/></p><table class=\"zbzc\" style=\"width:100% !important;\" data-sort=\"sortDisabled\"><tbody><tr class=\"firstRow\"><td rowspan=\"1\" colspan=\"2\" style=\"word-break: break-all;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>九机网手机（含平板）质保政策</strong></td></tr><tr><td rowspan=\"1\" colspan=\"2\" style=\"word-break: break-all;\"><p>根据国家“三包规定”，因制造商产品故障问题，可享受退换质保政策；产品没有故障，则不享受退换政策仅享受保修政策，若因用户原因导致产品故障的，将不在享受质保；因制造商产品故障问题的质保政策为：</p><p><strong>7天内</strong>：支持退货、换货、保修；</p><p><strong>8天-15天</strong>：仅支持更换同型号同规格产品或选择保修；&nbsp;</p><p><strong>1</strong><strong>6天-12个月</strong>：仅享受保修。</p></td></tr><tr><td style=\"word-break: break-all;\" rowspan=\"1\" colspan=\"2\"><strong>九机网依据国家&quot;三包&quot;规定，升级保障客户权益，手机和平板适用，具体质保政策如下：</strong></td></tr><tr><td style=\"word-break: break-all;\"><strong>故障类型</strong></td><td style=\"word-break: break-all;\"><strong>售后政策</strong></td></tr><tr><td style=\"word-break: break-all;\"><strong>制造商产品故障</strong></td><td style=\"word-break: break-all;\"><p><strong>7天内</strong>：九机网可为您退补差价更换其它机型；</p><p><strong>8天-15天</strong>：九机网可为您以购机金额的88%进行退款；例：购买机器为2000元，包配完整全新，您还可退回：2000*88%=1760元</p><p><strong>16天-12个月</strong>：九机网可为您提供折价退款，自购机之日起，第一个月内退款80%，每多一个月递增扣6%（不足一个月的按照一个月计）例：2个月退还购机金额74%的价格，3个月是68%......</p></td></tr><tr><td style=\"word-break: break-all;\"><strong>产品没有故障</strong></td><td style=\"word-break: break-all;\"><p><strong>购机日-15天内</strong>：九机网以购机金额的88%进行折价退款；例：购机为2000元，包配完整全新，您还可以退2000*88%=1760元整；</p><p><strong>16天-12个月</strong>：九机网为您提供折价退款，自购机之日起，第一个月内退款80%，每多一个月递增扣6%（不足一个月的按照一个月计）例：2个月退还购机金额74%的价格，3个月是68%......</p></td></tr><tr><td style=\"word-break: break-all;\"><strong>用户原因导致的产品故障</strong></td><td style=\"word-break: break-all;\"><p><strong>九机网为您提供付费维修或旧机回收服务；</strong></p><p>备注：用户原因导致问题为机器不能保持100%原始状态，包括但不限于屏幕或机身，有刮花、刮伤，软件问题（ROOT、越狱等）和硬件问题（人为摔碰、进液等）及非厂家授权三包的修理者拆动等；</p></td></tr><tr><td rowspan=\"1\" colspan=\"2\" style=\"word-break: break-all;\"><p><strong>保修细则说明</strong></p><p>1、新机由厂家承保，故障情况与否及故障原因归属问题存在争议的以厂家授权售后检测界定为准；</p><p>2、购机15天内享受退换的商品须保证100%原样退回，存在附件缺失或明显使用痕迹的需叠加折价：充头、数据线、耳机、转接线以九机官网售价或者对应品牌官网售价为准；包装盒:80 元/件；进网标、保卡和其他：50元/件；</p><p>3、附件非人为厂家质保政策为：充电头、数据线、转接线为质保一年（特殊：360、8848品牌为6个月、AGM为3个月；），耳机质保3个月（特殊：苹果、努比亚、黑莓为质保1年），存在差异部分会以厂家售后质保为基准；</p><p>4、因制造商产品问题导致的7天内退货，随机器一并购买的该机的壳、膜、九机服务、存储卡可原价退款，其它类配件按九机配件质保政策进行；</p><p>5、平板电脑系列厂家非人为质保部分以厂家保修为准则，具体如：苹果平板：显示屏和主板质保两年；亚马逊平板：显示屏、主板和附带电源适配器质保两年；微软整机和附件配件质保两年；</p><p>6、符合《网络购买商品七日无理由退货暂行办法》部分参照国家规定进行退换，厂家售后政策优于以上政策的以厂家售后政策为基准；</p><p>7、制造商产品故障为非人为产品性能故障（三包法），不包括以下所列问题：①产品功能正常无性能故障，但因各品牌厂家的产品配件供应商不同，导致的同样配置机型相同条件下的差异的；包括但不限于屏幕显示色差（冷暖屏），外观颜色，电池厂家不同等；②使用方法差异造成问题的；包括但不限于：软件和系统问题、网络原因、电池耗电速度、发热、手感等问题；③软件导致的非性能故障问题，即为通过软件处理能够排除的问题；④商品外观、网络制式等非性能故障问题进行退换货；</p><p>8、涉及有开具过纸质发票的商品退款，需原样退回发票，未在退款时提供的将会叠加暂扣3%退款手续费，发票归还后会做退回。</p><p><strong>※其他未尽事宜，以国家相关“三包规定”、《中华人民共和国消费者权益保护法》或相应品牌厂商授权规定政策处理。</strong></p></td></tr></tbody></table><p><br/></p>"
+            },
+            {
+                "title": "售后商品注意事项",
+                "type": 1,
+                "arguments": [
+                    {
+                        "key": "",
+                        "value": "一、备用机：手机送修期间九机网将为您免费提供备用机（会视情况收取相应押金，机器归还后全额退还），若备用机出现遗失或损坏情况将按备用机出借协议标识的价值或九机网快修维修价格进行承担。\n二、九机代送修流程：涉及厂家质保部分，九机可免费为您代送至厂家售后处理，流程为：\n故障机器送九机门店→九机送至就近授权服务站点→站点检测维修（或返厂维修）→返回九机门店→通知您取机。\n三、手机平板送修所需资料：\n（一）购机日-15天：\n1. 苹果,美图：整机、保卡、发票；\n2. 华为,三星,摩托罗拉,8848,海信,夏普,黑莓,AGM,其他：全套包装、发票；\n3. OPPO,VIVO,金立,魅族,锤子,诺基亚,HTC,索尼,中兴,360,酷派,联想,小米,努比亚,一加：整机、保卡。\n（二）16天-12个月：\n1. 苹果：整机、保卡、发票；\n2. 小米，三星，美图，OPPO，VIVO，金立：整机、保卡；\n3. 华为，魅族，锤子，诺基亚，海信，夏普，黑莓，AGM，摩托罗拉，8848，努比亚，一加，HTC，索尼，中兴，360，酷派，联想：整机。\n（三）附件质保：\n1. 苹果：整机、保卡、发票；\n2. 华为，小米，三星，努比亚，一加:整机、附件；\n3. 魅族，锤子，诺基亚，HTC，索尼，中兴，360，酷派，联想，摩托罗拉，8848，海信，夏普，黑莓，AGM，OPPO，VIVO，金立：保卡、附件。\n四、制造商故障不包括（三包法）：\n1. 产品功能正常无性能故障，但因各品牌厂家的产品配件供应商不同，导致的同样配置机型相同条件下的差异的；包括但不限于屏幕显示色差（冷暖屏），颜色差异，电池厂家不同等；\n2. 使用方法差异造成的问题；包括但不限于：软件问题和系统问题、网络原因、电池耗电速度、发热、手感等问题；(软件导致的非性能故障问题，即为通过软件处理能够排除的问题)；\n3. 商品外观、网络制式等非性能故障问题进行退换货。\n五、数据安全：在申请退换货/送修/软件升级前需自行对设备上的重要数据进行备份、解除相关ID密码、退出重要软件。九机可为您提供免费资料备份互导服务。\n六、取机时效：九机网取机时效为60天：即通知取机日起60天内，未取机的，将视为自动放弃该设备的所有权，同意我司按照无人认领来进行处置。\n七、退款问题：符合退款商品，九机网会全款退换，包括购机时使用的九机币、积分、优惠码将全部返回（优惠码为新生成，有效使用期7天）。\n八、优品良品机说明：一手优品和二手良品商品特殊，仅提供退款，不可换货。出现《移动电话机商品性能故障表》所列性能故障的，消费者可以选择修理。\n九、邮寄商品外观问题：邮寄购买用户需在收件后 ，先对商品外观验收再激活，存在外观瑕疵的须在未激活的24小时内反馈至九机网，超24h未反馈的，将不再就商品外观问题进行保障。",
+                        "link": ""
+                    }
+                ],
+                "text": ""
+            },
+            {
+                "title": "品牌厂家信息",
+                "type": 1,
+                "arguments": [
+                    {
+                        "key": "品牌厂家网站",
+                        "value": "https://www.apple.com/cn/",
+                        "link": "https://www.apple.com/cn/"
+                    },
+                    {
+                        "key": "厂家服务电话",
+                        "value": "400-666-8800",
+                        "link": "tel:4006668800"
+                    }
+                ],
+                "text": ""
+            }
+        ]
+    }
+}

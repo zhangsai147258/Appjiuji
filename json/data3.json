@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "msg": "SuccessMsg",
+    "userMsg": "请求成功",
+    "data": {
+        "times": 3,
+        "page": 1,
+        "totlePage": 1,
+        "startTime": "2853950.4",
+        "products": [
+            {
+                "id": 44441,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20180913060744616.jpg",
+                "name": "Apple iPhone XS (A2100)",
+                "gleavelName": "9成新",
+                "gleavel": "9成新",
+                "salePrice": "6750.00",
+                "newPrice": "7899.00",
+                "params": [
+                    "2018.9.9出厂",
+                    "容量64G",
+                    "电池寿命97%"
+                ],
+                "gcolor": "金色",
+                "issalf": true
+            },
+            {
+                "id": 46539,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20180913062828409.jpg",
+                "name": "Apple iPhone XR (A2108)",
+                "gleavelName": "9成新",
+                "gleavel": "9成新",
+                "salePrice": "4850.00",
+                "newPrice": "5299.00",
+                "params": [
+                    "2018.11.4出厂",
+                    "容量64G",
+                    "电池寿命100%"
+                ],
+                "gcolor": "黑色",
+                "issalf": true
+            },
+            {
+                "id": 43512,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20170421144142175.jpg",
+                "name": "Apple iPhone 7 Plus (A1661)",
+                "gleavelName": "8成新",
+                "gleavel": "8成新",
+                "salePrice": "2299.00",
+                "newPrice": "4399.00",
+                "params": [
+                    "2017.8.20出厂",
+                    "容量32G",
+                    "电池寿命86%"
+                ],
+                "gcolor": "亮黑色",
+                "issalf": false
+            },
+            {
+                "id": 43515,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/2018041317392020.jpg",
+                "name": "黑鲨游戏手机",
+                "gleavelName": "8成新",
+                "gleavel": "8成新",
+                "salePrice": "1499.00",
+                "newPrice": "2299.00",
+                "params": [
+                    "容量6+64G",
+                    "赠送品牌充电头和数据线"
+                ],
+                "gcolor": "黑色",
+                "issalf": true
+            },
+            {
+                "id": 43761,
+                "pic": "https://img2.ch999img.com/pic/product/440x440/20181017013318655.jpg",
+                "name": "华为 Mate20 X",
+                "gleavelName": "95成新",
+                "gleavel": "95成新",
+                "salePrice": "4699.00",
+                "newPrice": "5999.00",
+                "params": [
+                    "容量8+256G",
+                    "赠送品牌充电头和数据线"
+                ],
+                "gcolor": "蓝色",
+                "issalf": true
+            }
+        ]
+    }
+}

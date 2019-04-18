@@ -1,0 +1,124 @@
+body{
+    background: #eeeded;
+}
+header{
+    width: 100%;
+    height: 2.58667rem;
+    background: cover;
+    background: rgb(245, 36, 36);
+}
+header .gset{
+    
+    float: right;
+    margin-right: .15rem;
+    margin-top: .15rem;
+}
+header .gback{
+    float: left;
+    margin-left: .15rem;
+    margin-top: .15rem;
+    
+}
+header .gback a{
+    color: #ffffff;
+}
+header .gset a{
+    color: #ffffff;
+}
+
+article{
+    width: 7rem;
+    height: 3.5rem;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #cccccc;
+   margin: 0 auto;
+   margin-top: -1.5rem;
+
+}
+article .gcenter{
+    display: flex;
+    justify-content: center;
+}
+article .gcenter a{
+    width: 22%;
+
+}
+article .gcenter a h1{
+    width: 100%;
+    text-align: center;
+}
+article .gcenter a p{
+    text-align: center;
+}
+article .login{
+    display: flex;
+    justify-content: flex-start;
+    padding: .7rem 0 0 .7rem;
+    margin-bottom: 0.4rem;
+}
+article .login a img{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    
+}
+article .login div{
+    margin: .4rem 0 0 .4rem;
+}
+
+.order{
+
+        width: 7rem;
+        height: 2.5rem;
+        box-sizing: border-box;
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px #cccccc;
+       margin: 0 auto;
+       margin-top: .35rem;
+    
+
+}
+.order .gtit{
+    width: 100%;
+    height: .8rem;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid #cccccc;
+}
+.order .gtit .gtitLeft a{
+    float: left;
+    font-size: .32rem;
+    margin: .15rem 0 0 .2rem;
+    font-weight: 600;
+    color: #000000;
+}
+.order .gtit .gtitRight{
+    float: right;
+    font-size: .12rem;
+    color: #b6b4b4;
+    margin: .2rem .2rem 0 0;    
+}
+.order .gtit .gtitRight i{
+    font-size: 0.1rem;
+}
+.order .iconRow{
+    padding-top: 0.3rem;
+    width: 100%;
+    height: 1.7rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.order .iconRow a{
+    width: 24%;
+    text-align: center;
+}
+.order .iconRow a p{
+    color: #000000;
+    font-size: .14rem;
+}
+.order .iconRow a h1 i{
+    font-size: .5rem;
+    color: red;
+}

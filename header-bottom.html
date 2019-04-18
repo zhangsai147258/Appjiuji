@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/Animate.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">   
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+     
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header-bottom.css">
+    <link rel="stylesheet" href="css/gcss/iconfont.css">
+    <script src="js/zepto.min.js"></script>
+    <script src="js/base.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/cityChoice.js"></script>
+
+    <title></title>
+</head> 
+<body>
+    <div class="gt">
+        <div class="search">
+            <!-- 地址开始 -->
+            <section class="adminBox">
+          
+              <div class="cityChoice">
+                <!-- <h3>点击输入框选择内容</h3> -->
+                <i class="iconfont  icon-dizhi fl"></i>
+                <input type="text" class="cityInput" v-model.trim='cityInputVal' v-on:click='cityPatFun' placeholder="选择城市" />
+              </div>
+              <com-citychoice ref="city" v-on:tochildevent='cityjs'></com-citychoice>
+            </section>
+          
+            <!-- 地址结束 -->
+            <div class="line"></div>
+            <a href="" class="sea">
+          
+              <i class="iconfont  icon-sousuo"></i>
+              <span>iPhone XS Max</span>
+            </a>
+          </div>
+    </div>
+      
+   
+      
+    <!-- 底部菜单 -->
+    <div class="gmenu">
+        <a href="#">
+            <img src="images/gimg/index@2x.png" alt="">
+            <p>首页</p>
+        </a>
+        <a href="#">
+            <img src="images/gimg/fenlei@2x.png" alt="">
+            <p>分类</p>
+        </a>
+        <a href="#">
+            <img src="images/gimg/magssage@2x.png" alt="">
+            <p>消息</p>
+        </a>
+        <a href="#">
+            <img src="images/gimg/gouwuche@2x.png" alt="">
+           
+            <p>购物车</p>
+        </a>
+        <a href="#">
+            <img src="images/gimg/mine@2x.png" alt="">
+            <p>我的</p>
+        </a>
+        
+    </div>
+</body>
+<script>
+    $(function () {
+        $('.gmenu a').click(function() {
+            var i = $(this).index();//下标        
+            $(this).children('p').addClass('fontcolor').parent().siblings().children('p').removeClass('fontcolor');
+         
+        });  
+    })
+        
+
+</script>
+<script>
+        new Vue({
+          el:'.adminBox',
+          data:{
+            cityInputVal:'',
+          },
+          methods:{
+            cityPatFun:function(){
+              this.$refs.city.cityFun();
+            },
+            cityjs:function(data){
+              this.cityInputVal=data;              
+            }
+          }
+        })
+      </script>
+</html>

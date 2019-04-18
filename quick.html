@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Animate.css">
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header-bottom.css">
+    <link rel="stylesheet" href="css/gcss/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="ali/iconfont.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/quick.css">
+</head>
+
+<body>
+    <header class="change2">
+        <div class="top">
+            <div class="cit">
+                <section class="adminBox">
+                    <div class="cityChoice">
+                        <span>
+                            <input type="text" class="cityInput" v-model.trim='cityInputVal' v-on:click='cityPatFun'
+                                placeholder="选择城市">
+                        </span>
+                    </div>
+                    <com-citychoice ref="city" v-on:tochildevent='cityjs'></com-citychoice>
+                </section>
+                <i class="iconfont icon-xialacaidan"></i>
+            </div>
+            <div class="search2">
+                <i class="iconfont icon-sousuo"></i>
+                <input type="text" placeholder="iPhone XS Max">
+            </div>
+        </div>
+        <div class="bottom">
+            <a href="index.html"><span>推荐</span></a>
+            <a href="limlted.html"><span>限时购</span></a>
+            <a href="newo.html"><span>以旧换新</span></a>
+            <a href="quick.html"><span>手机快修</span></a>
+            <a href="headline.html"><span>头条</span></a>
+        </div>
+    </header>
+    <!-- banner图开始 -->
+    <figure class="newo-head2">
+        <div class="zhan"></div>
+        <div class="newo-box">
+            <div class="swiper-container newo-ban">
+                <div class="swiper-wrapper newo-banner">
+                    <div class="swiper-slide">
+                        <a href=""><img src="images/img-buttom/02.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href=""><img src="images/img-buttom/03.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href=""><img src="images/img-buttom/08.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href=""><img src="images/img-buttom/022.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href=""><img src="images/img-buttom/021.jpg" alt=""></a>
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </figure>
+    <!-- banner图结束 -->
+    <!-- 导航开始 -->
+    <div class="floor">
+        <a href="#" class="block"><img src="images/img-buttom/015.png" alt=""></a>
+        <a href="#" class="block"><img src="images/img-buttom/019.png" alt=""></a>
+        <a href="#" class="block"><img src="images/img-buttom/016.png" alt=""></a>
+        <a href="#" class="block"><img src="images/img-buttom/017.png" alt=""></a>
+        <a href="tomtr.html" class="block"><img src="images/img-buttom/020.png" alt=""></a>
+    </div>
+    <!-- 导航结束 -->
+    <!-- 支持开始 -->
+    <div class="nice">
+        <div class="data"></div>
+        <div class="floor-pic">
+            <a href="#" class="block"><img src="images/img-buttom/018.png" alt=""></a>
+        </div>
+        <div class="floor1">
+            <a href="#" class="block"><img src="images/img-buttom/iPhone 6S_.jpg" alt=""></a>
+            <a href="#" class="block"><img src="images/img-buttom/iPhone 7.jpg" alt=""></a>
+        </div>
+        <div class="floor1">
+            <a href="#" class="block"><img src="images/img-buttom/iPhone 6 Plus.png" alt=""></a>
+            <a href="#" class="block"><img src="images/img-buttom/iPhone X.jpg" alt=""></a>
+        </div>
+        <div class="floor1">
+            <a href="#" class="block"><img src="images/img-buttom/iPhone 6s Plus.jpg" alt=""></a>
+            <a href="#" class="block"><img src="images/img-buttom/hw Mate9.jpg" alt=""></a>
+        </div>
+        <div class="floor-pici">
+            <a href="#" class="block"><img src="images/img-buttom/much.png" alt=""></a>
+        </div>
+        <!-- 支持结束 -->
+        <!-- 手机推荐开始 -->
+        <!-- <div class="data"></div> -->
+        <!-- <div class="floor-pic1"> -->
+        <!-- <a href="#" class="block"><img src="images/img-buttom/666.png" alt=""></a> -->
+        <!-- </div> -->
+        <!-- <div class="floor2">
+            <a href="#" class="block"><img src="images/img-buttom/054.jpg" alt=""></a>
+            <a href="#" class="block"><img src="images/img-buttom/053.jpg" alt=""></a>
+            <a href="#" class="block"><img src="images/img-buttom/052.jpg" alt=""></a>
+            <a href="#" class="block"><img src="images/img-buttom/051.jpg" alt=""></a>
+        </div> -->
+        <!-- <div class="data"></div> -->
+        <!-- <div class="floor-pici1"> -->
+        <!-- <a href="#" class="block"><img src="images/img-buttom/relax.png" alt=""></a> -->
+        <!-- </div> -->
+        <!-- <div class="floor3">
+            <a href="#" class="block1"><img src="images/img-buttom/chose.jpg" alt=""></a>
+            <a href="#" class="block1"><img src="images/img-buttom/submit.jpg" alt=""></a>
+        </div> -->
+        <!-- 手机推荐结束 -->
+        <!-- 我们的优势开始 -->
+        <!-- <div class="data"></div> -->
+        <!-- <div class="floor-pic2"> -->
+        <!-- <a href="#" class="block"><img src="images/img-buttom/youshi.png" alt=""></a> -->
+        <!-- </div> -->
+        <!-- <div class="floor4">
+            <a href="#" class="block"><img src="images/img-buttom/050.png" alt=""></a>
+            <a href="#" class="block"><img src="images/img-buttom/049.png" alt=""></a>
+        </div> -->
+    </div>
+    <!-- 我们的优势结束 -->
+
+    <!-- 结尾开始 -->
+    <!-- 底部菜单 -->
+    <div class="gmenu">
+        <a href="#">
+            <img src="images/gimg/index@2x.png" alt="">
+            <p>首页</p>
+        </a>
+        <a href="#">
+            <img src="images/gimg/fenlei@2x.png" alt="">
+            <p>分类</p>
+        </a>
+        <a href="#">
+            <img src="images/gimg/magssage@2x.png" alt="">
+            <p>消息</p>
+        </a>
+        <a href="#">
+            <img src="images/gimg/gouwuche@2x.png" alt="">
+
+            <p>购物车</p>
+        </a>
+        <a href="#">
+            <img src="images/gimg/mine@2x.png" alt="">
+            <p>我的</p>
+        </a>
+
+    </div>
+    <!-- 结尾结束 -->
+</body>
+<script src="js/zepto.min.js"></script>
+<script src="js/base.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/quick.js"></script>
+<script src="js/cityChoice.js"></script>
+<script>
+    $(function () {
+        $('.gmenu a').click(function () {
+            var i = $(this).index();//下标        
+            $(this).children('p').addClass('fontcolor').parent().siblings().children('p').removeClass('fontcolor');
+
+        });
+    })
+</script>
+<script>
+    new Vue({
+        el: '.adminBox',
+        data: {
+            cityInputVal: '',
+        },
+        methods: {
+            cityPatFun: function () {
+                this.$refs.city.cityFun();
+            },
+            cityjs: function (data) {
+                this.cityInputVal = data;
+            }
+        }
+    })
+</script>
+</body>
+
+
+</html>

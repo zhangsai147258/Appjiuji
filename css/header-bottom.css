@@ -1,0 +1,85 @@
+.gt{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* bottom: 0; */
+    z-index: 5;
+    background: #ff0000;
+    overflow: auto;
+}
+#gt{
+    transition:all 1s;
+}
+.search{
+    width: 90%;
+    height: .6rem; 
+    background: rgba(0,0,0,.4);
+    border-radius: 30px;
+    margin: 0 auto; 
+     margin-top: .14rem;
+    /* position: fixed; 
+    top: .14rem;
+    left: 0%;  */
+    margin-bottom: .14rem;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-left: .14rem;
+} 
+.search .address{
+    color: aliceblue;
+}
+
+.search .sea i{
+    display: inline-block;
+   color: aliceblue;
+   margin-top: 0.04rem;
+
+}
+.search .sea span{
+    font-size: .12rem;
+    color: rgb(201, 201, 201);
+}
+.search .address span{
+    font-size: .12rem;
+}
+.search .line{
+    width: 0.02rem;
+    height: 0.24rem;
+    background: #ffffff;
+    opacity: .6;
+    margin: 0.18rem 0.12rem 0 0.12rem;
+}
+
+.gmenu{
+    height: .9rem;
+    width: 100%;
+    background:hsla(0,0%,98%,.98);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.gmenu a{
+    text-align: center;
+    width: 20%;
+    height: .9rem;
+    padding-top: .1rem;
+}
+.gmenu a img{
+    width: .4rem;
+    height: .4rem;
+}
+.gmenu a p{
+    font-size: 0.18rem;
+    margin-top: 0.03rem;
+}
+.fontcolor{
+   color: #ff9865;
+}
+.fl{
+    float: left;
+}
